@@ -56,6 +56,36 @@ the task container, graded by the task's own verifier:
 `trajectory.md` is the run (prompt, commands, truncated outputs). `grading.txt` is the
 verifier output. One run per task is a length and difficulty signal, not a pass rate.
 
+## Sample page
+
+`web/` is a minimal full-stack page for these tasks: a backend that serves them as JSON and a
+frontend with a list and a detail view (statement, difficulty note, validation table and the
+agent result for each task). It uses only the Python standard library and plain JavaScript.
+
+```bash
+# run it (Python 3.11+)
+python3 web/server.py --port 8000          # open http://127.0.0.1:8000
+# or in Docker, from the repository root
+docker build -f web/Dockerfile -t legacy-parity-web .
+docker run --rm -p 8000:8000 legacy-parity-web
+# test the API
+python3 -m unittest web/test_server.py
+```
+
+| Endpoint | Returns |
+|---|---|
+| `GET /api/tasks` | id, title, kind, category, difficulty, hidden suite size and agent result for every task |
+| `GET /api/tasks/<id>` | everything above plus the full statement, difficulty and verification notes, and the validation table |
+
+Task data is read from `tasks/*/task.toml` and `instruction.md`. Agent results come from
+`trajectories/*/`, and the validation rows come from `web/results.json`.
+
+## Documents
+
+- [NOTES.md](NOTES.md): what I checked, the ambiguities I found and fixed, one shortcut and how
+  the grader stops it, and what I would do next.
+- [TOOLS.md](TOOLS.md): tools used.
+
 ## Running a task
 
 ```bash

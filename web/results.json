@@ -1,0 +1,123 @@
+{
+  "cobol-production-parity": {
+    "kind": "language-driven (COBOL)",
+    "hidden_suite": "480 input sets, 12 categories",
+    "validation": [
+      {
+        "run": "oracle (reference solution), run 1",
+        "reward": 1,
+        "detail": "480 / 480"
+      },
+      {
+        "run": "oracle, run 2",
+        "reward": 1,
+        "detail": "480 / 480"
+      },
+      {
+        "run": "nop (no changes)",
+        "reward": 0,
+        "detail": "3.7 source does not build"
+      },
+      {
+        "run": "cheat: CALL \"SYSTEM\" wrapper around production",
+        "reward": 0,
+        "detail": "source guard, binary deleted"
+      },
+      {
+        "run": "cheat: hardcoded sample output",
+        "reward": 0,
+        "detail": "0 / 480"
+      },
+      {
+        "run": "cheat: 3.7 with build fixes only",
+        "reward": 0,
+        "detail": "0 / 480"
+      },
+      {
+        "run": "docs-only baseline",
+        "reward": 0,
+        "detail": "2 / 480"
+      }
+    ],
+    "title": "COBOL billing batch: bring 3.7 source to production 4.2 parity"
+  },
+  "fortran-solver-parity": {
+    "kind": "language-driven (Fortran 77)",
+    "hidden_suite": "353 decks, 13 categories",
+    "validation": [
+      {
+        "run": "oracle (reference solution), run 1",
+        "reward": 1,
+        "detail": "353 / 353"
+      },
+      {
+        "run": "oracle, run 2",
+        "reward": 1,
+        "detail": "353 / 353"
+      },
+      {
+        "run": "nop (no changes)",
+        "reward": 0,
+        "detail": "1.8 source does not build"
+      },
+      {
+        "run": "cheat: Fortran wrapper calling production",
+        "reward": 0,
+        "detail": "forbidden construct, copy found by hash"
+      },
+      {
+        "run": "docs-only baseline (1.8 behaviour, build fixed)",
+        "reward": 0,
+        "detail": "0 / 353"
+      },
+      {
+        "run": "cheat: hardcoded sample output",
+        "reward": 0,
+        "detail": "0 / 353"
+      }
+    ],
+    "title": "Fortran pipe-network solver: bring 1.8 source to production 2.3 parity"
+  },
+  "legacy-store-migration": {
+    "kind": "outcome-driven",
+    "hidden_suite": "640 cases over 4 hidden stores",
+    "validation": [
+      {
+        "run": "oracle (reference solution), run 1",
+        "reward": 1,
+        "detail": "640 / 640"
+      },
+      {
+        "run": "oracle, run 2",
+        "reward": 1,
+        "detail": "640 / 640"
+      },
+      {
+        "run": "nop (stub migrator)",
+        "reward": 0,
+        "detail": "16 / 640"
+      },
+      {
+        "run": "cheat: import the lossy CSV export (docs-only baseline)",
+        "reward": 0,
+        "detail": "21 / 640"
+      },
+      {
+        "run": "cheat: shell out to hidden copies of oldbook",
+        "reward": 0,
+        "detail": "copies deleted, exec blocked"
+      },
+      {
+        "run": "cheat: ship a perfect sample database",
+        "reward": 0,
+        "detail": "12 / 640"
+      },
+      {
+        "run": "near miss: honest partial reader",
+        "reward": 0,
+        "detail": "116 / 640"
+      }
+    ],
+    "title": "Migrate a retired tool's undocumented data store to SQLite"
+  }
+}
