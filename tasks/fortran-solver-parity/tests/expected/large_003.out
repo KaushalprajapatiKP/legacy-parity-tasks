@@ -1,0 +1,235 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Large grid 2
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  62 NODES,   2 RESERVOIRS,  85 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ Hy04     JUNC     30.650      1.79  -237.692  -268.342   -2627.1
+ Hy06     JUNC     36.480      2.61  -218.818  -255.298   -2499.4
+ Hy33     JUNC     30.560      6.46  -237.521  -268.081   -2624.5
+ Hy39     JUNC     18.810      2.72  -217.578  -236.388   -2314.2
+ Hy42     JUNC     31.830      4.98  -237.443  -269.273   -2636.2
+ Hy46     JUNC     17.940      0.00  -224.683  -242.623   -2375.3
+ J01      JUNC     16.960      0.65  -238.571  -255.531   -2501.6
+ J02      JUNC     17.530      3.21  -238.570  -256.100   -2507.2
+ J07      JUNC     34.450      0.00  -218.818  -253.268   -2479.5
+ J10      JUNC     24.460      0.00  -218.051  -242.511   -2374.2
+ J11      JUNC     40.230      0.00  -239.035  -279.265   -2734.0
+ J12      JUNC     39.040      4.81  -239.083  -278.123   -2722.8
+ J13      JUNC     21.060      4.74  -237.985  -259.045   -2536.1
+ J14      JUNC     30.890      7.18  -237.585  -268.475   -2628.4
+ J15      JUNC     38.390      0.00  -210.343  -248.733   -2435.1
+ J17      JUNC     27.860      3.24  -218.820  -246.680   -2415.0
+ J19      JUNC     41.910      6.24  -217.964  -259.874   -2544.2
+ J20      JUNC     25.320      2.73  -218.059  -243.379   -2382.7
+ J21      JUNC     28.780      7.18  -238.938  -267.718   -2621.0
+ J22      JUNC     22.190      3.57  -238.871  -261.061   -2555.8
+ J23      JUNC     36.350      1.98  -237.987  -274.337   -2685.8
+ J24      JUNC     38.570      6.77  -237.862  -276.432   -2706.3
+ J25      JUNC     22.110      4.10  -208.919  -231.029   -2261.8
+ J27      JUNC     24.950      4.05  -219.091  -244.041   -2389.2
+ J28      JUNC     34.890      7.07  -219.546  -254.436   -2490.9
+ J29      JUNC     23.900      4.12  -217.919  -241.819   -2367.4
+ J31      JUNC     40.910      6.39  -237.182  -278.092   -2722.5
+ J32      JUNC     27.700      4.21  -237.483  -265.183   -2596.1
+ J34      JUNC     18.240      5.98  -237.519  -255.759   -2503.9
+ J35      JUNC     21.200      0.00  -227.897  -249.097   -2438.7
+ J36      JUNC     30.480      7.80  -221.862  -252.342   -2470.4
+ J37      JUNC     28.880      0.92  -221.819  -250.699   -2454.3
+ J38      JUNC     39.300      6.87  -219.567  -258.867   -2534.3
+ J41      JUNC     33.120      6.44  -237.176  -270.296   -2646.2
+ J43      JUNC     36.480      4.38  -237.481  -273.961   -2682.1
+ J44      JUNC     21.550      0.00  -237.485  -259.035   -2536.0
+ J45      JUNC     32.790      0.00  -227.897  -260.687   -2552.1
+ J47      JUNC     19.930      6.26  -224.679  -244.609   -2394.7
+ J48      JUNC     38.680      3.83  -222.782  -261.462   -2559.7
+ J49      JUNC     18.880      2.36  -222.378  -241.258   -2361.9
+ J50      JUNC     18.890      0.00  -222.166  -241.056   -2359.9
+ J52      JUNC     39.260      0.00  -237.075  -276.335   -2705.3
+ J53      JUNC     36.580      3.80  -237.060  -273.640   -2678.9
+ J54      JUNC     20.570      0.00  -236.649  -257.219   -2518.2
+ J55      JUNC     27.840      0.00  -235.929  -263.769   -2582.3
+ J56      JUNC     27.770      3.26  -235.494  -263.264   -2577.4
+ J58      JUNC     35.830      0.00  -225.108  -260.938   -2554.6
+ J59      JUNC     39.630      0.00  -222.382  -262.012   -2565.1
+ J60      JUNC     33.720      0.56  -222.168  -255.888   -2505.1
+ J8       JUNC     41.340      5.19  -218.122  -259.462   -2540.1
+ J9       JUNC     39.240      5.09  -218.016  -257.256   -2518.5
+ R2       RESV     79.800   -106.69    79.800     0.000       0.0
+ RES1     RESV     79.720    -82.62    79.720     0.000       0.0
+ j18      JUNC     23.910      0.94  -218.472  -242.382   -2372.9
+ j26      JUNC     29.770      7.77  -208.860  -238.630   -2336.2
+ j30      JUNC     17.570      0.00  -218.059  -235.629   -2306.8
+ n03      JUNC     37.760      0.00  -237.945  -275.705   -2699.2
+ n05      JUNC     28.060      4.44  -219.349  -247.409   -2422.1
+ n16      JUNC     18.340      7.85  -208.464  -226.804   -2220.4
+ n40      JUNC     23.560      2.53  -210.457  -234.017   -2291.0
+ n51      JUNC     23.250      2.24  -237.124  -260.374   -2549.1
+ n57      JUNC     39.680      0.00  -225.174  -264.854   -2592.9
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J54      J53          47.92     0.381     0.411   0.02247  OPEN    
+ P2       PIPE  J58      J59         -18.20    -0.579     2.726   0.02638  OPEN    
+ P3       PIPE  J55      J45         -11.48    -1.462     8.032   0.01725  OPEN    
+ P4       PIPE  J43      J53         -10.79    -0.343     0.421   0.01960  OPEN    
+ P5       PIPE  J34      Hy33          5.20     0.041     0.002   0.02709  OPEN    
+ P6       PIPE  j18      J28          12.42     0.703     1.074   0.01808  OPEN    
+ P7       PIPE  J41      J31           6.39     0.051     0.006   0.02577  OPEN    
+ P8       PIPE  J35      J45           0.00     0.000     0.000     UNDEF  OPEN    
+ P9       PIPE  J27      J37          26.02     0.828     2.728   0.01618  OPEN    
+ P10      PIPE  J13      J23           5.71     0.081     0.002   0.02507  OPEN    
+ P11      PIPE  J44      J43         -13.18    -0.105     0.004   0.02162  OPEN    
+ P12      PIPE  J52      J53         -33.33    -0.265     0.015   0.02306  OPEN    
+ P13      PIPE  Hy06     J07           0.26     0.005     0.000   0.04755  OPEN    
+ P14      PIPE  J27      J28          14.51     0.296     0.455   0.02002  OPEN    
+ P15      PIPE  J15      J25         -22.74    -0.724     1.424   0.03123  OPEN    
+ P16      PIPE  n40      J50           9.45     1.203    11.710   0.01730  OPEN    
+ P17      PIPE  J45      Hy46        -11.48    -0.650     3.214   0.01973  OPEN    
+ P18      PIPE  J28      J38          19.86     0.158     0.021   0.01982  OPEN    
+ P19      PIPE  Hy42     J52         -10.95    -0.223     0.368   0.03062  OPEN    
+ P20      PIPE  J60      J59           0.64     0.081     0.214   0.04517  OPEN    
+ P21      PIPE  J17      j18          -4.30    -0.243     0.347   0.02710  OPEN    
+ P22      PIPE  J15      n05           6.00     0.763     9.006   0.02296  OPEN    
+ P23      PIPE  J49      J48           1.16     0.148     0.404   0.02812  OPEN    
+ P24      PIPE  j26      J27          36.29     1.155    10.231   0.03094  OPEN    
+ P25      PIPE  n57      J56          42.14     1.341    10.320   0.01689  OPEN    
+ P26      PIPE  j18      J8           -9.57    -0.195     0.350   0.03088  OPEN    
+ P27      PIPE  J60      J50          -1.20    -0.017     0.002   0.03769  OPEN    
+ P28      PIPE  J10      J9           -2.25    -0.072     0.035   0.02813  OPEN    
+ P29      PIPE  Hy04     J14         -10.01    -0.142     0.108   0.02167  OPEN    
+ P30      PIPE  J20      j30           0.00     0.000     0.000     UNDEF  OPEN    
+ P31      PIPE  J9       J8           14.76     0.301     0.106   0.02313  OPEN    
+ P32      PIPE  J19      j18           8.09     1.029     0.508   0.01785  OPEN    
+ P33      PIPE  j26      n16         -70.91    -0.564     0.395   0.02572  OPEN    
+ P34      PIPE  Hy42     J43           6.77     0.096     0.038   0.02599  OPEN    
+ P35      PIPE  J23      J22          12.28     0.391     0.884   0.01908  OPEN    
+ P36      PIPE  J21      J22          -8.71    -0.123     0.067   0.02237  OPEN    
+ P37      PIPE  J34      J24           4.44     0.251     0.343   0.02426  OPEN    
+ P38      PIPE  Hy39     J38          14.06     0.796     1.989   0.02070  OPEN    
+ P39      PIPE  Hy04     n05          -9.38    -1.194    18.343   0.01997  OPEN    
+ P40      PIPE  n57      J47         -23.94    -0.762     0.495   0.01677  OPEN    
+ P41      PIPE  J59      J49         -17.56    -0.140     0.004   0.02036  OPEN    
+ P42      PIPE  J47      Hy46         11.48     0.091     0.005   0.02314  OPEN    
+ P43      PIPE  Hy04     n03          17.59     0.560     0.253   0.02642  OPEN    
+ P44      PIPE  J34      J44         -15.62    -0.124     0.034   0.02080  OPEN    
+ P45      PIPE  J55      J54          50.36     1.603     0.720   0.01478  OPEN    
+ P46      PIPE  J48      J47          24.38     0.776     1.897   0.01639  OPEN    
+ P47      PIPE  J13      n03         -13.32    -0.106     0.040   0.02374  OPEN    
+ P48      PIPE  Hy33     J32          -2.30    -0.073     0.038   0.02900  OPEN    
+ P49      PIPE  J52      n51          22.38     0.178     0.049   0.01932  OPEN    
+ P50      PIPE  J14      J15         -27.02    -3.441    27.241   0.02572  OPEN    
+ P51      PIPE  J02      n03          -4.27    -0.544     0.625   0.02391  OPEN    
+ P52      PIPE  J07      J17           0.26     0.015     0.002   0.03389  OPEN    
+ P53      PIPE  J41      n51         -20.14    -0.160     0.052   0.01976  OPEN    
+ P54      PIPE  J23      Hy33         -1.04    -0.132     0.466   0.03678  OPEN    
+ P55      PIPE  J27      J17          -8.29    -0.264     0.271   0.02072  OPEN    
+ P56      PIPE  J23      J24          -7.51    -0.153     0.124   0.02276  OPEN    
+ P57      PIPE  J41      Hy42          7.31     0.233     0.267   0.02113  OPEN    
+ P58      PIPE  J11      J21          -1.53    -0.086     0.097   0.03456  OPEN    
+ P59      PIPE  J02      J01           1.06     0.022     0.001   0.03695  OPEN    
+ P60      PIPE  J11      J01          -0.41    -0.210     0.464   0.03060  OPEN    
+ P61      PIPE  Hy42     J32           6.51     0.133     0.040   0.02580  OPEN    
+ P62      PIPE  J20      J10          -2.25    -0.072     0.008   0.02914  OPEN    
+ P63      PIPE  J9       J19         -22.10    -0.176     0.052   0.02041  OPEN    
+ P64      PIPE  n16      J15          10.28     1.308     1.879   0.01701  OPEN    
+ P65      PIPE  J47      J37         -17.30    -0.979     2.860   0.01659  OPEN    
+ P66      PIPE  J29      Hy39        -41.03    -0.326     0.341   0.01693  OPEN    
+ P67      PIPE  J14      J24           9.83     0.313     0.278   0.02085  OPEN    
+ P68      PIPE  J49      Hy39        -12.83    -0.726     4.800   0.02832  OPEN    
+ P69      PIPE  J13      J12           2.87     0.366     1.098   0.02265  OPEN    
+ P70      PIPE  J38      J48          27.05     0.861     3.215   0.03111  OPEN    
+ P71      PIPE  Hy06     n16         -10.70    -1.362    10.353   0.01687  OPEN    
+ P72      PIPE  J56      J55          38.88     0.309     0.435   0.02630  OPEN    
+ P73      PIPE  J36      J37          -7.80    -0.248     0.043   0.02100  OPEN    
+ P74      PIPE  J12      J11          -1.94    -0.062     0.048   0.03714  OPEN    
+ P75      PIPE  n57      J58         -18.20    -0.145     0.066   0.02260  OPEN    
+ P76      PIPE  J29      J19          36.91     0.294     0.046   0.01730  OPEN    
+ P77      PIPE  Hy06     n05           7.82     0.443     0.531   0.02904  OPEN    
+ P78      PIPE  J49      J50          -8.25    -0.467     0.212   0.01960  OPEN    
+ P79      PIPE  j26      J25          26.84     0.214     0.060   0.02144  OPEN    
+ P80      PIPE  n16      J17           6.97     0.887    10.355   0.01840  OPEN    
+ P81      PIPE  J20      J19          -0.48    -0.061     0.095   0.03706  OPEN    
+ P82      PIPE  Hy39     n40         -70.64    -1.439     7.121   0.02406  OPEN    
+ P83      PIPE  J44      J54          -2.44    -0.311     0.836   0.02597  OPEN    
+ P84      PIPE  RES1     n40          82.62     4.675   290.177   0.02722  OPEN    
+ P85      PIPE  R2       n16         106.69     6.038   288.264   0.02717  OPEN    
+ 
+ TOTAL DEMAND :    189.31 L/S
+ TOTAL SUPPLY :    189.31 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy04'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy06'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy33'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy39'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy42'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy46'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J01'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J02'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J07'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J10'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J11'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J12'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J13'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J14'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J15'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J17'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J19'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J20'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J21'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J22'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J23'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J24'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J25'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J27'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J28'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J29'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J31'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J32'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J34'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J35'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J36'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J37'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J38'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J41'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J43'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J44'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J45'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J47'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J48'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J49'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J50'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J52'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J53'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J54'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J55'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J56'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J58'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J59'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J60'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J8'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J9'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'j18'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'j26'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'j30'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n03'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n05'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n16'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n40'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n51'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n57'
+ *** WARNING W203: ZERO FLOW IN LINK 'P8'
+ *** WARNING W203: ZERO FLOW IN LINK 'P30'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P50'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P84'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P85'
+
+ RUN COMPLETED WITH  65 WARNING(S)

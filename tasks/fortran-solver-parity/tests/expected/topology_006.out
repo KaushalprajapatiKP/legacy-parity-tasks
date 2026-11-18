@@ -1,0 +1,33 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Topology
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   5 NODES,   1 RESERVOIRS,   3 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ *** WARNING W204: NODE 'I5A' IS ISOLATED
+ *** WARNING W204: NODE 'I5B' IS ISOLATED
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ B1       JUNC      9.230      6.35    47.839    38.609     378.0
+ I5A      JUNC     10.000      2.00    ISOLATED
+ I5B      JUNC     12.000      1.00    ISOLATED
+ SRC1     RESV     49.320     -6.90    49.320     0.000       0.0
+ Y2       JUNC     14.720      0.55    48.977    34.257     335.4
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  Y2       B1            6.35     0.359     1.138   0.02943  OPEN    
+ P2       PIPE  SRC1     Y2            6.90     0.220     0.343   0.02141  OPEN    
+ PI5      PIPE  I5A      I5B           0.00     0.000     0.000     UNDEF  ISOLATED
+ 
+ TOTAL DEMAND :      6.90 L/S
+ TOTAL SUPPLY :      6.90 L/S
+
+ RUN COMPLETED WITH   2 WARNING(S)

@@ -1,0 +1,16 @@
+Title Mixed Case
+Reservoir RES1 99.46
+Junction N11 15.01 0
+Junction N12 22.65 0.54
+Junction N21 32.45 0
+Junction N22 31.89 0
+Junction N31 32.06 0
+Junction N32 16.89 0
+Pipe P1 N22 N32 894.5 100 0.05
+Pipe P2 N32 N31 1083.3 250 0.05
+Pipe P3 N12 N22 1027.8 300 0.0015
+Pipe P4 N21 N22 1456.2 150 0.01
+Pipe P5 N12 N11 749 100 0.1
+Pipe P6 N31 N21 146.9 300 0.05
+Pipe P7 RES1 N22 804 400 0.01
+End

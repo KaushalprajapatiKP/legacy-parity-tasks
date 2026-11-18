@@ -1,0 +1,60 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  17 NODES,   1 RESERVOIRS,  20 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     48.710      0.00   260.838   212.128     91.96
+ N12      JUNC     32.420     49.70   257.915   225.495     97.75
+ N13      JUNC     41.310    121.71   245.072   203.762     88.33
+ N14      JUNC     33.930     39.29   194.508   160.578     69.61
+ N21      JUNC     40.270     68.67   199.038   158.768     68.83
+ N22      JUNC      6.660      0.00   199.722   193.062     83.69
+ N23      JUNC     -1.450     79.10   199.041   200.491     86.91
+ N24      JUNC      0.990     48.58   194.495   193.505     83.88
+ N31      JUNC    -10.790    100.79   199.025   209.815     90.95
+ N32      JUNC     30.670      0.00   199.025   168.355     72.98
+ N33      JUNC    -15.640      0.00   199.036   214.676     93.06
+ N34      JUNC     17.930     58.72   194.468   176.538     76.53
+ N41      JUNC      0.170      0.00   198.460   198.290     85.96
+ N42      JUNC     45.260      0.00   197.148   151.888     65.84
+ N43      JUNC      3.020      0.00   194.514   191.494     83.01
+ N44      JUNC     35.070     87.58   194.475   159.405     69.10
+ SRC1     RESV    280.340   -654.14   280.340     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N23      N22        -180.94    -0.739     0.682   0.02091  OPEN    
+ P2       PIPE  N21      N22        -189.10    -2.146     0.684   0.01823  OPEN    
+ P3       PIPE  N43      N42         -88.99    -1.010     2.634   0.02623  OPEN    
+ P4       PIPE  N42      N32         -68.23    -1.742     1.877   0.02047  OPEN    
+ P5       PIPE  N41      N42          20.76     0.530     1.312   0.03508  OPEN    
+ P6       PIPE  N34      N33         -32.50    -0.830     4.568   0.03338  OPEN    
+ P7       PIPE  N23      N33         101.84     0.163     0.005   0.03054  OPEN    
+ P8       PIPE  N12      N11        -654.14    -1.856     2.923   0.02079  OPEN    
+ P9       PIPE  N34      N24         -24.81    -0.158     0.027   0.03153  OPEN    
+ P10      PIPE  N13      N14         112.68     2.877    50.564   0.03081  OPEN    
+ P11      PIPE  N22      N12        -370.05    -9.448    58.192   0.01540  OPEN    
+ P12      PIPE  N41      N31         -20.76    -0.530     0.565   0.04084  OPEN    
+ P13      PIPE  N44      N34           1.41     0.036     0.006   0.05744  OPEN    
+ P14      PIPE  N44      N43         -88.99    -0.252     0.039   0.02483  OPEN    
+ P15      PIPE  N24      N14         -73.39    -0.208     0.013   0.02675  OPEN    
+ P16      PIPE  N12      N13         234.39     2.660    12.842   0.01717  OPEN    
+ P17      PIPE  N31      N32          -1.12    -0.002     0.000   0.28934  OPEN    
+ P18      PIPE  N33      N32          69.35     0.111     0.011   0.03255  OPEN    
+ P19      PIPE  N31      N21        -120.43    -0.192     0.013   0.02503  OPEN    
+ P20      PIPE  SRC1     N11         654.14     4.175    19.502   0.01525  OPEN    
+ 
+ TOTAL DEMAND :    654.14 GPM
+ TOTAL SUPPLY :    654.14 GPM
+
+ RUN COMPLETED WITH   0 WARNING(S)

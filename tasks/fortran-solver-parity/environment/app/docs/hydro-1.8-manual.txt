@@ -1,0 +1,107 @@
+HYDRO 1.8 USER MANUAL
+=====================
+
+1. PURPOSE
+
+HYDRO computes steady-state flows and heads in a network of pipes that is
+fed from fixed-level reservoirs and, optionally, boosted by pumps. Demands
+are withdrawn at junctions. The program reads an input deck on standard
+input and writes a report on standard output.
+
+    hydro < network.dat > network.rep
+
+2. BUILDING
+
+The source is standard FORTRAN 77 apart from the INCLUDE line. On the
+original build host it was compiled with
+
+    f77 -O -o hydro *.f
+
+All shared data lives in COMMON blocks declared in hydro.inc.
+
+3. THE INPUT DECK
+
+A deck is a sequence of cards (lines) of at most 80 characters. Fields are
+separated by one or more blanks. Keywords must be written in upper case.
+A card with an asterisk in column 1 is a comment. Blank cards are ignored.
+Reading stops at the END card, or at the end of the file.
+
+Identifiers (node and link names) are significant to 6 characters.
+
+Units are SI throughout:
+    lengths and elevations ... metres
+    pipe diameters ........... millimetres
+    pipe roughness ........... millimetres (absolute roughness)
+    demands .................. litres per second
+    heads .................... metres
+
+3.1 TITLE text
+    Free text printed at the head of the report (40 characters kept).
+
+3.2 JUNCTION id elevation demand
+    A node where water may be withdrawn. Demand is required.
+
+3.3 RESERVOIR id head
+    A fixed-head node (total head in metres). At least one is required.
+
+3.4 PIPE id from to length diameter roughness [k]
+    A pipe from node "from" to node "to". Positive flow runs from "from"
+    to "to". The optional k is a minor-loss coefficient for fittings.
+    Both end nodes must have been defined on earlier cards.
+
+3.5 PUMP id from to head
+    A pump that adds a constant head (metres) in the from-to direction.
+
+3.6 OPTION name value
+    OPTION TOL x       convergence tolerance on the flow change (m3/s),
+                       default 1.0E-6
+    OPTION MAXIT n     iteration limit, default 40
+    OPTION METHOD m    GGA (default) or HC for the Hardy Cross loop method
+    Other option names are ignored.
+
+3.7 END
+    Ends the deck.
+
+4. METHOD
+
+Pipe head loss follows Darcy-Weisbach,
+
+    h = f (L/D) V^2 / 2g ,
+
+with the friction factor f from the Colebrook-White equation for Reynolds
+numbers of 2000 and above, and f = 64/Re below 2000. The kinematic
+viscosity of water is taken as 1.0E-6 m2/s.
+
+The default solver is a gradient method on nodal heads: each iteration
+linearises every link about its current flow, solves the continuity
+equations at the junctions for the heads, and recomputes the flows from
+the heads. Iteration stops when the largest flow change is below TOL.
+Starting flows correspond to a velocity of about 0.3 m/s in every pipe.
+
+5. THE REPORT
+
+The report lists the input data as read, then the iteration count, a
+junction table (elevation, demand, head and pressure head, all in metres
+except demand in L/s), and a link table (flow in m3/s, velocity in m/s,
+head loss from the "from" node to the "to" node in metres, and the
+friction factor). It closes with the total demand and the largest
+continuity error.
+
+6. ERRORS
+
+An input error prints a message naming the line and stops the run. A
+network that does not converge within MAXIT iterations prints a message
+and stops without a report.
+
+7. EXAMPLE
+
+    TITLE Two loops
+    RESERVOIR R1 100.0
+    JUNCTION J1 60.0 10.0
+    JUNCTION J2 55.0 15.0
+    JUNCTION J3 50.0 12.0
+    PIPE P1 R1 J1 500 250 0.1
+    PIPE P2 J1 J2 400 200 0.1
+    PIPE P3 J2 J3 300 150 0.1
+    PIPE P4 J1 J3 350 150 0.1
+    END

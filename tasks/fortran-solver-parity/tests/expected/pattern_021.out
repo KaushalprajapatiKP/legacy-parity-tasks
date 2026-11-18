@@ -1,0 +1,186 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Daily cycle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   6 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ STEPS    :  5 AT  1.50 H
+ 
+ TIME STEP  1 OF  5  AT  0:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      2.890      5.62    83.145    80.255     785.7
+ J2       JUNC      6.550      0.00    83.145    76.595     749.9
+ J3       JUNC     10.260      0.00  -142.766  -153.026   -1498.1
+ J4       JUNC     17.280      0.00  -142.766  -160.046   -1566.9
+ J5       JUNC     10.300      6.23  -156.614  -166.914   -1634.1
+ J6       JUNC      9.950      0.00  -156.614  -166.564   -1630.7
+ SRC1     RESV     83.460    -11.85    83.460     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       J5            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  J4       J3            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J2       J1            0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  J3       J1           -6.23    -3.173   225.912   0.01769  OPEN    
+ P5       PIPE  J5       J3           -6.23    -1.410    13.847   0.02333  OPEN    
+ P6       PIPE  SRC1     J1           11.85     0.241     0.315   0.03047  OPEN    
+ 
+ TOTAL DEMAND :     11.85 L/S
+ TOTAL SUPPLY :     11.85 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J6'
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P4'
+ 
+ TIME STEP  2 OF  5  AT  1:30
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      2.890      5.62    83.145    80.255     785.7
+ J2       JUNC      6.550      0.00    83.145    76.595     749.9
+ J3       JUNC     10.260      0.00  -142.766  -153.026   -1498.1
+ J4       JUNC     17.280      0.00  -142.766  -160.046   -1566.9
+ J5       JUNC     10.300      6.23  -156.614  -166.914   -1634.1
+ J6       JUNC      9.950      0.00  -156.614  -166.564   -1630.7
+ SRC1     RESV     83.460    -11.85    83.460     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       J5            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  J4       J3            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J2       J1            0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  J3       J1           -6.23    -3.173   225.912   0.01769  OPEN    
+ P5       PIPE  J5       J3           -6.23    -1.410    13.847   0.02333  OPEN    
+ P6       PIPE  SRC1     J1           11.85     0.241     0.315   0.03047  OPEN    
+ 
+ TOTAL DEMAND :     11.85 L/S
+ TOTAL SUPPLY :     11.85 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J6'
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P4'
+ 
+ TIME STEP  3 OF  5  AT  3:00
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      2.890      5.62    83.145    80.255     785.7
+ J2       JUNC      6.550      0.00    83.145    76.595     749.9
+ J3       JUNC     10.260      0.00  -142.766  -153.026   -1498.1
+ J4       JUNC     17.280      0.00  -142.766  -160.046   -1566.9
+ J5       JUNC     10.300      6.23  -156.614  -166.914   -1634.1
+ J6       JUNC      9.950      0.00  -156.614  -166.564   -1630.7
+ SRC1     RESV     83.460    -11.85    83.460     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       J5            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  J4       J3            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J2       J1            0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  J3       J1           -6.23    -3.173   225.912   0.01769  OPEN    
+ P5       PIPE  J5       J3           -6.23    -1.410    13.847   0.02333  OPEN    
+ P6       PIPE  SRC1     J1           11.85     0.241     0.315   0.03047  OPEN    
+ 
+ TOTAL DEMAND :     11.85 L/S
+ TOTAL SUPPLY :     11.85 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J6'
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P4'
+ 
+ TIME STEP  4 OF  5  AT  4:30
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      2.890      5.62    83.145    80.255     785.7
+ J2       JUNC      6.550      0.00    83.145    76.595     749.9
+ J3       JUNC     10.260      0.00  -142.766  -153.026   -1498.1
+ J4       JUNC     17.280      0.00  -142.766  -160.046   -1566.9
+ J5       JUNC     10.300      6.23  -156.614  -166.914   -1634.1
+ J6       JUNC      9.950      0.00  -156.614  -166.564   -1630.7
+ SRC1     RESV     83.460    -11.85    83.460     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       J5            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  J4       J3            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J2       J1           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  J3       J1           -6.23    -3.173   225.912   0.01769  OPEN    
+ P5       PIPE  J5       J3           -6.23    -1.410    13.847   0.02333  OPEN    
+ P6       PIPE  SRC1     J1           11.85     0.241     0.315   0.03047  OPEN    
+ 
+ TOTAL DEMAND :     11.85 L/S
+ TOTAL SUPPLY :     11.85 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J6'
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P4'
+ 
+ TIME STEP  5 OF  5  AT  6:00
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      2.890      5.62    83.145    80.255     785.7
+ J2       JUNC      6.550      0.00    83.145    76.595     749.9
+ J3       JUNC     10.260      0.00  -142.766  -153.026   -1498.1
+ J4       JUNC     17.280      0.00  -142.766  -160.046   -1566.9
+ J5       JUNC     10.300      6.23  -156.614  -166.914   -1634.1
+ J6       JUNC      9.950      0.00  -156.614  -166.564   -1630.7
+ SRC1     RESV     83.460    -11.85    83.460     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       J5            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  J4       J3            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J2       J1           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  J3       J1           -6.23    -3.173   225.912   0.01769  OPEN    
+ P5       PIPE  J5       J3           -6.23    -1.410    13.847   0.02333  OPEN    
+ P6       PIPE  SRC1     J1           11.85     0.241     0.315   0.03047  OPEN    
+ 
+ TOTAL DEMAND :     11.85 L/S
+ TOTAL SUPPLY :     11.85 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J6'
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P4'
+
+ RUN COMPLETED WITH  40 WARNING(S)

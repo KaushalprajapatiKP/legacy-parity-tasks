@@ -1,0 +1,44 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ DE2      JUNC      3.000      0.00    65.628    62.628     613.1
+ N11      JUNC     15.530      2.92    65.628    50.098     490.5
+ N12      JUNC     11.380      0.00    65.628    54.248     531.1
+ N13      JUNC     10.140      0.00    65.526    55.386     542.2
+ N14      JUNC     13.260      1.77    65.481    52.221     511.2
+ N21      JUNC     21.620      5.84    65.629    44.009     430.8
+ N22      JUNC     25.120      0.00    65.591    40.471     396.2
+ N23      JUNC     14.400      7.80    65.578    51.178     501.0
+ N24      JUNC     21.450      3.42    65.470    44.020     431.0
+ SRC1     RESV     65.900    -21.75    65.900     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N13      N14           5.19     0.165     0.045   0.02437  OPEN    
+ P2       PIPE  N14      N24           3.42     0.109     0.010   0.03469  OPEN    
+ P3       PIPE  N23      N13           5.19     0.165     0.052   0.02907  OPEN    
+ P4       PIPE  N21      N22          12.99     0.103     0.038   0.02257  OPEN    
+ P5       PIPE  N12      N11           0.00     0.000     0.000     UNDEF  OPEN    
+ P6       PIPE  N22      N23          12.99     0.103     0.013   0.02177  OPEN    
+ P7       PIPE  N21      N11           2.92     0.023     0.001   0.03182  OPEN    
+ P8       PIPE  SRC1     N21          21.75     0.443     0.271   0.02518  OPEN    
+ PD2      PIPE  N11      DE2           0.00     0.000     0.000     UNDEF  OPEN    
+ 
+ TOTAL DEMAND :     21.75 L/S
+ TOTAL SUPPLY :     21.75 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+ *** WARNING W203: ZERO FLOW IN LINK 'PD2'
+
+ RUN COMPLETED WITH   2 WARNING(S)

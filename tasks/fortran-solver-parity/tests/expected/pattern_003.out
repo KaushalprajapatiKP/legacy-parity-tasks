@@ -1,0 +1,123 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Daily cycle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   7 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ STEPS    :  4 AT  1.00 H
+ 
+ TIME STEP  1 OF  4  AT  0:00
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J01      JUNC     18.600      0.00    55.217    36.617     358.5
+ J2       JUNC      3.910      1.35    55.204    51.294     502.2
+ J3       JUNC      4.230      0.00    55.190    50.960     498.9
+ J6       JUNC     23.770      8.46    50.629    26.859     262.9
+ T1       RESV     55.230    -10.85    55.230     0.000       0.0
+ j05      JUNC      2.480      0.00    50.629    48.149     471.4
+ n04      JUNC     16.900      1.03    50.624    33.724     330.2
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J3       J2           -7.54    -0.154     0.014   0.02207  OPEN    
+ P2       PIPE  J2       j05           1.95     0.442     4.575   0.02482  OPEN    
+ P3       PIPE  J6       J3           -7.54    -0.960     4.561   0.01859  OPEN    
+ P4       PIPE  J2       J01         -10.85    -0.086     0.012   0.02616  OPEN    
+ P5       PIPE  n04      j05          -1.03    -0.021     0.005   0.03779  OPEN    
+ P6       PIPE  j05      J6            0.92     0.007     0.000   0.03599  OPEN    
+ P7       PIPE  T1       J01          10.85     0.086     0.013   0.02269  OPEN    
+ 
+ TOTAL DEMAND :     10.85 L/S
+ TOTAL SUPPLY :     10.85 L/S
+ 
+ TIME STEP  2 OF  4  AT  1:00
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J01      JUNC     18.600      0.00    55.217    36.617     358.5
+ J2       JUNC      3.910      1.35    55.204    51.294     502.2
+ J3       JUNC      4.230      0.00    55.190    50.960     498.9
+ J6       JUNC     23.770      8.46    50.629    26.859     262.9
+ T1       RESV     55.230    -10.85    55.230     0.000       0.0
+ j05      JUNC      2.480      0.00    50.629    48.149     471.4
+ n04      JUNC     16.900      1.03    50.624    33.724     330.2
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J3       J2           -7.54    -0.154     0.014   0.02207  OPEN    
+ P2       PIPE  J2       j05           1.95     0.442     4.575   0.02482  OPEN    
+ P3       PIPE  J6       J3           -7.54    -0.960     4.561   0.01859  OPEN    
+ P4       PIPE  J2       J01         -10.85    -0.086     0.012   0.02616  OPEN    
+ P5       PIPE  n04      j05          -1.03    -0.021     0.005   0.03779  OPEN    
+ P6       PIPE  j05      J6            0.92     0.007     0.000   0.03599  OPEN    
+ P7       PIPE  T1       J01          10.85     0.086     0.013   0.02269  OPEN    
+ 
+ TOTAL DEMAND :     10.85 L/S
+ TOTAL SUPPLY :     10.85 L/S
+ 
+ TIME STEP  3 OF  4  AT  2:00
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J01      JUNC     18.600      0.00    55.217    36.617     358.5
+ J2       JUNC      3.910      1.35    55.204    51.294     502.2
+ J3       JUNC      4.230      0.00    55.190    50.960     498.9
+ J6       JUNC     23.770      8.46    50.629    26.859     262.9
+ T1       RESV     55.230    -10.85    55.230     0.000       0.0
+ j05      JUNC      2.480      0.00    50.629    48.149     471.4
+ n04      JUNC     16.900      1.03    50.624    33.724     330.2
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J3       J2           -7.54    -0.154     0.014   0.02207  OPEN    
+ P2       PIPE  J2       j05           1.95     0.442     4.575   0.02482  OPEN    
+ P3       PIPE  J6       J3           -7.54    -0.960     4.561   0.01859  OPEN    
+ P4       PIPE  J2       J01         -10.85    -0.086     0.012   0.02616  OPEN    
+ P5       PIPE  n04      j05          -1.03    -0.021     0.005   0.03779  OPEN    
+ P6       PIPE  j05      J6            0.92     0.007     0.000   0.03599  OPEN    
+ P7       PIPE  T1       J01          10.85     0.086     0.013   0.02269  OPEN    
+ 
+ TOTAL DEMAND :     10.85 L/S
+ TOTAL SUPPLY :     10.85 L/S
+ 
+ TIME STEP  4 OF  4  AT  3:00
+ CONVERGED IN   1 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J01      JUNC     18.600      0.00    55.217    36.617     358.5
+ J2       JUNC      3.910      1.35    55.204    51.294     502.2
+ J3       JUNC      4.230      0.00    55.190    50.960     498.9
+ J6       JUNC     23.770      8.46    50.629    26.859     262.9
+ T1       RESV     55.230    -10.85    55.230     0.000       0.0
+ j05      JUNC      2.480      0.00    50.629    48.149     471.4
+ n04      JUNC     16.900      1.03    50.624    33.724     330.2
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J3       J2           -7.54    -0.154     0.014   0.02207  OPEN    
+ P2       PIPE  J2       j05           1.95     0.442     4.575   0.02482  OPEN    
+ P3       PIPE  J6       J3           -7.54    -0.960     4.561   0.01859  OPEN    
+ P4       PIPE  J2       J01         -10.85    -0.086     0.012   0.02616  OPEN    
+ P5       PIPE  n04      j05          -1.03    -0.021     0.005   0.03779  OPEN    
+ P6       PIPE  j05      J6            0.92     0.007     0.000   0.03599  OPEN    
+ P7       PIPE  T1       J01          10.85     0.086     0.013   0.02269  OPEN    
+ 
+ TOTAL DEMAND :     10.85 L/S
+ TOTAL SUPPLY :     10.85 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

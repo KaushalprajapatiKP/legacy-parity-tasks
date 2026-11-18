@@ -1,0 +1,28 @@
+schema_version = "1.4"
+
+[task]
+name = "kaushal-prajapati/cobol-production-parity"
+description = "Bring a lost-source COBOL billing batch from its surviving 3.7 source to byte-identical parity with the 4.2 production binary."
+keywords = ["cobol", "gnucobol", "legacy", "black-box", "reverse-engineering", "batch"]
+
+[metadata]
+author_name = "Kaushal Prajapati"
+author_email = "kaushalprajapati5296@gmail.com"
+category = "software-engineering"
+tags = ["cobol", "gnucobol", "legacy-migration", "black-box-probing", "byte-exact"]
+difficulty = "hard"
+difficulty_explanation = "The 3.7 source must first be repaired to build (reserved word, copybook name case, link-time program name). Then more than 30 undocumented behaviour changes between 3.7 and 4.2 (record types, tier limits and rates, allowances, per-record rounding modes, proration with half-charged suspension days, discount stacking order and cap, late fee cap, tax base and rounding, reject codes, messages and check order, calendar validation, report layouts, ordering, return codes) can only be recovered by probing the stripped production binary. Reward needs every one of 480 hidden input sets to match byte for byte."
+solution_explanation = "solve.sh replaces /app/src with the 4.2 source (the same code production was compiled from) and checks that it builds with the documented command."
+verification_explanation = "The verifier deletes /app/prod and any byte-identical copy of the binary, checks the source (CALL targets must be programs in /app/src, only the six documented files may be assigned, no system or library escape hatches), checks the toolchain is unmodified, builds /app/src with the documented cobc command and replays 480 hidden input sets recorded from production 4.2, comparing the three report files and the return code byte for byte. A per-category pass table is printed. Reward 1 only if every input set matches."
+
+[verifier]
+timeout_sec = 1200.0
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 2048
+storage_mb = 10240

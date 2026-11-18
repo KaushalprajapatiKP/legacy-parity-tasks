@@ -1,0 +1,55 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :  14 NODES,   2 RESERVOIRS,  15 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ A2       JUNC     27.900    124.26   154.602   126.702     54.93
+ A7       JUNC     28.650     58.42   303.964   275.314    119.35
+ C1       JUNC     74.140      0.00   154.409    80.269     34.80
+ C12      JUNC     22.930      0.00   303.875   280.945    121.79
+ C9       JUNC     36.720      0.00   303.875   267.155    115.81
+ K11      JUNC     30.520     71.83   303.582   273.062    118.37
+ K3       JUNC     44.400     60.08   303.546   259.146    112.34
+ K4       JUNC     54.940     64.57   304.079   249.139    108.00
+ M8       JUNC     38.250     99.47   303.872   265.622    115.15
+ SRC1     RESV    333.430   -876.72   333.430     0.000      0.00
+ WELL     RESV      0.000    190.14     0.000     0.000      0.00
+ X10      JUNC     72.720     53.49   303.955   231.235    100.24
+ X6       JUNC      3.930     85.61   303.925   299.995    130.05
+ Y5       JUNC     27.210     68.85   314.302   287.092    124.45
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  A2       K3         -206.81    -5.280   148.944            OPEN    
+ P2       PIPE  K3       X6         -266.89    -0.757     0.380            OPEN    
+ P3       PIPE  C9       X6          -48.13    -0.197     0.050            OPEN    
+ P4       PIPE  K4       A7          235.08     0.375     0.115            OPEN    
+ P5       PIPE  C9       C12           0.00     0.000     0.000            OPEN    
+ P6       PIPE  C1       K4         -107.59   -10.988   149.670            OPEN    
+ P7       PIPE  K11      M8          -71.83    -0.293     0.290            OPEN    
+ P8       PIPE  X10      A7          -53.49    -0.152     0.009            OPEN    
+ P9       PIPE  M8       C9          -48.13    -0.077     0.003            OPEN    
+ P10      PIPE  Y5       X6          400.63     2.557    10.377            OPEN    
+ P11      PIPE  C1       A2          -82.55    -0.337     0.192            OPEN    
+ P12      PIPE  Y5       K4          407.24     2.599    10.223            OPEN    
+ P13      PIPE  A7       M8          123.17     0.197     0.092            OPEN    
+ P14      PIPE  SRC1     Y5          876.72     3.581    19.128            OPEN    
+ PU9      PUMP  WELL     C1         -190.14             154.409            ON      
+ 
+ TOTAL DEMAND :    686.58 GPM
+ TOTAL SUPPLY :    686.58 GPM
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P6'
+ *** WARNING W210: PUMP 'PU9' REVERSE FLOW
+
+ RUN COMPLETED WITH   3 WARNING(S)

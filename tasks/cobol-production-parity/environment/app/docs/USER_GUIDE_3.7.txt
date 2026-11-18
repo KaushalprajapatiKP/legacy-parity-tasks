@@ -1,0 +1,131 @@
+BILLRUN 3.7 USER GUIDE
+======================
+
+1. PURPOSE
+
+BILLRUN is the monthly billing batch. One run bills one billing cycle. It
+reads a control record, the account master and the activity file for the
+cycle, and writes customer statements, a reject listing and run control
+totals.
+
+2. RUNNING
+
+The program takes no arguments. It reads and writes fixed file names in
+the current working directory:
+
+  CONTROL.DAT     input   one control record
+  ACCOUNTS.DAT    input   account master, one record per line
+  ACTIVITY.DAT    input   cycle activity, one record per line
+  STATEMENTS.RPT  output  customer statements
+  REJECTS.RPT     output  reject listing
+  SUMMARY.RPT     output  run control totals
+
+All files are text files with one record per line (LF line ends). Input
+records are fixed column; a line shorter than its record length is read
+as if padded with spaces. A missing ACCOUNTS.DAT or ACTIVITY.DAT is read
+as an empty file. The program sets a process return code at the end of
+the run.
+
+3. CONTROL RECORD (CONTROL.DAT)
+
+  Cols   Len  Field
+  1-8     8   Cycle start date, YYYYMMDD
+  9-16    8   Cycle end date, YYYYMMDD
+  17-22   6   Run number
+  23-52  30   Company name (printed on statements)
+
+The cycle runs from the start date to the end date inclusive. If the
+control record is missing or invalid, the run stops: the reject listing
+shows the control record and no statements are produced.
+
+4. ACCOUNT MASTER (ACCOUNTS.DAT)
+
+  Cols   Len  Field
+  1-8     8   Account id
+  9-32   24   Customer name
+  33      1   Plan code: B basic, S standard, P premium
+  34-41   8   Open date, YYYYMMDD
+  42-49   8   Close date, YYYYMMDD; spaces or zeros if the account is open
+  50      1   Tax class: N normal, R reduced, E exempt
+  51-52   2   Region code
+  53-62  10   Prior balance: sign (+ or -) then 9 digits with 2 implied
+              decimals, for example +000012550 is 125.50 and -000000700
+              is -7.00
+  63-64   2   Loyalty code: blank, L1 or L2
+
+5. ACTIVITY RECORDS (ACTIVITY.DAT)
+
+Every activity record starts with the same 18 columns:
+
+  Cols   Len  Field
+  1-2     2   Record type
+  3-10    8   Account id
+  11-18   8   Activity date, YYYYMMDD
+
+Amount fields below use the same signed format as the prior balance.
+
+US  usage
+  19-22   4   Service: DATA (GB), VOIC (minutes), SMS  (messages, note
+              the trailing space), ROAM (MB)
+  23-31   9   Quantity: 9 digits with 2 implied decimals, unsigned
+
+CH  one-time charge
+  19-22   4   Charge code: EQUP equipment, INST installation, LATE late
+              fee, DEPO deposit, MISC miscellaneous
+  23-32  10   Amount (signed; a negative amount is a credit)
+  33-52  20   Description printed on the statement
+
+PC  plan change
+  19      1   New plan code
+
+PY  payment
+  19-22   4   Payment method (informational)
+  23-32  10   Amount
+
+AD  adjustment
+  23-32  10   Amount (signed)
+  33-52  20   Reason
+
+6. BILLING (3.7)
+
+For each accepted account the statement shows:
+
+  - the monthly fee of the account's plan; when the account has plan
+    change records the plan of the last change is used,
+  - usage charges per service, totalled over the cycle,
+  - one-time charges in file order,
+  - the loyalty discount (L1 5 percent, L2 10 percent of fees plus
+    usage),
+  - subtotal, sales tax for the tax class (N 8.25 percent, R 4 percent,
+    E none), adjustments, current charges, previous balance, payments
+    and amount due.
+
+Usage pricing (3.7):
+  DATA  first 10 GB at 1.50, next 40 GB at 1.20, above 50 GB at 0.90
+  VOIC  0.05 per minute
+  SMS   0.02 per message
+  ROAM  0.25 per MB
+
+Monthly fees: B 10.00, S 25.00, P 60.00.
+
+Statements are written in account file order.
+
+7. REJECTS (3.7)
+
+Records that fail validation are listed in REJECTS.RPT with a code and
+are not billed.
+
+  A01 NO ACCOUNT ID        A03 BAD PLAN CODE      A04 BAD OPEN DATE
+  A05 BAD CLOSE DATE       A07 BAD BALANCE        C01 CONTROL CARD ERROR
+  R01 INVALID RECORD TYPE  R02 ACCOUNT NOT FOUND  R03 BAD DATE
+  R05 BAD AMOUNT           R06 BAD CODE
+
+8. RETURN CODE (3.7)
+
+  0   run completed
+  12  control record error
+
+9. BUILDING
+
+  cd /app/src
+  cobc -x -fstatic-call -I copy -o /app/build/billrun billrun.cbl lib/*.cbl

@@ -1,0 +1,43 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : HW network
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   9 NODES,   1 RESERVOIRS,  10 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     24.780      0.00    70.716    45.936     449.7
+ N12      JUNC     15.810      6.35    70.455    54.645     535.0
+ N21      JUNC      2.620      0.00    70.716    68.096     666.7
+ N22      JUNC      2.870      5.17    70.544    67.674     662.5
+ N31      JUNC      2.700      0.00    71.019    68.319     668.8
+ N32      JUNC     17.810      0.00    71.039    53.229     521.1
+ N41      JUNC      2.350      0.00    71.020    68.670     672.3
+ N42      JUNC     21.950      0.00    71.039    49.089     480.6
+ R1       RESV     71.060    -11.52    71.060     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N32          -5.62    -0.179     0.496            OPEN    
+ P2       PIPE  N21      N22           5.90     0.188     0.172            OPEN    
+ P3       PIPE  N31      N41          -0.24    -0.008     0.001            OPEN    
+ P4       PIPE  N21      N11           0.00     0.000     0.000            OPEN    
+ P5       PIPE  N21      N31          -5.90    -0.188     0.303            OPEN    
+ P6       PIPE  N32      N42           0.24     0.008     0.000            OPEN    
+ P7       PIPE  N31      N32          -5.66    -0.080     0.020            OPEN    
+ P8       PIPE  N12      N22          -6.35    -0.129     0.088            OPEN    
+ P9       PIPE  N41      N42          -0.24    -0.031     0.019            OPEN    
+ P10      PIPE  R1       N32          11.52     0.092     0.021            OPEN    
+ 
+ TOTAL DEMAND :     11.52 L/S
+ TOTAL SUPPLY :     11.52 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P4'
+
+ RUN COMPLETED WITH   1 WARNING(S)

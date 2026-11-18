@@ -1,0 +1,7540 @@
+{
+"issues": [
+[
+"c.obk",
+"checksum"
+]
+],
+"cases": {
+"52": {
+"features": [
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+52,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+52,
+"Yoga",
+"2025-02-20 19:35",
+345,
+45,
+null,
+"weekly",
+1,
+null,
+null
+]
+],
+"event_exceptions": [
+[
+52,
+"2025-02-27"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"96": {
+"features": [
+"checksum_skipped_file",
+"cross_references",
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+96,
+"org",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+96,
+"Ãtelier Oy",
+null,
+null,
+1972
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+96,
+1
+],
+[
+96,
+2
+],
+[
+96,
+6
+]
+]
+}
+},
+"106": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+106,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+106,
+"Bôok flights",
+"2024-07-18",
+2,
+0,
+3008
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+106,
+2
+]
+]
+}
+},
+"124": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+124,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+124,
+"Send invòice",
+"2026-07-10",
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"128": {
+"features": [
+"attachment_blob",
+"attachment_blob_unavailable",
+"cross_references",
+"kind_person",
+"multi_value_order",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+128,
+"person",
+1
+]
+],
+"people": [
+[
+128,
+"Anna Muller",
+null,
+null,
+1285
+]
+],
+"person_emails": [
+[
+128,
+0,
+"anna.43@mail.example.org"
+],
+[
+128,
+1,
+"anna.97@corp.example.net"
+],
+[
+128,
+2,
+"anna.70@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+128,
+0,
+"lost.bin",
+"application/octet-stream",
+null,
+null
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"162": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+162,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+162,
+"Quarterly planning",
+"2026-12-29 22:10",
+525,
+240,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+162,
+0,
+3146
+],
+[
+162,
+1,
+3146
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+162,
+2
+],
+[
+162,
+4
+]
+]
+}
+},
+"217": {
+"features": [
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+217,
+"note",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+217,
+"Remïndêr",
+"Prefers ëmail over phone.\nPrice agreed: EUR40 per unit, £35 in UK.\nFollow up next week."
+]
+],
+"note_links": [
+[
+217,
+0,
+1384
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+217,
+3
+],
+[
+217,
+5
+]
+]
+}
+},
+"298": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+298,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+298,
+"Meetîng notes",
+"Neèds the signed copy.\nÇafé meeting wënt well.\nPrice agreed: €40 për unit, £35 in UK."
+]
+],
+"note_links": [
+[
+298,
+0,
+1384
+],
+[
+298,
+1,
+1409
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"302": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+302,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+302,
+"Ätelier GmbH",
+null,
+"Hauptstraße 4\nFloor 29\n53080 Göteborg",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"317": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+317,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+317,
+"Visít to factorÿ",
+"2025-12-20 08:15",
+600,
+45,
+null,
+"weekly",
+1,
+13,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+317,
+0,
+1652
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+317,
+3
+],
+[
+317,
+5
+]
+]
+}
+},
+"347": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+347,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+347,
+"Standûp",
+"2025-02-04 21:05",
+60,
+60,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+347,
+0,
+2859
+],
+[
+347,
+1,
+709
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+347,
+3
+]
+]
+}
+},
+"376": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+376,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+376,
+"Call supplier",
+"2024-11-01 04:15",
+0,
+60,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+376,
+0,
+3830
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+376,
+2
+]
+]
+}
+},
+"447": {
+"features": [
+"cross_references",
+"kind_org",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+447,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+447,
+"Nordlîcht smørrebrød AB",
+"https://www.mobilite.example",
+null,
+3857
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"471": {
+"features": [
+"attachment_raw",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+471,
+"note",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+471,
+"Cäll notes Ωmega",
+"Met at the conference.\nDiscussed the renewal terms."
+]
+],
+"note_links": [],
+"attachments": [
+[
+471,
+0,
+"avatar.jpg",
+"image/jpeg",
+27,
+"62848c9cfaf7b9df0711bdf95f1c1a830688bbdf88591e18d903ce8d4f8fda49"
+]
+],
+"deleted": [],
+"history": [
+[
+471,
+1
+],
+[
+471,
+3
+]
+]
+}
+},
+"493": {
+"features": [
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+493,
+"note",
+7
+]
+],
+"history": [
+[
+493,
+2
+],
+[
+493,
+5
+]
+]
+}
+},
+"505": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+505,
+"note",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+505,
+"Gift list",
+"Allergic to nuts. Þóra\nRemember the déjà vu story."
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+505,
+1
+]
+]
+}
+},
+"597": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+597,
+"person",
+6
+]
+],
+"people": [
+[
+597,
+"Olga Fischer",
+null,
+"2005-05-29",
+null
+]
+],
+"person_emails": [
+[
+597,
+0,
+"olga.64@corp.example.net"
+],
+[
+597,
+1,
+"olga.9@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+597,
+1
+],
+[
+597,
+5
+]
+]
+}
+},
+"663": {
+"features": [
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+663,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+663,
+"Ståndup",
+"2025-05-02 21:45",
+120,
+45,
+"Biergarten",
+"monthly",
+1,
+null,
+"2026-06-03"
+]
+],
+"event_exceptions": [
+[
+663,
+"2025-08-02"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+663,
+2
+]
+]
+}
+},
+"679": {
+"features": [
+"cross_references",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+679,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+679,
+"Order toner",
+null,
+3,
+1,
+3830
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"709": {
+"features": [
+"attachment_blob",
+"attachment_raw",
+"dates_packed",
+"kind_person"
+],
+"rows": {
+"records": [
+[
+709,
+"person",
+2
+]
+],
+"people": [
+[
+709,
+"Joao Petit",
+null,
+"1962-04-06",
+null
+]
+],
+"person_emails": [
+[
+709,
+0,
+"joao.91@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+709,
+0,
+"photo.png",
+"image/png",
+108,
+"e97f02b45beed3d4db6873ce368e1235ff0d19577366c3931e0c1b0fee06d8bc"
+],
+[
+709,
+1,
+"map.gif",
+"image/gif",
+292,
+"7ea562a06593b61d680ff1a9f83fc7eaebd4fff535b51a8ef05babdb9c232f7f"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"717": {
+"features": [
+"kind_task",
+"task_state_bits",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+717,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+717,
+"Fix bikê",
+null,
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"819": {
+"features": [
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+819,
+"person",
+6
+]
+],
+"people": [
+[
+819,
+"Wandá Ñunez",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+819,
+0,
+"wanda.67@example.com"
+],
+[
+819,
+1,
+"wanda.28@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+819,
+3
+]
+]
+}
+},
+"830": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+830,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+830,
+"Team retro",
+"2026-01-14 00:45",
+-240,
+600,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+830,
+0,
+2565
+],
+[
+830,
+1,
+1842
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"861": {
+"features": [
+"kind_task",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+861,
+"task",
+2
+]
+],
+"history": [
+[
+861,
+1
+]
+]
+}
+},
+"910": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"tz_file_default",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+910,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+910,
+"Team retro",
+"2024-12-24 21:30",
+-600,
+45,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+910,
+0,
+4426
+],
+[
+910,
+1,
+1416
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1023": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1023,
+"person",
+7
+]
+],
+"people": [
+[
+1023,
+"Pablo Schmidt",
+null,
+"2006-12-22",
+null
+]
+],
+"person_emails": [
+[
+1023,
+0,
+"pablo.7@mail.example.org"
+],
+[
+1023,
+1,
+"pablo.8@corp.example.net"
+],
+[
+1023,
+2,
+"pablo.54@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1023,
+2
+],
+[
+1023,
+6
+]
+]
+}
+},
+"1045": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+1045,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1045,
+"Write report",
+"2027-07-29",
+3,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1052": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+1052,
+"person",
+2
+]
+],
+"people": [
+[
+1052,
+"Zoe Õlsen",
+null,
+"1945-01-26",
+1624
+]
+],
+"person_emails": [
+[
+1052,
+0,
+"zoe.73@example.com"
+],
+[
+1052,
+1,
+"zoe.82@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1056": {
+"features": [
+"dates_packed",
+"kind_event",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1056,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1056,
+"Standup",
+"2024-09-22 09:10",
+345,
+90,
+"HQ lobby",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1096": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_escaped_codepoints",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1096,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1096,
+"Bôok flights Ğül",
+"2026-01-08",
+2,
+1,
+3570
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1115": {
+"features": [
+"checksum_skipped_file",
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1115,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1115,
+"Team retro",
+"2025-03-01 05:40",
+-600,
+30,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1115,
+0,
+3008
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1115,
+2
+]
+]
+}
+},
+"1285": {
+"features": [
+"cross_references",
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1285,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+1285,
+"Atelier AB",
+"https://www.konsult.example",
+"Hauptstraße 84\nFloor 23\n40525 Århus",
+3857
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1295": {
+"features": [
+"attachment_blob",
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+1295,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1295,
+"Ýoga",
+"2025-09-14 02:35",
+345,
+0,
+"Café Central",
+"monthly",
+3,
+null,
+"2028-02-21"
+]
+],
+"event_exceptions": [
+[
+1295,
+"2027-03-14"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1295,
+0,
+"photo.png",
+"image/png",
+37,
+"293714fd093dbb726f976efca3e8cdbd45070dca8958a2bd58be54c301f425a1"
+]
+],
+"deleted": [],
+"history": [
+[
+1295,
+2
+]
+]
+}
+},
+"1384": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1384,
+"note",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1384,
+"Call notes",
+"Allergíc to nuts.\nCafé meeting went well.\nOwes us 3 boxes."
+]
+],
+"note_links": [
+[
+1384,
+0,
+447
+],
+[
+1384,
+1,
+3824
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1384,
+2
+],
+[
+1384,
+5
+]
+]
+}
+},
+"1409": {
+"features": [
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1409,
+"event",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1409,
+"Kickoff",
+"2026-02-24 20:45",
+525,
+60,
+null,
+"yearly",
+1,
+null,
+"2026-09-14"
+]
+],
+"event_exceptions": [
+[
+1409,
+"2029-02-24"
+],
+[
+1409,
+"2030-02-24"
+],
+[
+1409,
+"2031-02-24"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1409,
+2
+],
+[
+1409,
+6
+]
+]
+}
+},
+"1416": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dangling_references",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1416,
+"person",
+7
+]
+],
+"people": [
+[
+1416,
+"Jonas Lopez",
+"+44 75 0917 6194",
+null,
+null
+]
+],
+"person_emails": [
+[
+1416,
+0,
+"jonas.15@mail.example.org"
+],
+[
+1416,
+1,
+"jonas.82@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1416,
+0,
+"notes.txt",
+"text/plain",
+52,
+"bd084dc178af9e86e2f7a464703f279f93e6bcbcb2ec507fbaf01c13f98c75fd"
+],
+[
+1416,
+1,
+"agenda.pdf",
+"application/pdf",
+337,
+"3eda2b4aaad192a4d00bd81c8db4fb307b1f3cd79e52d5a1fc1754d449431ee7"
+]
+],
+"deleted": [],
+"history": [
+[
+1416,
+2
+],
+[
+1416,
+4
+],
+[
+1416,
+5
+]
+]
+}
+},
+"1449": {
+"features": [
+"attachment_raw",
+"cross_references",
+"dangling_references",
+"free_list_ghost",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1449,
+"note",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1449,
+null,
+"Follow up next week.\nFollow up nêxt week."
+]
+],
+"note_links": [],
+"attachments": [
+[
+1449,
+0,
+"notes.txt",
+"text/plain",
+365,
+"6e1c468018757f1a88ea0096f69014940fd15ae78bfab04142a7e2fc059f3000"
+]
+],
+"deleted": [],
+"history": [
+[
+1449,
+3
+]
+]
+}
+},
+"1452": {
+"features": [
+"attachment_raw",
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1452,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1452,
+"Standup",
+"2026-04-12 02:30",
+600,
+240,
+"Buildïng 7",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1452,
+0,
+709
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1452,
+0,
+"map.gif",
+"image/gif",
+268,
+"6de53a82872aa34424c59fe34af00e0cdb34b0ca3ee323cf6a567599f4b8f51a"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"1517": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+1517,
+"task",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1517,
+"Call back",
+"2026-12-09",
+0,
+0,
+4066
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1517,
+2
+]
+]
+}
+},
+"1539": {
+"features": [
+"kind_person",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+1539,
+"person",
+5
+]
+],
+"history": [
+[
+1539,
+2
+]
+]
+}
+},
+"1572": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1572,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1572,
+"Cleãn ìñbox",
+"2026-07-21",
+2,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1575": {
+"features": [
+"checksum_skipped_file",
+"cross_references",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+1575,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1575,
+"Order toner",
+null,
+2,
+0,
+1023
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1595": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1595,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1595,
+"Bóok clüb",
+"2025-06-19 05:40",
+540,
+30,
+"Rõom 4",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1595,
+0,
+2658
+],
+[
+1595,
+1,
+1416
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1596": {
+"features": [
+"cross_references",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1596,
+"person",
+4
+]
+],
+"people": [
+[
+1596,
+"Carla Weber",
+null,
+null,
+447
+]
+],
+"person_emails": [
+[
+1596,
+0,
+"carla.30@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1596,
+1
+]
+]
+}
+},
+"1623": {
+"features": [
+"kind_person",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1623,
+"person",
+2
+]
+],
+"people": [
+[
+1623,
+"Elena Lefevre",
+"+49 27 0433 4255",
+null,
+null
+]
+],
+"person_emails": [
+[
+1623,
+0,
+"elena.58@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1624": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1624,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+1624,
+"Verlãg Ìñigo AS",
+"https://www.bureau.example",
+"Maín Street 17\nFloor 7\n56588 Århus",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1652": {
+"features": [
+"attachment_blob",
+"attachment_rle",
+"cross_references",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1652,
+"person",
+4
+]
+],
+"people": [
+[
+1652,
+"Agnes Ðakovo",
+null,
+null,
+2220
+]
+],
+"person_emails": [
+[
+1652,
+0,
+"agnes.91@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1652,
+0,
+"photo.png",
+"image/png",
+355,
+"8618f8335666dcb4024d2e9f56108eec318a8d56ec9e63705570ffc94b7f24bf"
+],
+[
+1652,
+1,
+"avatar.jpg",
+"image/jpeg",
+165,
+"6bece13173450771c0df40356f49e9dd9f15c374fe5a4cc224f19a5bd2e238b3"
+]
+],
+"deleted": [],
+"history": [
+[
+1652,
+3
+]
+]
+}
+},
+"1653": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+1653,
+"event",
+10
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1653,
+null,
+"2026-11-15 19:20",
+120,
+90,
+null,
+"yearly",
+1,
+null,
+"2027-07-19"
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1653,
+0,
+1842
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1653,
+2
+],
+[
+1653,
+6
+]
+]
+}
+},
+"1688": {
+"features": [
+"kind_recurring",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+1688,
+"event",
+4
+]
+],
+"history": [
+[
+1688,
+3
+]
+]
+}
+},
+"1702": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1702,
+"org",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+1702,
+"Sóciête GmbH",
+"https://www.garten.example",
+"Calle Mayôr 20\nFloor 14\n14263 Göteborg",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1702,
+3
+],
+[
+1702,
+4
+]
+]
+}
+},
+"1745": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+1745,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1745,
+"Send invoice",
+"2027-06-01",
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1808": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_v2_latin1",
+"tz_file_default",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+1808,
+"event",
+11
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1808,
+"Visit tö factory",
+"2026-11-24 23:15",
+0,
+60,
+null,
+"yearly",
+3,
+9,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1808,
+0,
+1652
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1808,
+2
+],
+[
+1808,
+5
+],
+[
+1808,
+9
+]
+]
+}
+},
+"1842": {
+"features": [
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1842,
+"person",
+4
+]
+],
+"people": [
+[
+1842,
+"Pablo Muller",
+"+49 60 9320 1882",
+null,
+null
+]
+],
+"person_emails": [
+[
+1842,
+0,
+"pablo.7@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1842,
+2
+]
+]
+}
+},
+"1919": {
+"features": [
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+1919,
+"task",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1919,
+"Reñew passport",
+null,
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1919,
+3
+],
+[
+1919,
+4
+]
+]
+}
+},
+"1946": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1946,
+"org",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+1946,
+"Atêlìer Inc",
+null,
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1946,
+2
+]
+]
+}
+},
+"1948": {
+"features": [
+"attachment_blob",
+"attachment_blob_unavailable",
+"attachment_raw",
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1948,
+"person",
+4
+]
+],
+"people": [
+[
+1948,
+"Tomas Vidal",
+"+1 17 3192 0628",
+"1945-11-16",
+null
+]
+],
+"person_emails": [
+[
+1948,
+0,
+"tomas.62@example.com"
+],
+[
+1948,
+1,
+"tomas.65@example.com"
+],
+[
+1948,
+2,
+"tomas.38@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1948,
+0,
+"notes.txt",
+"text/plain",
+279,
+"0fc8f0089fbdce3ffa32e1f6efe4a76db36c8e62b7ac645048a7fdccb043846d"
+],
+[
+1948,
+1,
+"photo.png",
+"image/png",
+null,
+null
+]
+],
+"deleted": [],
+"history": [
+[
+1948,
+2
+]
+]
+}
+},
+"1972": {
+"features": [
+"free_list_ghost",
+"kind_org",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1972,
+"org",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+1972,
+"Vèrlag Ðakovo Inc",
+null,
+"Haûptstraße 67\n67299 Göteborg",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1972,
+2
+]
+]
+}
+},
+"1986": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"text_escaped_codepoints"
+],
+"rows": {
+"records": [
+[
+1986,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1986,
+null,
+"Allergic to nuts. 山田"
+]
+],
+"note_links": [
+[
+1986,
+0,
+317
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1996": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_task",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1996,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1996,
+"Paÿ rent",
+"2023-12-08",
+2,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1996,
+2
+]
+]
+}
+},
+"2037": {
+"features": [
+"cross_references",
+"kind_note",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2037,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2037,
+null,
+"Café meeting went well.\nÃllergic tó nuts. 東京"
+]
+],
+"note_links": [
+[
+2037,
+0,
+2037
+],
+[
+2037,
+1,
+4066
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2064": {
+"features": [
+"checksum_skipped_file",
+"kind_recurring",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2064,
+"event",
+5
+]
+],
+"history": [
+[
+2064,
+3
+]
+]
+}
+},
+"2082": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+2082,
+"note",
+11
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2082,
+"Call notes",
+null
+]
+],
+"note_links": [
+[
+2082,
+0,
+471
+],
+[
+2082,
+1,
+2864
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2082,
+2
+],
+[
+2082,
+5
+],
+[
+2082,
+9
+]
+]
+}
+},
+"2084": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2084,
+"note",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2084,
+"Çall notes",
+"Owes us 3 boxes.\nCafé meeting went well. Čapek"
+]
+],
+"note_links": [
+[
+2084,
+0,
+1056
+],
+[
+2084,
+1,
+1384
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2084,
+3
+]
+]
+}
+},
+"2136": {
+"features": [
+"dates_packed",
+"free_list_ghost",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2136,
+"task",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2136,
+"Büy gift",
+"2024-04-01",
+3,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2136,
+3
+],
+[
+2136,
+7
+]
+]
+}
+},
+"2220": {
+"features": [
+"kind_org",
+"revisions_latest_wins",
+"text_multiline",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+2220,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+2220,
+"Nordlícht Þórshöfn GmbH",
+null,
+"Bahnhofstraße 167\nFloor 7\n90169 Montréal",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2220,
+1
+]
+]
+}
+},
+"2359": {
+"features": [
+"kind_org",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2359,
+"org",
+3
+]
+],
+"history": [
+[
+2359,
+1
+]
+]
+}
+},
+"2393": {
+"features": [
+"cross_references",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+2393,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2393,
+"Book flights",
+null,
+0,
+0,
+3146
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2448": {
+"features": [
+"kind_task",
+"revisions_latest_wins",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2448,
+"task",
+6
+]
+],
+"history": [
+[
+2448,
+3
+],
+[
+2448,
+4
+]
+]
+}
+},
+"2477": {
+"features": [
+"cross_references",
+"kind_note",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2477,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2477,
+null,
+"Prefers email over phone."
+]
+],
+"note_links": [
+[
+2477,
+0,
+1652
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2525": {
+"features": [
+"attachment_raw",
+"free_list_ghost",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2525,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2525,
+"Gift list",
+"Met at thè conference.\nAllergic to nuts."
+]
+],
+"note_links": [],
+"attachments": [
+[
+2525,
+0,
+"avatar.jpg",
+"image/jpeg",
+163,
+"7d126ef02d04720104ab73f4982ace5074d9a881641190d0a2aafa8590f1146a"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"2545": {
+"features": [
+"attachment_blob",
+"attachment_raw",
+"cross_references",
+"dangling_references",
+"kind_note",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2545,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2545,
+"Gift list Dvořák",
+"Price agreed: €40 per unit, £35 in UK.\nMet at the confërence."
+]
+],
+"note_links": [
+[
+2545,
+0,
+1842
+],
+[
+2545,
+1,
+1295
+]
+],
+"attachments": [
+[
+2545,
+0,
+"photo.png",
+"image/png",
+213,
+"acab0bdf834d3cc5db0b5a75b5399a7e88c861338cc69d6db95bd55b557cc456"
+],
+[
+2545,
+1,
+"photo.png",
+"image/png",
+37,
+"293714fd093dbb726f976efca3e8cdbd45070dca8958a2bd58be54c301f425a1"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"2565": {
+"features": [
+"cross_references",
+"dangling_references",
+"free_list_ghost",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+2565,
+"person",
+9
+]
+],
+"people": [
+[
+2565,
+"Pablo Torres",
+"+33 19 0776 7941",
+null,
+null
+]
+],
+"person_emails": [
+[
+2565,
+0,
+"pablo.11@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2565,
+1
+],
+[
+2565,
+5
+]
+]
+}
+},
+"2615": {
+"features": [
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2615,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2615,
+"Ídeas",
+"Owes us 3 boxes.\nCafé meeting went well."
+]
+],
+"note_links": [
+[
+2615,
+0,
+4693
+],
+[
+2615,
+1,
+4093
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2615,
+2
+]
+]
+}
+},
+"2658": {
+"features": [
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2658,
+"person",
+7
+]
+],
+"people": [
+[
+2658,
+"Hugõ Quiroga",
+"+1 39 2743 1097",
+null,
+null
+]
+],
+"person_emails": [
+[
+2658,
+0,
+"hugo.83@example.com"
+],
+[
+2658,
+1,
+"hugo.69@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2658,
+1
+],
+[
+2658,
+3
+],
+[
+2658,
+6
+]
+]
+}
+},
+"2677": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2677,
+"org",
+8
+]
+],
+"history": [
+[
+2677,
+3
+],
+[
+2677,
+4
+]
+]
+}
+},
+"2756": {
+"features": [
+"kind_org",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2756,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+2756,
+"Stùdîo S.L.",
+"https://www.atelier.example",
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2828": {
+"features": [
+"kind_org",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+2828,
+"org",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+2828,
+"Bureau Inc",
+null,
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2828,
+2
+]
+]
+}
+},
+"2836": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+2836,
+"person",
+5
+]
+],
+"people": [
+[
+2836,
+"Pablo Garcia",
+"+44 78 1737 7481",
+"1999-05-12",
+1624
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2836,
+2
+],
+[
+2836,
+3
+]
+]
+}
+},
+"2843": {
+"features": [
+"cross_references",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2843,
+"person",
+13
+]
+],
+"people": [
+[
+2843,
+"Olga Moreau",
+"+49 93 0173 0945",
+null,
+1702
+]
+],
+"person_emails": [
+[
+2843,
+0,
+"olga.85@example.com"
+],
+[
+2843,
+1,
+"olga.3@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2843,
+2
+],
+[
+2843,
+6
+],
+[
+2843,
+9
+]
+]
+}
+},
+"2859": {
+"features": [
+"checksum_skipped_file",
+"cross_references",
+"dates_packed",
+"kind_person",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2859,
+"person",
+4
+]
+],
+"people": [
+[
+2859,
+"Dmitrí Yilmâz",
+null,
+"1998-06-06",
+1624
+]
+],
+"person_emails": [
+[
+2859,
+0,
+"dmitri.84@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2859,
+1
+]
+]
+}
+},
+"2863": {
+"features": [
+"cross_references",
+"kind_person",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2863,
+"person",
+8
+]
+],
+"people": [
+[
+2863,
+"Réneè Dupoñt",
+"+91 51 4537 5753",
+null,
+1972
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2863,
+2
+],
+[
+2863,
+3
+]
+]
+}
+},
+"2864": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2864,
+"person",
+5
+]
+],
+"people": [
+[
+2864,
+"Anna Søren",
+"+44 48 5115 1849",
+"1959-03-25",
+null
+]
+],
+"person_emails": [
+[
+2864,
+0,
+"anna.25@mail.example.org"
+],
+[
+2864,
+1,
+"anna.97@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2864,
+3
+]
+]
+}
+},
+"2873": {
+"features": [
+"dates_packed",
+"duration_default",
+"kind_event",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+2873,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2873,
+"Bûdget sýnç",
+"2025-06-07 08:10",
+-600,
+60,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2932": {
+"features": [
+"attachment_blob",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2932,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2932,
+"Çáll notes",
+"Allergic to nuts.\nPrice agreed: €40 per unit, £35 in UK.\nMet at the conference.\nOwes ûs 3 boxes."
+]
+],
+"note_links": [],
+"attachments": [
+[
+2932,
+0,
+"avatar.jpg",
+"image/jpeg",
+182,
+"b98361a2b86c22cc49ef466c979ad64726b173a36a7b8538a031b4fd8905cf7d"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3008": {
+"features": [
+"cross_references",
+"dates_packed",
+"free_list_ghost",
+"kind_person",
+"revisions_latest_wins",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3008,
+"person",
+4
+]
+],
+"people": [
+[
+3008,
+"Karin Andersen",
+"+1 25 7137 6740",
+"1999-06-10",
+2828
+]
+],
+"person_emails": [
+[
+3008,
+0,
+"karin.94@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3008,
+3
+]
+]
+}
+},
+"3043": {
+"features": [
+"cross_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3043,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3043,
+"Reminder Þórshöfn",
+"Follow up next week.\nOwes üs 3 boxes."
+]
+],
+"note_links": [
+[
+3043,
+0,
+830
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3074": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+3074,
+"person",
+6
+]
+],
+"people": [
+[
+3074,
+"Farid Jensen",
+"+44 64 7824 2374",
+"1977-02-05",
+null
+]
+],
+"person_emails": [
+[
+3074,
+0,
+"farid.81@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3074,
+3
+]
+]
+}
+},
+"3113": {
+"features": [
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3113,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3113,
+"Review",
+"2025-07-12 19:40",
+-210,
+60,
+"Hôtel de Vïlle",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3113,
+3
+]
+]
+}
+},
+"3144": {
+"features": [
+"attachment_raw",
+"attachment_rle",
+"cross_references",
+"dangling_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline"
+],
+"rows": {
+"records": [
+[
+3144,
+"note",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3144,
+null,
+"Owes us 3 boxes.\nFollow up next week."
+]
+],
+"note_links": [],
+"attachments": [
+[
+3144,
+0,
+"agenda.pdf",
+"application/pdf",
+368,
+"d64f5ce54e913d959789a83b00180b475989d6ea38bfa2655bf798003ccf9d5a"
+],
+[
+3144,
+1,
+"notes.txt",
+"text/plain",
+88,
+"57811466d6c19faa1798501a74a1ecbb2915f9842178a45e1892241931c2cabc"
+]
+],
+"deleted": [],
+"history": [
+[
+3144,
+1
+],
+[
+3144,
+4
+],
+[
+3144,
+5
+]
+]
+}
+},
+"3146": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3146,
+"person",
+5
+]
+],
+"people": [
+[
+3146,
+"Yusuf Muller",
+"+46 50 6883 1455",
+"1955-05-13",
+3857
+]
+],
+"person_emails": [
+[
+3146,
+0,
+"yusuf.15@mail.example.org"
+],
+[
+3146,
+1,
+"yusuf.25@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3146,
+2
+]
+]
+}
+},
+"3195": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3195,
+"task",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3195,
+"Bòok flights",
+"2026-06-04",
+2,
+0,
+819
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3195,
+2
+]
+]
+}
+},
+"3208": {
+"features": [
+"kind_org",
+"revisions_latest_wins",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+3208,
+"org",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3208,
+"Acme Æsir GmbH",
+"https://www.logistik.example",
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3208,
+1
+],
+[
+3208,
+2
+]
+]
+}
+},
+"3221": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dangling_references",
+"kind_person",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3221,
+"person",
+7
+]
+],
+"people": [
+[
+3221,
+"Hugo Beckêr",
+"+49 95 2977 1970",
+null,
+null
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3221,
+0,
+"notes.txt",
+"text/plain",
+216,
+"bbd91878671eabb91cccf44a917a47c4bcc42487245f8d96c484ec8f15a6690b"
+]
+],
+"deleted": [],
+"history": [
+[
+3221,
+3
+]
+]
+}
+},
+"3296": {
+"features": [
+"cross_references",
+"kind_note",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3296,
+"note",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3296,
+null,
+"Met at the conference.\nMet at the conference. 🎉\nNeeds the signèd copy."
+]
+],
+"note_links": [
+[
+3296,
+0,
+3662
+],
+[
+3296,
+1,
+1996
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3296,
+3
+]
+]
+}
+},
+"3354": {
+"features": [
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+3354,
+"person",
+9
+]
+],
+"history": [
+[
+3354,
+3
+],
+[
+3354,
+7
+]
+]
+}
+},
+"3377": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dangling_references",
+"dates_packed",
+"duration_default",
+"free_list_ghost",
+"kind_event",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3377,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3377,
+"Book club",
+"2026-05-19 12:15",
+120,
+60,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3377,
+0,
+3769
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3377,
+0,
+"photo.png",
+"image/png",
+297,
+"783e8820bb23eeb5ab68fddd89103e5f44ae195598b1a0f7ae71b178d1bea442"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3424": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_event",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+3424,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3424,
+"Interview",
+"2027-01-29 06:45",
+345,
+120,
+"Room 4",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3424,
+0,
+2843
+],
+[
+3424,
+1,
+1948
+],
+[
+3424,
+2,
+597
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3488": {
+"features": [
+"kind_note",
+"revisions_latest_wins",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+3488,
+"note",
+5
+]
+],
+"history": [
+[
+3488,
+2
+],
+[
+3488,
+3
+]
+]
+}
+},
+"3502": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3502,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3502,
+"Book club",
+"2024-11-07 03:00",
+345,
+30,
+"Conference róom B",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3502,
+0,
+2843
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3570": {
+"features": [
+"kind_person",
+"multi_value_order"
+],
+"rows": {
+"records": [
+[
+3570,
+"person",
+3
+]
+],
+"people": [
+[
+3570,
+"Greta Dupont",
+"+46 87 0897 3609",
+null,
+null
+]
+],
+"person_emails": [
+[
+3570,
+0,
+"greta.60@mail.example.org"
+],
+[
+3570,
+1,
+"greta.76@corp.example.net"
+],
+[
+3570,
+2,
+"greta.17@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3603": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3603,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3603,
+"Interview",
+"2026-02-15 19:55",
+345,
+600,
+"Hôtel de Ville",
+"daily",
+1,
+13,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3603,
+0,
+3221
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3640": {
+"features": [
+"dates_packed",
+"kind_event",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3640,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3640,
+"Book club",
+"2025-05-22 01:45",
+-240,
+600,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3662": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3662,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3662,
+"Renëw passport",
+"2025-05-31",
+3,
+0,
+709
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3719": {
+"features": [
+"cross_references",
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline"
+],
+"rows": {
+"records": [
+[
+3719,
+"org",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3719,
+"Atelier AB",
+null,
+"Rue de la Paix 89\n54298 Oslo",
+4950
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3719,
+2
+],
+[
+3719,
+5
+]
+]
+}
+},
+"3769": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"multi_value_order"
+],
+"rows": {
+"records": [
+[
+3769,
+"person",
+3
+]
+],
+"people": [
+[
+3769,
+"Olga Zeller",
+"+49 81 5007 0058",
+"1968-12-11",
+302
+]
+],
+"person_emails": [
+[
+3769,
+0,
+"olga.27@mail.example.org"
+],
+[
+3769,
+1,
+"olga.94@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3809": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3809,
+"event",
+10
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3809,
+null,
+"2027-01-08 03:35",
+540,
+60,
+"Building 7",
+"weekly",
+1,
+5,
+null
+]
+],
+"event_exceptions": [
+[
+3809,
+"2027-02-19"
+]
+],
+"event_attendees": [
+[
+3809,
+0,
+597
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3809,
+2
+],
+[
+3809,
+4
+],
+[
+3809,
+7
+]
+]
+}
+},
+"3817": {
+"features": [
+"cross_references",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3817,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3817,
+"Send iñvoice",
+null,
+0,
+0,
+2859
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3817,
+1
+]
+]
+}
+},
+"3824": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_event",
+"revisions_latest_wins",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3824,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3824,
+"Dentist",
+"2027-01-10 05:20",
+330,
+45,
+"Building 7",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3824,
+3
+]
+]
+}
+},
+"3830": {
+"features": [
+"checksum_skipped_file",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3830,
+"person",
+7
+]
+],
+"people": [
+[
+3830,
+"Çeline Wéber",
+"+44 88 6833 3622",
+"1981-02-25",
+null
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3830,
+3
+]
+]
+}
+},
+"3849": {
+"features": [
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3849,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3849,
+"Çall notes",
+"Prefers email over phone.\nFollow up next week."
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3857": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3857,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3857,
+"Mõbilìtë S.L.",
+null,
+"Kungsgatan 87\n11721 Oslo",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3864": {
+"features": [
+"attachment_rle",
+"cross_references",
+"kind_note",
+"text_multiline"
+],
+"rows": {
+"records": [
+[
+3864,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3864,
+null,
+"Met at the conference.\nNeeds the signed copy."
+]
+],
+"note_links": [
+[
+3864,
+0,
+1056
+]
+],
+"attachments": [
+[
+3864,
+0,
+"map.gif",
+"image/gif",
+201,
+"e4164887bc992a6f761cd362ff90fa9faff71a9b43a55b73bdc2cf2f563b6b1c"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3901": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3901,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3901,
+"Visit to factory Ùrsula",
+"2024-11-02 06:45",
+345,
+60,
+"Roòm 4",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3901,
+0,
+2864
+],
+[
+3901,
+1,
+4426
+],
+[
+3901,
+2,
+2864
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3901,
+2
+]
+]
+}
+},
+"3995": {
+"features": [
+"cross_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3995,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3995,
+"Îdeas",
+"Prefers êmail over phone.\nRemember the déjà vu story."
+]
+],
+"note_links": [
+[
+3995,
+0,
+663
+],
+[
+3995,
+1,
+1652
+],
+[
+3995,
+2,
+1045
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4033": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4033,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4033,
+"Fix bïke",
+"2023-01-13",
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4050": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+4050,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4050,
+"Quarterly plånning",
+"2025-01-30 22:35",
+-600,
+600,
+"Buìldîng 7",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4050,
+0,
+2565
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4066": {
+"features": [
+"kind_person",
+"multi_value_order"
+],
+"rows": {
+"records": [
+[
+4066,
+"person",
+2
+]
+],
+"people": [
+[
+4066,
+"Pablo Ibarra",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+4066,
+0,
+"pablo.14@mail.example.org"
+],
+[
+4066,
+1,
+"pablo.29@example.com"
+],
+[
+4066,
+2,
+"pablo.16@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4092": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4092,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4092,
+"Call back",
+"2026-05-17",
+0,
+1,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4093": {
+"features": [
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4093,
+"task",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4093,
+"Renew passport",
+null,
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4093,
+3
+]
+]
+}
+},
+"4095": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_rule",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+4095,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4095,
+"Kickoff",
+"2024-11-03 15:40",
+120,
+60,
+"HQ lóbby",
+"monthly",
+1,
+null,
+"2025-04-30"
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4095,
+0,
+819
+],
+[
+4095,
+1,
+3570
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4132": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4132,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4132,
+"Rêview",
+"2025-01-19 09:20",
+-600,
+120,
+"Room 4",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4132,
+0,
+2565
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4147": {
+"features": [
+"checksum_skipped_file",
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"text_escaped_codepoints",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+4147,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4147,
+"Ståndup Erdős",
+"2026-02-21 22:20",
+-600,
+30,
+null,
+"monthly",
+1,
+2,
+null
+]
+],
+"event_exceptions": [
+[
+4147,
+"2026-07-21"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4169": {
+"features": [
+"attachment_raw",
+"cross_references",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4169,
+"person",
+4
+]
+],
+"people": [
+[
+4169,
+"Andre Ibarra",
+"+44 56 3809 5779",
+null,
+1972
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+4169,
+0,
+"notes.txt",
+"text/plain",
+345,
+"7dafe84043579eb1f1c09805e2aacfc1e6efc92eef436349658456f4e4d1bc6b"
+]
+],
+"deleted": [],
+"history": [
+[
+4169,
+3
+]
+]
+}
+},
+"4270": {
+"features": [
+"dates_packed",
+"free_list_ghost",
+"kind_task",
+"task_state_bits",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+4270,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4270,
+"File taxes",
+"2025-06-01",
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4280": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+4280,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4280,
+"Quarterly planning",
+"2025-10-22 01:10",
+345,
+240,
+"Biergartën",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4280,
+0,
+4426
+],
+[
+4280,
+1,
+1416
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4280,
+2
+]
+]
+}
+},
+"4285": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit",
+"unknown_fields",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+4285,
+"event",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4285,
+"Quarterly planning",
+"2025-01-31 15:15",
+-600,
+15,
+"HQ lobby",
+"weekly",
+1,
+null,
+"2025-07-05"
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4285,
+2
+],
+[
+4285,
+5
+],
+[
+4285,
+6
+]
+]
+}
+},
+"4426": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4426,
+"person",
+2
+]
+],
+"people": [
+[
+4426,
+"Noel Moreau",
+"+46 19 8472 0483",
+"1953-02-16",
+2828
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4538": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4538,
+"person",
+4
+]
+],
+"people": [
+[
+4538,
+"Aurelie 🎉",
+"+46 42 1387 6185",
+"1961-08-26",
+null
+]
+],
+"person_emails": [
+[
+4538,
+0,
+"aurelie.43@corp.example.net"
+],
+[
+4538,
+1,
+"aurelie.71@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4538,
+3
+]
+]
+}
+},
+"4553": {
+"features": [
+"cross_references",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+4553,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4553,
+"Clean inbox",
+null,
+0,
+1,
+2658
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4564": {
+"features": [
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4564,
+"note",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4564,
+"Ideäs",
+"Needs the signed copy. Søren"
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4564,
+2
+],
+[
+4564,
+5
+]
+]
+}
+},
+"4585": {
+"features": [
+"kind_org"
+],
+"rows": {
+"records": [
+[
+4585,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+4585,
+"Atelier SARL",
+"https://www.kaffee.example",
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4623": {
+"features": [
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4623,
+"event",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4623,
+"Call supplîer",
+"2024-02-29 14:45",
+540,
+600,
+null,
+"daily",
+1,
+10,
+null
+]
+],
+"event_exceptions": [
+[
+4623,
+"2024-03-02"
+],
+[
+4623,
+"2024-03-05"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4623,
+3
+],
+[
+4623,
+6
+],
+[
+4623,
+7
+]
+]
+}
+},
+"4632": {
+"features": [
+"dates_packed",
+"free_list_ghost",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4632,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4632,
+"Boök flîghts",
+"2026-05-21",
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4632,
+3
+]
+]
+}
+},
+"4671": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4671,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+4671,
+"Acme Ltd",
+null,
+"Via Roma 48\nFloor 15\n13279 Reykjavík",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4693": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+4693,
+"event",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4693,
+"Lúnch with client",
+"2025-05-29 22:25",
+600,
+90,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4693,
+0,
+3221
+],
+[
+4693,
+1,
+1023
+],
+[
+4693,
+2,
+3570
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4693,
+3
+],
+[
+4693,
+7
+]
+]
+}
+},
+"4811": {
+"features": [
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4811,
+"task",
+14
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4811,
+"Çãll back",
+null,
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4811,
+2
+],
+[
+4811,
+6
+],
+[
+4811,
+10
+]
+]
+}
+},
+"4871": {
+"features": [
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4871,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4871,
+"Ideas",
+"Price agreed: €40 per unit, £35 in UK.\nOwes us 3 boxes.\nDiscussed the renewal terms."
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4876": {
+"features": [
+"kind_recurring",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+4876,
+"event",
+6
+]
+],
+"history": [
+[
+4876,
+2
+]
+]
+}
+},
+"4945": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+4945,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4945,
+"Lunch wìth cliënt",
+"2025-11-26 18:45",
+-210,
+0,
+"Biergarten",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4945,
+0,
+3008
+],
+[
+4945,
+1,
+4169
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4945,
+3
+]
+]
+}
+},
+"4950": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4950,
+"org",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+4950,
+"Konsult Ålesund Oy",
+null,
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4950,
+1
+],
+[
+4950,
+3
+],
+[
+4950,
+5
+]
+]
+}
+},
+"5479": {
+"features": [
+"checksum_skipped_file",
+"kind_person"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"5965": {
+"features": [
+"checksum_skipped_file",
+"kind_org"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+}
+},
+"agenda": [
+{
+"from": "2020-01-01",
+"to": "2030-12-31",
+"lines": [
+"2024-02-29 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-01 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-03 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-04 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-06 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-07 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-08 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-03-09 14:45 +09:00  #4623 Call supplîer (600 min)",
+"2024-09-22 09:10 +05:45  #1056 Standup (90 min)",
+"2024-11-01 04:15 +00:00  #376 Call supplier (60 min)",
+"2024-11-02 06:45 +05:45  #3901 Visit to factory Ùrsula (60 min)",
+"2024-11-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2024-11-07 03:00 +05:45  #3502 Book club (30 min)",
+"2024-12-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2024-12-24 21:30 -10:00  #910 Team retro (45 min)",
+"2025-01-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2025-01-19 09:20 -10:00  #4132 Rêview (120 min)",
+"2025-01-30 22:35 -10:00  #4050 Quarterly plånning (600 min)",
+"2025-01-31 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-02-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2025-02-04 21:05 +01:00  #347 Standûp (60 min)",
+"2025-02-07 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-02-14 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-02-20 19:35 +05:45  #52 Yoga (45 min)",
+"2025-02-21 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-02-28 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-01 05:40 -10:00  #1115 Team retro (30 min)",
+"2025-03-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2025-03-06 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-07 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-13 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-14 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-20 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-21 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-27 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-28 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2025-04-03 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-04 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-10 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-11 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-17 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-18 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-24 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-25 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-01 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-05-02 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-08 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-09 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-15 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-16 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-22 01:45 -04:00  #3640 Book club (600 min)",
+"2025-05-22 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-23 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-29 22:25 +10:00  #4693 Lúnch with client (90 min)",
+"2025-05-29 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-30 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-06-05 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-06 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-07 08:10 -10:00  #2873 Bûdget sýnç (60 min)",
+"2025-06-12 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-13 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-19 05:40 +09:00  #1595 Bóok clüb (30 min)",
+"2025-06-19 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-20 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-26 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-27 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-07-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-07-03 19:35 +05:45  #52 Yoga (45 min)",
+"2025-07-04 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-07-10 19:35 +05:45  #52 Yoga (45 min)",
+"2025-07-12 19:40 -03:30  #3113 Review (60 min)",
+"2025-07-17 19:35 +05:45  #52 Yoga (45 min)",
+"2025-07-24 19:35 +05:45  #52 Yoga (45 min)",
+"2025-07-31 19:35 +05:45  #52 Yoga (45 min)",
+"2025-08-07 19:35 +05:45  #52 Yoga (45 min)",
+"2025-08-14 19:35 +05:45  #52 Yoga (45 min)",
+"2025-08-21 19:35 +05:45  #52 Yoga (45 min)",
+"2025-08-28 19:35 +05:45  #52 Yoga (45 min)",
+"2025-09-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-09-04 19:35 +05:45  #52 Yoga (45 min)",
+"2025-09-11 19:35 +05:45  #52 Yoga (45 min)",
+"2025-09-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2025-09-18 19:35 +05:45  #52 Yoga (45 min)",
+"2025-09-25 19:35 +05:45  #52 Yoga (45 min)",
+"2025-10-02 19:35 +05:45  #52 Yoga (45 min)",
+"2025-10-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-10-09 19:35 +05:45  #52 Yoga (45 min)",
+"2025-10-16 19:35 +05:45  #52 Yoga (45 min)",
+"2025-10-22 01:10 +05:45  #4280 Quarterly planning (240 min)",
+"2025-10-23 19:35 +05:45  #52 Yoga (45 min)",
+"2025-10-30 19:35 +05:45  #52 Yoga (45 min)",
+"2025-11-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-11-06 19:35 +05:45  #52 Yoga (45 min)",
+"2025-11-13 19:35 +05:45  #52 Yoga (45 min)",
+"2025-11-20 19:35 +05:45  #52 Yoga (45 min)",
+"2025-11-26 18:45 -03:30  #4945 Lunch wìth cliënt (0 min)",
+"2025-11-27 19:35 +05:45  #52 Yoga (45 min)",
+"2025-12-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-12-04 19:35 +05:45  #52 Yoga (45 min)",
+"2025-12-11 19:35 +05:45  #52 Yoga (45 min)",
+"2025-12-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2025-12-18 19:35 +05:45  #52 Yoga (45 min)",
+"2025-12-20 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2025-12-25 19:35 +05:45  #52 Yoga (45 min)",
+"2025-12-27 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-01 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-01-03 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-08 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-10 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-14 00:45 -04:00  #830 Team retro (600 min)",
+"2026-01-15 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-17 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-22 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-24 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-29 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-31 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-02-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-02-05 19:35 +05:45  #52 Yoga (45 min)",
+"2026-02-07 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-02-12 19:35 +05:45  #52 Yoga (45 min)",
+"2026-02-14 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-02-15 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-16 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-17 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-18 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-19 19:35 +05:45  #52 Yoga (45 min)",
+"2026-02-19 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-20 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-21 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-02-21 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-21 22:20 -10:00  #4147 Ståndup Erdős (30 min)",
+"2026-02-22 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-23 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-24 20:45 +08:45  #1409 Kickoff (60 min)",
+"2026-02-24 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-25 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-26 19:35 +05:45  #52 Yoga (45 min)",
+"2026-02-26 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-27 19:55 +05:45  #3603 Interview (600 min)",
+"2026-02-28 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-03-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-03-05 19:35 +05:45  #52 Yoga (45 min)",
+"2026-03-07 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-03-12 19:35 +05:45  #52 Yoga (45 min)",
+"2026-03-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2026-03-14 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-03-19 19:35 +05:45  #52 Yoga (45 min)",
+"2026-03-21 22:20 -10:00  #4147 Ståndup Erdős (30 min)",
+"2026-03-26 19:35 +05:45  #52 Yoga (45 min)",
+"2026-04-02 19:35 +05:45  #52 Yoga (45 min)",
+"2026-04-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-04-09 19:35 +05:45  #52 Yoga (45 min)",
+"2026-04-12 02:30 +10:00  #1452 Standup (240 min)",
+"2026-04-16 19:35 +05:45  #52 Yoga (45 min)",
+"2026-04-23 19:35 +05:45  #52 Yoga (45 min)",
+"2026-04-30 19:35 +05:45  #52 Yoga (45 min)",
+"2026-05-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-05-07 19:35 +05:45  #52 Yoga (45 min)",
+"2026-05-14 19:35 +05:45  #52 Yoga (45 min)",
+"2026-05-19 12:15 +02:00  #3377 Book club (60 min)",
+"2026-05-21 19:35 +05:45  #52 Yoga (45 min)",
+"2026-05-28 19:35 +05:45  #52 Yoga (45 min)",
+"2026-06-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-06-04 19:35 +05:45  #52 Yoga (45 min)",
+"2026-06-11 19:35 +05:45  #52 Yoga (45 min)",
+"2026-06-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2026-06-18 19:35 +05:45  #52 Yoga (45 min)",
+"2026-06-25 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-02 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-09 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-16 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-23 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-30 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-06 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-13 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-20 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-27 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-03 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-10 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2026-09-17 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-24 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-01 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-08 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-15 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-22 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-29 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-05 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-12 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-15 19:20 +02:00  #1653 (untitled) (90 min)",
+"2026-11-19 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-24 23:15 +00:00  #1808 Visit tö factory (60 min)",
+"2026-11-26 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-03 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-10 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2026-12-17 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-24 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-29 22:10 +08:45  #162 Quarterly planning (240 min)",
+"2026-12-31 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-07 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-08 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-10 05:20 +05:30  #3824 Dentist (45 min)",
+"2027-01-14 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-15 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-21 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-22 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-28 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-29 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-29 06:45 +05:45  #3424 Interview (120 min)",
+"2027-02-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-05 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-02-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-25 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-25 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-01 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-08 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-15 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-22 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-29 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-06 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-13 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-20 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-27 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-03 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-10 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2027-06-17 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-24 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-01 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-08 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-15 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-22 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-29 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-05 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-12 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-19 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-26 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-02 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-09 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2027-09-16 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-23 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-30 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-07 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-14 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-21 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-28 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-25 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-02 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-09 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2027-12-16 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-23 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-30 19:35 +05:45  #52 Yoga (45 min)",
+"2028-01-06 19:35 +05:45  #52 Yoga (45 min)",
+"2028-01-13 19:35 +05:45  #52 Yoga (45 min)",
+"2028-01-20 19:35 +05:45  #52 Yoga (45 min)",
+"2028-01-27 19:35 +05:45  #52 Yoga (45 min)",
+"2028-02-03 19:35 +05:45  #52 Yoga (45 min)",
+"2028-02-10 19:35 +05:45  #52 Yoga (45 min)",
+"2028-02-17 19:35 +05:45  #52 Yoga (45 min)",
+"2028-02-24 19:35 +05:45  #52 Yoga (45 min)",
+"2028-03-02 19:35 +05:45  #52 Yoga (45 min)",
+"2028-03-09 19:35 +05:45  #52 Yoga (45 min)",
+"2028-03-16 19:35 +05:45  #52 Yoga (45 min)",
+"2028-03-23 19:35 +05:45  #52 Yoga (45 min)",
+"2028-03-30 19:35 +05:45  #52 Yoga (45 min)",
+"2028-04-06 19:35 +05:45  #52 Yoga (45 min)",
+"2028-04-13 19:35 +05:45  #52 Yoga (45 min)",
+"2028-04-20 19:35 +05:45  #52 Yoga (45 min)",
+"2028-04-27 19:35 +05:45  #52 Yoga (45 min)",
+"2028-05-04 19:35 +05:45  #52 Yoga (45 min)",
+"2028-05-11 19:35 +05:45  #52 Yoga (45 min)",
+"2028-05-18 19:35 +05:45  #52 Yoga (45 min)",
+"2028-05-25 19:35 +05:45  #52 Yoga (45 min)",
+"2028-06-01 19:35 +05:45  #52 Yoga (45 min)",
+"2028-06-08 19:35 +05:45  #52 Yoga (45 min)",
+"2028-06-15 19:35 +05:45  #52 Yoga (45 min)",
+"2028-06-22 19:35 +05:45  #52 Yoga (45 min)",
+"2028-06-29 19:35 +05:45  #52 Yoga (45 min)",
+"2028-07-06 19:35 +05:45  #52 Yoga (45 min)",
+"2028-07-13 19:35 +05:45  #52 Yoga (45 min)",
+"2028-07-20 19:35 +05:45  #52 Yoga (45 min)",
+"2028-07-27 19:35 +05:45  #52 Yoga (45 min)",
+"2028-08-03 19:35 +05:45  #52 Yoga (45 min)",
+"2028-08-10 19:35 +05:45  #52 Yoga (45 min)",
+"2028-08-17 19:35 +05:45  #52 Yoga (45 min)",
+"2028-08-24 19:35 +05:45  #52 Yoga (45 min)",
+"2028-08-31 19:35 +05:45  #52 Yoga (45 min)",
+"2028-09-07 19:35 +05:45  #52 Yoga (45 min)",
+"2028-09-14 19:35 +05:45  #52 Yoga (45 min)",
+"2028-09-21 19:35 +05:45  #52 Yoga (45 min)",
+"2028-09-28 19:35 +05:45  #52 Yoga (45 min)",
+"2028-10-05 19:35 +05:45  #52 Yoga (45 min)",
+"2028-10-12 19:35 +05:45  #52 Yoga (45 min)",
+"2028-10-19 19:35 +05:45  #52 Yoga (45 min)",
+"2028-10-26 19:35 +05:45  #52 Yoga (45 min)",
+"2028-11-02 19:35 +05:45  #52 Yoga (45 min)",
+"2028-11-09 19:35 +05:45  #52 Yoga (45 min)",
+"2028-11-16 19:35 +05:45  #52 Yoga (45 min)",
+"2028-11-23 19:35 +05:45  #52 Yoga (45 min)",
+"2028-11-30 19:35 +05:45  #52 Yoga (45 min)",
+"2028-12-07 19:35 +05:45  #52 Yoga (45 min)",
+"2028-12-14 19:35 +05:45  #52 Yoga (45 min)",
+"2028-12-21 19:35 +05:45  #52 Yoga (45 min)",
+"2028-12-28 19:35 +05:45  #52 Yoga (45 min)",
+"2029-01-04 19:35 +05:45  #52 Yoga (45 min)",
+"2029-01-11 19:35 +05:45  #52 Yoga (45 min)",
+"2029-01-18 19:35 +05:45  #52 Yoga (45 min)",
+"2029-01-25 19:35 +05:45  #52 Yoga (45 min)",
+"2029-02-01 19:35 +05:45  #52 Yoga (45 min)",
+"2029-02-08 19:35 +05:45  #52 Yoga (45 min)",
+"2029-02-15 19:35 +05:45  #52 Yoga (45 min)",
+"2029-02-22 19:35 +05:45  #52 Yoga (45 min)",
+"2029-03-01 19:35 +05:45  #52 Yoga (45 min)",
+"2029-03-08 19:35 +05:45  #52 Yoga (45 min)",
+"2029-03-15 19:35 +05:45  #52 Yoga (45 min)",
+"2029-03-22 19:35 +05:45  #52 Yoga (45 min)",
+"2029-03-29 19:35 +05:45  #52 Yoga (45 min)",
+"2029-04-05 19:35 +05:45  #52 Yoga (45 min)",
+"2029-04-12 19:35 +05:45  #52 Yoga (45 min)",
+"2029-04-19 19:35 +05:45  #52 Yoga (45 min)",
+"2029-04-26 19:35 +05:45  #52 Yoga (45 min)",
+"2029-05-03 19:35 +05:45  #52 Yoga (45 min)",
+"2029-05-10 19:35 +05:45  #52 Yoga (45 min)",
+"2029-05-17 19:35 +05:45  #52 Yoga (45 min)",
+"2029-05-24 19:35 +05:45  #52 Yoga (45 min)",
+"2029-05-31 19:35 +05:45  #52 Yoga (45 min)",
+"2029-06-07 19:35 +05:45  #52 Yoga (45 min)",
+"2029-06-14 19:35 +05:45  #52 Yoga (45 min)",
+"2029-06-21 19:35 +05:45  #52 Yoga (45 min)",
+"2029-06-28 19:35 +05:45  #52 Yoga (45 min)",
+"2029-07-05 19:35 +05:45  #52 Yoga (45 min)",
+"2029-07-12 19:35 +05:45  #52 Yoga (45 min)",
+"2029-07-19 19:35 +05:45  #52 Yoga (45 min)",
+"2029-07-26 19:35 +05:45  #52 Yoga (45 min)",
+"2029-08-02 19:35 +05:45  #52 Yoga (45 min)",
+"2029-08-09 19:35 +05:45  #52 Yoga (45 min)",
+"2029-08-16 19:35 +05:45  #52 Yoga (45 min)",
+"2029-08-23 19:35 +05:45  #52 Yoga (45 min)",
+"2029-08-30 19:35 +05:45  #52 Yoga (45 min)",
+"2029-09-06 19:35 +05:45  #52 Yoga (45 min)",
+"2029-09-13 19:35 +05:45  #52 Yoga (45 min)",
+"2029-09-20 19:35 +05:45  #52 Yoga (45 min)",
+"2029-09-27 19:35 +05:45  #52 Yoga (45 min)",
+"2029-10-04 19:35 +05:45  #52 Yoga (45 min)",
+"2029-10-11 19:35 +05:45  #52 Yoga (45 min)",
+"2029-10-18 19:35 +05:45  #52 Yoga (45 min)",
+"2029-10-25 19:35 +05:45  #52 Yoga (45 min)",
+"2029-11-01 19:35 +05:45  #52 Yoga (45 min)",
+"2029-11-08 19:35 +05:45  #52 Yoga (45 min)",
+"2029-11-15 19:35 +05:45  #52 Yoga (45 min)",
+"2029-11-22 19:35 +05:45  #52 Yoga (45 min)",
+"2029-11-24 23:15 +00:00  #1808 Visit tö factory (60 min)",
+"2029-11-29 19:35 +05:45  #52 Yoga (45 min)",
+"2029-12-06 19:35 +05:45  #52 Yoga (45 min)",
+"2029-12-13 19:35 +05:45  #52 Yoga (45 min)",
+"2029-12-20 19:35 +05:45  #52 Yoga (45 min)",
+"2029-12-27 19:35 +05:45  #52 Yoga (45 min)",
+"2030-01-03 19:35 +05:45  #52 Yoga (45 min)",
+"2030-01-10 19:35 +05:45  #52 Yoga (45 min)",
+"2030-01-17 19:35 +05:45  #52 Yoga (45 min)",
+"2030-01-24 19:35 +05:45  #52 Yoga (45 min)",
+"2030-01-31 19:35 +05:45  #52 Yoga (45 min)",
+"2030-02-07 19:35 +05:45  #52 Yoga (45 min)",
+"2030-02-14 19:35 +05:45  #52 Yoga (45 min)",
+"2030-02-21 19:35 +05:45  #52 Yoga (45 min)",
+"2030-02-28 19:35 +05:45  #52 Yoga (45 min)",
+"2030-03-07 19:35 +05:45  #52 Yoga (45 min)",
+"2030-03-14 19:35 +05:45  #52 Yoga (45 min)",
+"2030-03-21 19:35 +05:45  #52 Yoga (45 min)",
+"2030-03-28 19:35 +05:45  #52 Yoga (45 min)",
+"2030-04-04 19:35 +05:45  #52 Yoga (45 min)",
+"2030-04-11 19:35 +05:45  #52 Yoga (45 min)",
+"2030-04-18 19:35 +05:45  #52 Yoga (45 min)",
+"2030-04-25 19:35 +05:45  #52 Yoga (45 min)",
+"2030-05-02 19:35 +05:45  #52 Yoga (45 min)",
+"2030-05-09 19:35 +05:45  #52 Yoga (45 min)",
+"2030-05-16 19:35 +05:45  #52 Yoga (45 min)",
+"2030-05-23 19:35 +05:45  #52 Yoga (45 min)",
+"2030-05-30 19:35 +05:45  #52 Yoga (45 min)",
+"2030-06-06 19:35 +05:45  #52 Yoga (45 min)",
+"2030-06-13 19:35 +05:45  #52 Yoga (45 min)",
+"2030-06-20 19:35 +05:45  #52 Yoga (45 min)",
+"2030-06-27 19:35 +05:45  #52 Yoga (45 min)",
+"2030-07-04 19:35 +05:45  #52 Yoga (45 min)",
+"2030-07-11 19:35 +05:45  #52 Yoga (45 min)",
+"2030-07-18 19:35 +05:45  #52 Yoga (45 min)",
+"2030-07-25 19:35 +05:45  #52 Yoga (45 min)",
+"2030-08-01 19:35 +05:45  #52 Yoga (45 min)",
+"2030-08-08 19:35 +05:45  #52 Yoga (45 min)",
+"2030-08-15 19:35 +05:45  #52 Yoga (45 min)",
+"2030-08-22 19:35 +05:45  #52 Yoga (45 min)",
+"2030-08-29 19:35 +05:45  #52 Yoga (45 min)",
+"2030-09-05 19:35 +05:45  #52 Yoga (45 min)",
+"2030-09-12 19:35 +05:45  #52 Yoga (45 min)",
+"2030-09-19 19:35 +05:45  #52 Yoga (45 min)",
+"2030-09-26 19:35 +05:45  #52 Yoga (45 min)",
+"2030-10-03 19:35 +05:45  #52 Yoga (45 min)",
+"2030-10-10 19:35 +05:45  #52 Yoga (45 min)",
+"2030-10-17 19:35 +05:45  #52 Yoga (45 min)",
+"2030-10-24 19:35 +05:45  #52 Yoga (45 min)",
+"2030-10-31 19:35 +05:45  #52 Yoga (45 min)",
+"2030-11-07 19:35 +05:45  #52 Yoga (45 min)",
+"2030-11-14 19:35 +05:45  #52 Yoga (45 min)",
+"2030-11-21 19:35 +05:45  #52 Yoga (45 min)",
+"2030-11-28 19:35 +05:45  #52 Yoga (45 min)",
+"2030-12-05 19:35 +05:45  #52 Yoga (45 min)",
+"2030-12-12 19:35 +05:45  #52 Yoga (45 min)",
+"2030-12-19 19:35 +05:45  #52 Yoga (45 min)",
+"2030-12-26 19:35 +05:45  #52 Yoga (45 min)"
+]
+},
+{
+"from": "2025-03-01",
+"to": "2025-06-30",
+"lines": [
+"2025-03-01 05:40 -10:00  #1115 Team retro (30 min)",
+"2025-03-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2025-03-06 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-07 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-13 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-14 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-20 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-21 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-03-27 19:35 +05:45  #52 Yoga (45 min)",
+"2025-03-28 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-03 15:40 +02:00  #4095 Kickoff (60 min)",
+"2025-04-03 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-04 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-10 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-11 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-17 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-18 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-04-24 19:35 +05:45  #52 Yoga (45 min)",
+"2025-04-25 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-01 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-05-02 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-08 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-09 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-15 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-16 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-22 01:45 -04:00  #3640 Book club (600 min)",
+"2025-05-22 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-23 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-05-29 22:25 +10:00  #4693 Lúnch with client (90 min)",
+"2025-05-29 19:35 +05:45  #52 Yoga (45 min)",
+"2025-05-30 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2025-06-05 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-06 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-07 08:10 -10:00  #2873 Bûdget sýnç (60 min)",
+"2025-06-12 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-13 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-19 05:40 +09:00  #1595 Bóok clüb (30 min)",
+"2025-06-19 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-20 15:15 -10:00  #4285 Quarterly planning (15 min)",
+"2025-06-26 19:35 +05:45  #52 Yoga (45 min)",
+"2025-06-27 15:15 -10:00  #4285 Quarterly planning (15 min)"
+]
+},
+{
+"from": "2026-01-01",
+"to": "2026-01-31",
+"lines": [
+"2026-01-01 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-02 21:45 +02:00  #663 Ståndup (45 min)",
+"2026-01-03 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-08 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-10 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-14 00:45 -04:00  #830 Team retro (600 min)",
+"2026-01-15 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-17 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-22 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-24 08:15 +10:00  #317 Visít to factorÿ (45 min)",
+"2026-01-29 19:35 +05:45  #52 Yoga (45 min)",
+"2026-01-31 08:15 +10:00  #317 Visít to factorÿ (45 min)"
+]
+},
+{
+"from": "2027-01-01",
+"to": "2027-12-31",
+"lines": [
+"2027-01-07 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-08 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-10 05:20 +05:30  #3824 Dentist (45 min)",
+"2027-01-14 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-15 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-21 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-22 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-28 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-29 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-29 06:45 +05:45  #3424 Interview (120 min)",
+"2027-02-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-05 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-02-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-25 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-03-25 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-01 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-08 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-15 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-22 19:35 +05:45  #52 Yoga (45 min)",
+"2027-04-29 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-06 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-13 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-20 19:35 +05:45  #52 Yoga (45 min)",
+"2027-05-27 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-03 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-10 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2027-06-17 19:35 +05:45  #52 Yoga (45 min)",
+"2027-06-24 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-01 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-08 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-15 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-22 19:35 +05:45  #52 Yoga (45 min)",
+"2027-07-29 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-05 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-12 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-19 19:35 +05:45  #52 Yoga (45 min)",
+"2027-08-26 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-02 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-09 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2027-09-16 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-23 19:35 +05:45  #52 Yoga (45 min)",
+"2027-09-30 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-07 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-14 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-21 19:35 +05:45  #52 Yoga (45 min)",
+"2027-10-28 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-11-25 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-02 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-09 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2027-12-16 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-23 19:35 +05:45  #52 Yoga (45 min)",
+"2027-12-30 19:35 +05:45  #52 Yoga (45 min)"
+]
+},
+{
+"from": "2026-07-01",
+"to": "2027-02-28",
+"lines": [
+"2026-07-02 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-09 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-16 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-23 19:35 +05:45  #52 Yoga (45 min)",
+"2026-07-30 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-06 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-13 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-20 19:35 +05:45  #52 Yoga (45 min)",
+"2026-08-27 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-03 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-10 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2026-09-17 19:35 +05:45  #52 Yoga (45 min)",
+"2026-09-24 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-01 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-08 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-15 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-22 19:35 +05:45  #52 Yoga (45 min)",
+"2026-10-29 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-05 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-12 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-15 19:20 +02:00  #1653 (untitled) (90 min)",
+"2026-11-19 19:35 +05:45  #52 Yoga (45 min)",
+"2026-11-24 23:15 +00:00  #1808 Visit tö factory (60 min)",
+"2026-11-26 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-03 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-10 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-14 02:35 +05:45  #1295 Ýoga (0 min)",
+"2026-12-17 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-24 19:35 +05:45  #52 Yoga (45 min)",
+"2026-12-29 22:10 +08:45  #162 Quarterly planning (240 min)",
+"2026-12-31 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-07 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-08 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-10 05:20 +05:30  #3824 Dentist (45 min)",
+"2027-01-14 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-15 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-21 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-22 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-28 19:35 +05:45  #52 Yoga (45 min)",
+"2027-01-29 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-01-29 06:45 +05:45  #3424 Interview (120 min)",
+"2027-02-04 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-05 03:35 +09:00  #3809 (untitled) (60 min)",
+"2027-02-11 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-18 19:35 +05:45  #52 Yoga (45 min)",
+"2027-02-25 19:35 +05:45  #52 Yoga (45 min)"
+]
+}
+]
+}

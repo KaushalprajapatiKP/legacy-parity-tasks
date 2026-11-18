@@ -1,0 +1,234 @@
+C=======================================================================
+C     HYDRO 1.8  -  INPUT CARDS
+C=======================================================================
+C
+C     INPUT  -  READ THE DECK UNTIL AN END CARD OR END OF FILE
+C
+      SUBROUTINE INPUT
+      INCLUDE 'HYDRO.INC'
+      CHARACTER*80 BUF
+      INTEGER IOS
+C
+   10 READ (5,'(A)',IOSTAT=IOS) BUF
+      IF (IOS .NE. 0) RETURN
+      LINE = LINE + 1
+      IF (BUF(1:1) .EQ. '*') GOTO 10
+      CALL SPLIT(BUF)
+      IF (NFLD .EQ. 0) GOTO 10
+C
+      IF (FIELD(1) .EQ. 'END') THEN
+         RETURN
+      ELSE IF (FIELD(1) .EQ. 'TITLE') THEN
+         CALL TITCRD(BUF)
+      ELSE IF (FIELD(1) .EQ. 'OPTION') THEN
+         CALL OPTCRD
+      ELSE IF (FIELD(1) .EQ. 'JUNCTION') THEN
+         CALL JUNCRD
+      ELSE IF (FIELD(1) .EQ. 'RESERVOIR') THEN
+         CALL RESCRD
+      ELSE IF (FIELD(1) .EQ. 'PIPE') THEN
+         CALL PIPCRD
+      ELSE IF (FIELD(1) .EQ. 'PUMP') THEN
+         CALL PMPCRD
+      ELSE
+         CALL FATAL('UNKNOWN CARD '//FIELD(1)(1:12))
+      ENDIF
+      GOTO 10
+      END
+C
+C     SPLIT  -  BREAK A CARD INTO BLANK-DELIMITED FIELDS
+C
+      SUBROUTINE SPLIT(BUF)
+      INCLUDE 'HYDRO.INC'
+      CHARACTER*(*) BUF
+      INTEGER I, I0
+      LOGICAL INWORD
+      NFLD = 0
+      INWORD = .FALSE.
+      I0 = 1
+      DO 20 I = 1, LEN(BUF)
+         IF (ICHAR(BUF(I:I)) .EQ. 9) BUF(I:I) = ' '
+         IF (BUF(I:I) .NE. ' ') THEN
+            IF (INWORD .EQ. .FALSE.) THEN
+               INWORD = .TRUE.
+               I0 = I
+            ENDIF
+         ELSE IF (INWORD) THEN
+            INWORD = .FALSE.
+            IF (NFLD .LT. 12) THEN
+               NFLD = NFLD + 1
+               FIELD(NFLD) = BUF(I0:I-1)
+            ENDIF
+         ENDIF
+   20 CONTINUE
+      IF (INWORD .AND. NFLD .LT. 12) THEN
+         NFLD = NFLD + 1
+         FIELD(NFLD) = BUF(I0:)
+      ENDIF
+      RETURN
+      END
+C
+C     TITCRD  -  TITLE TEXT (FIRST 40 CHARACTERS AFTER THE KEYWORD)
+C
+      SUBROUTINE TITCRD(BUF)
+      INCLUDE 'HYDRO.INC'
+      CHARACTER*(*) BUF
+      INTEGER I
+      I = INDEX(BUF, 'TITLE') + 5
+      TITLE = ' '
+   10 IF (I .LE. LEN(BUF)) THEN
+         IF (BUF(I:I) .EQ. ' ') THEN
+            I = I + 1
+            GOTO 10
+         ENDIF
+         TITLE = BUF(I:)
+      ENDIF
+      RETURN
+      END
+C
+C     OPTCRD  -  OPTION TOL VALUE / OPTION MAXIT VALUE / OPTION METHOD HC|GGA
+C
+      SUBROUTINE OPTCRD
+      INCLUDE 'HYDRO.INC'
+      DOUBLE PRECISION X
+      IF (NFLD .LT. 3) CALL FATAL('MISSING DATA')
+      IF (FIELD(2) .EQ. 'METHOD') THEN
+         IF (FIELD(3) .EQ. 'HC') THEN
+            METHOD = 2
+         ELSE IF (FIELD(3) .EQ. 'GGA') THEN
+            METHOD = 1
+         ELSE
+            CALL FATAL('UNKNOWN METHOD '//FIELD(3)(1:12))
+         ENDIF
+         RETURN
+      ENDIF
+      CALL RNUM(FIELD(3), X)
+      IF (FIELD(2) .EQ. 'TOL') THEN
+         ACCUR = X
+      ELSE IF (FIELD(2) .EQ. 'MAXIT') THEN
+         ITMAX = INT(X)
+      ENDIF
+      RETURN
+      END
+C
+C     JUNCRD  -  JUNCTION ID ELEVATION DEMAND
+C
+      SUBROUTINE JUNCRD
+      INCLUDE 'HYDRO.INC'
+      IF (NFLD .LT. 4) CALL FATAL('MISSING DATA')
+      IF (NNODES .GE. MXNODE) CALL FATAL('TOO MANY NODES')
+      NNODES = NNODES + 1
+      NODEID(NNODES) = FIELD(2)
+      NODTYP(NNODES) = 1
+      CALL RNUM(FIELD(3), ZNODE(NNODES))
+      CALL RNUM(FIELD(4), QDEM(NNODES))
+C     DEMANDS ARE ENTERED IN LITRES PER SECOND
+      QDEM(NNODES) = QDEM(NNODES)/1000.0D0
+      HNODE(NNODES) = 0.0D0
+      RETURN
+      END
+C
+C     RESCRD  -  RESERVOIR ID HEAD
+C
+      SUBROUTINE RESCRD
+      INCLUDE 'HYDRO.INC'
+      IF (NFLD .LT. 3) CALL FATAL('MISSING DATA')
+      IF (NNODES .GE. MXNODE) CALL FATAL('TOO MANY NODES')
+      NNODES = NNODES + 1
+      NODEID(NNODES) = FIELD(2)
+      NODTYP(NNODES) = 2
+      CALL RNUM(FIELD(3), ZNODE(NNODES))
+      QDEM(NNODES) = 0.0D0
+      HNODE(NNODES) = ZNODE(NNODES)
+      RETURN
+      END
+C
+C     PIPCRD  -  PIPE ID FROM TO LENGTH(M) DIAMETER(MM) ROUGHNESS(MM) [K]
+C
+      SUBROUTINE PIPCRD
+      INCLUDE 'HYDRO.INC'
+      INTEGER L
+      IF (NFLD .LT. 7) CALL FATAL('MISSING DATA')
+      CALL NEWLNK(L, 1)
+      CALL RNUM(FIELD(5), XLEN(L))
+      CALL RNUM(FIELD(6), DIAM(L))
+      CALL RNUM(FIELD(7), ROUGH(L))
+      DIAM(L)  = DIAM(L)/1000.0D0
+      ROUGH(L) = ROUGH(L)/1000.0D0
+      XMINOR(L) = 0.0D0
+      IF (NFLD .GE. 8) CALL RNUM(FIELD(8), XMINOR(L))
+      RETURN
+      END
+C
+C     PMPCRD  -  PUMP ID FROM TO HEAD-GAIN(M)
+C
+      SUBROUTINE PMPCRD
+      INCLUDE 'HYDRO.INC'
+      INTEGER L
+      IF (NFLD .LT. 5) CALL FATAL('MISSING DATA')
+      CALL NEWLNK(L, 2)
+      CALL RNUM(FIELD(5), HPUMP(L))
+      RETURN
+      END
+C
+C     NEWLNK  -  COMMON PART OF THE LINK CARDS
+C
+      SUBROUTINE NEWLNK(L, ITYPE)
+      INCLUDE 'HYDRO.INC'
+      INTEGER L, ITYPE, NODNUM
+      IF (NLINKS .GE. MXLINK) CALL FATAL('TOO MANY LINKS')
+      NLINKS = NLINKS + 1
+      L = NLINKS
+      LINKID(L) = FIELD(2)
+      LNKTYP(L) = ITYPE
+      INODE(L) = NODNUM(FIELD(3))
+      JNODE(L) = NODNUM(FIELD(4))
+      XLEN(L) = 0.0D0
+      DIAM(L) = 0.0D0
+      ROUGH(L) = 0.0D0
+      XMINOR(L) = 0.0D0
+      HPUMP(L) = 0.0D0
+      FLOW(L) = 0.0D0
+      FRICT(L) = 0.0D0
+      RETURN
+      END
+C
+C     NODNUM  -  INDEX OF A NODE THAT HAS ALREADY BEEN DEFINED
+C
+      INTEGER FUNCTION NODNUM(NAME)
+      INCLUDE 'HYDRO.INC'
+      CHARACTER*(*) NAME
+      CHARACTER*6 NM
+      INTEGER I
+      NM = NAME
+      DO 10 I = 1, NNODES
+         IF (NODEID(I) .EQ. NM) THEN
+            NODNUM = I
+            RETURN
+         ENDIF
+   10 CONTINUE
+      CALL FATAL('NODE NOT FOUND '//NM)
+      NODNUM = 0
+      RETURN
+      END
+C
+C     RNUM  -  READ A NUMBER FROM A FIELD
+C
+      SUBROUTINE RNUM(STR, X)
+      CHARACTER*(*) STR
+      DOUBLE PRECISION X
+      INTEGER IOS
+      READ (STR,*,IOSTAT=IOS) X
+      IF (IOS .NE. 0) CALL FATAL('BAD NUMBER '//STR(1:12))
+      RETURN
+      END
+C
+C     FATAL  -  REPORT AN INPUT ERROR AND STOP
+C
+      SUBROUTINE FATAL(MSG)
+      INCLUDE 'HYDRO.INC'
+      CHARACTER*(*) MSG
+      WRITE (6,1000) LINE, MSG
+      STOP
+ 1000 FORMAT (1X,'INPUT ERROR AT LINE',I4,': ',A,'  (SEE THE USER MANUAL)')
+      END

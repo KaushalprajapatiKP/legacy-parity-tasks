@@ -1,0 +1,8362 @@
+{
+"issues": [
+[
+"sync-0102.obk",
+"checksum"
+]
+],
+"cases": {
+"49": {
+"features": [
+"attachment_blob",
+"attachment_blob_unavailable",
+"cross_references",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_v2_latin1",
+"unknown_fields",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+49,
+"person",
+6
+]
+],
+"people": [
+[
+49,
+"Celinè Andersen",
+"+44 52 6810 4169",
+"1992-01-14",
+446
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+49,
+0,
+"lost.bin",
+"application/octet-stream",
+null,
+null
+]
+],
+"deleted": [],
+"history": [
+[
+49,
+1
+],
+[
+49,
+2
+]
+]
+}
+},
+"54": {
+"features": [
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+54,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+54,
+"Teãm retro",
+"2026-12-05 19:30",
+-300,
+120,
+"Café Cèntral",
+"yearly",
+1,
+null,
+"2028-07-14"
+]
+],
+"event_exceptions": [
+[
+54,
+"2027-12-05"
+],
+[
+54,
+"2032-12-05"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"78": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+78,
+"person",
+2
+]
+],
+"people": [
+[
+78,
+"Lars Lefevre",
+null,
+"1957-03-21",
+3865
+]
+],
+"person_emails": [
+[
+78,
+0,
+"lars.34@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"100": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+100,
+"org",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+100,
+"Nordlicht SARL",
+null,
+"Rue de la Paix 107\nFloor 9\n86995 Reykjavík",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"116": {
+"features": [
+"dates_packed",
+"kind_person"
+],
+"rows": {
+"records": [
+[
+116,
+"person",
+1
+]
+],
+"people": [
+[
+116,
+"Pablo Nunez",
+null,
+"1996-09-13",
+null
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"152": {
+"features": [
+"kind_org",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+152,
+"org",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+152,
+"Garteñ Ltd",
+"https://www.bureau.example",
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+152,
+1
+],
+[
+152,
+2
+]
+]
+}
+},
+"180": {
+"features": [
+"dates_packed",
+"free_list_ghost",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+180,
+"person",
+8
+]
+],
+"people": [
+[
+180,
+"Aurelie Garcia",
+"+44 29 7108 2100",
+"1946-04-15",
+null
+]
+],
+"person_emails": [
+[
+180,
+0,
+"aurelie.66@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+180,
+3
+],
+[
+180,
+6
+]
+]
+}
+},
+"195": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"resurrected",
+"revisions_latest_wins",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+195,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+195,
+"Standup",
+"2026-08-07 19:50",
+60,
+30,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+195,
+0,
+3802
+],
+[
+195,
+1,
+554
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+195,
+1
+]
+]
+}
+},
+"263": {
+"features": [
+"attachment_rle",
+"kind_note"
+],
+"rows": {
+"records": [
+[
+263,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+263,
+null,
+"Discussed the renewal terms."
+]
+],
+"note_links": [],
+"attachments": [
+[
+263,
+0,
+"scan.pdf",
+"application/pdf",
+125,
+"c32e2053e9010f3a14e46bc6308b01c03bd97ada6335fd543d09e93df706f5c6"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"284": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_file_default",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+284,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+284,
+null,
+"2026-07-30 05:25",
+330,
+30,
+"Hôtel de Vïllè",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+284,
+0,
+1707
+],
+[
+284,
+1,
+539
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"365": {
+"features": [
+"free_list_ghost",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+365,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+365,
+"Fix bike",
+null,
+1,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"446": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+446,
+"org",
+14
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+446,
+"Stüdio Inc",
+"https://www.bureau.example",
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+446,
+3
+],
+[
+446,
+7
+],
+[
+446,
+10
+]
+]
+}
+},
+"471": {
+"features": [
+"checksum_skipped_file",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+471,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+471,
+"Reñew passport",
+"2026-02-02",
+1,
+1,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"489": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+489,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+489,
+"Clean inbòx",
+"2023-06-10",
+0,
+0,
+116
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"516": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+516,
+"person",
+4
+]
+],
+"people": [
+[
+516,
+"Agnes Quiroga",
+"+1 65 5105 2358",
+"1982-08-04",
+null
+]
+],
+"person_emails": [
+[
+516,
+0,
+"agnes.1@corp.example.net"
+],
+[
+516,
+1,
+"agnes.16@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+516,
+3
+]
+]
+}
+},
+"539": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+539,
+"person",
+3
+]
+],
+"people": [
+[
+539,
+"Wanda Andersen",
+"+91 53 0945 2561",
+"1982-05-18",
+null
+]
+],
+"person_emails": [
+[
+539,
+0,
+"wanda.92@mail.example.org"
+],
+[
+539,
+1,
+"wanda.20@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"541": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_person",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+541,
+"person",
+3
+]
+],
+"people": [
+[
+541,
+"Agnes Ibarra",
+"+49 59 2166 6311",
+"1976-11-16",
+null
+]
+],
+"person_emails": [
+[
+541,
+0,
+"agnes.35@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+541,
+2
+]
+]
+}
+},
+"544": {
+"features": [
+"cross_references",
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+544,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+544,
+"Lógistîk Ltd",
+"https://www.logistik.example",
+"Mâin Streét 179\n74595 Århus",
+3759
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"554": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order"
+],
+"rows": {
+"records": [
+[
+554,
+"person",
+3
+]
+],
+"people": [
+[
+554,
+"Pablo Petit",
+"+49 43 5420 0025",
+"1965-01-21",
+null
+]
+],
+"person_emails": [
+[
+554,
+0,
+"pablo.9@example.com"
+],
+[
+554,
+1,
+"pablo.22@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"577": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+577,
+"person",
+10
+]
+],
+"people": [
+[
+577,
+"Añdre Ãngela",
+"+49 51 1133 0955",
+"1982-01-04",
+4624
+]
+],
+"person_emails": [
+[
+577,
+0,
+"andre.82@corp.example.net"
+],
+[
+577,
+1,
+"andre.63@mail.example.org"
+],
+[
+577,
+2,
+"andre.10@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+577,
+3
+],
+[
+577,
+6
+]
+]
+}
+},
+"630": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+630,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+630,
+"Teåm retrò",
+"2026-08-22 20:05",
+600,
+90,
+"Hôtel de Ville",
+"yearly",
+1,
+null,
+"2028-02-18"
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+630,
+0,
+4484
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+630,
+0,
+"map.gif",
+"image/gif",
+179,
+"78e6c605c78b66a688fe421e6b4320d97b3398bcb316fbf0b426768f90d3beb8"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"666": {
+"features": [
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+666,
+"person",
+6
+]
+],
+"people": [
+[
+666,
+"Rosa Nunez",
+"+33 20 1357 0462",
+null,
+null
+]
+],
+"person_emails": [
+[
+666,
+0,
+"rosa.56@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+666,
+1
+],
+[
+666,
+5
+]
+]
+}
+},
+"689": {
+"features": [
+"kind_event",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+689,
+"event",
+5
+]
+],
+"history": [
+[
+689,
+3
+]
+]
+}
+},
+"728": {
+"features": [
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+728,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+728,
+"Call back",
+"2024-08-24",
+3,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+728,
+3
+]
+]
+}
+},
+"743": {
+"features": [
+"kind_person",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+743,
+"person",
+2
+]
+],
+"history": [
+[
+743,
+1
+]
+]
+}
+},
+"776": {
+"features": [
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+776,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+776,
+"Quarterlÿ planning",
+"2025-06-23 06:15",
+60,
+90,
+"Büilding 7",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+776,
+3
+]
+]
+}
+},
+"784": {
+"features": [
+"cross_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+784,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+784,
+"Ideas",
+"Follow up next week.\nPrice agreed: €40 per unit, £35 in UK."
+]
+],
+"note_links": [
+[
+784,
+0,
+1363
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"908": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+908,
+"person",
+10
+]
+],
+"people": [
+[
+908,
+"Farid Morèau",
+"+91 97 2541 5728",
+"1961-03-27",
+4556
+]
+],
+"person_emails": [
+[
+908,
+0,
+"farid.74@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+908,
+3
+],
+[
+908,
+7
+]
+]
+}
+},
+"920": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+920,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+920,
+"Interview",
+"2025-01-29 22:30",
+0,
+30,
+"HQ lóbbÿ",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+920,
+0,
+1707
+],
+[
+920,
+1,
+3309
+],
+[
+920,
+2,
+2766
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+920,
+3
+]
+]
+}
+},
+"974": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_person",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+974,
+"person",
+3
+]
+],
+"people": [
+[
+974,
+"Aùrelie Øresund",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+974,
+0,
+"aurelie.73@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"987": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+987,
+"person",
+9
+]
+],
+"people": [
+[
+987,
+"Jonas Ulrïçh",
+"+46 31 2233 8742",
+"1991-04-29",
+null
+]
+],
+"person_emails": [
+[
+987,
+0,
+"jonas.1@example.com"
+],
+[
+987,
+1,
+"jonas.6@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+987,
+1
+],
+[
+987,
+3
+],
+[
+987,
+6
+]
+]
+}
+},
+"995": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+995,
+"event",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+995,
+null,
+"2025-06-09 12:20",
+0,
+60,
+"Online",
+"daily",
+3,
+13,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+995,
+0,
+554
+],
+[
+995,
+1,
+3309
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+995,
+0,
+"notes.txt",
+"text/plain",
+60,
+"2e738d26589f645c5652956253e7a0bc928332d3d11c43fe1de1053aa54dc56b"
+]
+],
+"deleted": [],
+"history": [
+[
+995,
+3
+],
+[
+995,
+7
+]
+]
+}
+},
+"1045": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person"
+],
+"rows": {
+"records": [
+[
+1045,
+"person",
+3
+]
+],
+"people": [
+[
+1045,
+"Olga Nunez",
+null,
+"1979-12-25",
+4624
+]
+],
+"person_emails": [
+[
+1045,
+0,
+"olga.43@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1096": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1096,
+"person",
+9
+]
+],
+"people": [
+[
+1096,
+"Ulla Fischer",
+null,
+null,
+1806
+]
+],
+"person_emails": [
+[
+1096,
+0,
+"ulla.43@corp.example.net"
+],
+[
+1096,
+1,
+"ulla.80@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1096,
+0,
+"map.gif",
+"image/gif",
+416,
+"a9235091e2ee49b7e7bc592e367c1e6bc037fcd3ce92df101f52e0cf81dcc5fe"
+]
+],
+"deleted": [],
+"history": [
+[
+1096,
+1
+],
+[
+1096,
+5
+]
+]
+}
+},
+"1143": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+1143,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1143,
+"Buy gift",
+"2023-07-11",
+0,
+0,
+1045
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1143,
+2
+]
+]
+}
+},
+"1150": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1150,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1150,
+"Ideas",
+"Remember the déjà vu story.\nCafé meetiñg went well."
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1195": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+1195,
+"task",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1195,
+"Write report",
+"2025-06-15",
+0,
+0,
+2766
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1195,
+1
+]
+]
+}
+},
+"1214": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"text_v2_latin1",
+"tz_file_default",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+1214,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1214,
+"Board meeting",
+"2025-12-30 07:20",
+0,
+60,
+"Oñline",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1214,
+0,
+2049
+],
+[
+1214,
+1,
+516
+],
+[
+1214,
+2,
+4204
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1229": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1229,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1229,
+"Ôrder toner",
+"2023-08-17",
+3,
+0,
+3893
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1229,
+1
+]
+]
+}
+},
+"1236": {
+"features": [
+"attachment_blob",
+"attachment_blob_unavailable",
+"attachment_rle",
+"kind_note",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1236,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1236,
+"Cäll notes",
+"Met at the conference.\nPrefers émail over phone."
+]
+],
+"note_links": [],
+"attachments": [
+[
+1236,
+0,
+"notes.txt",
+"text/plain",
+null,
+null
+],
+[
+1236,
+1,
+"avatar.jpg",
+"image/jpeg",
+296,
+"3908d9ef95992ed03033cb99283415de5b7837406a879dfb702994da2ca03bdc"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"1257": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1257,
+"event",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1257,
+"Kíçkõff Ûrsine",
+"2025-03-29 18:40",
+120,
+120,
+"Room 4",
+"yearly",
+3,
+null,
+null
+]
+],
+"event_exceptions": [
+[
+1257,
+"2037-03-29"
+],
+[
+1257,
+"2040-03-29"
+],
+[
+1257,
+"2043-03-29"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1257,
+1
+],
+[
+1257,
+3
+],
+[
+1257,
+4
+]
+]
+}
+},
+"1262": {
+"features": [
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1262,
+"person",
+6
+]
+],
+"people": [
+[
+1262,
+"Celiñe Moreàu",
+"+44 22 4697 4605",
+"2003-07-08",
+null
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1262,
+1
+],
+[
+1262,
+2
+]
+]
+}
+},
+"1320": {
+"features": [
+"checksum_skipped_file",
+"cross_references",
+"dangling_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+1320,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1320,
+"Budget sÿñç Dvořák",
+"2026-12-20 14:05",
+-240,
+60,
+null,
+"monthly",
+1,
+null,
+"2028-11-14"
+]
+],
+"event_exceptions": [
+[
+1320,
+"2027-06-20"
+]
+],
+"event_attendees": [
+[
+1320,
+0,
+2608
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1320,
+1
+]
+]
+}
+},
+"1363": {
+"features": [
+"kind_note",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1363,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1363,
+"Ideas",
+"Remember the déjà vu story.\nOwes us 3 boxes."
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1443": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1443,
+"person",
+3
+]
+],
+"people": [
+[
+1443,
+"Renee Fischer",
+"+33 83 9655 8868",
+"2004-01-17",
+3665
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1443,
+1
+],
+[
+1443,
+2
+]
+]
+}
+},
+"1465": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+1465,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1465,
+"Review Ëlise",
+"2026-12-28 11:10",
+330,
+15,
+"Hôtel de Vìlle",
+"weekly",
+2,
+13,
+null
+]
+],
+"event_exceptions": [
+[
+1465,
+"2027-03-08"
+],
+[
+1465,
+"2027-03-22"
+]
+],
+"event_attendees": [
+[
+1465,
+0,
+4386
+],
+[
+1465,
+1,
+3309
+],
+[
+1465,
+2,
+3893
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1482": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1482,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1482,
+"Boôk flights Øresund",
+"2025-04-04",
+1,
+0,
+666
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1482,
+1
+],
+[
+1482,
+2
+]
+]
+}
+},
+"1485": {
+"features": [
+"cross_references",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1485,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1485,
+"Çall bâck",
+null,
+0,
+0,
+1443
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1570": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"free_list_ghost",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"resurrected",
+"revisions_latest_wins",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+1570,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1570,
+"Standup",
+"2026-07-25 11:45",
+-240,
+60,
+"HQ lobby",
+"daily",
+1,
+11,
+null
+]
+],
+"event_exceptions": [
+[
+1570,
+"2026-07-29"
+]
+],
+"event_attendees": [
+[
+1570,
+0,
+1443
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1570,
+2
+]
+]
+}
+},
+"1578": {
+"features": [
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1578,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1578,
+"Send invoice",
+"2025-02-03",
+2,
+1,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1578,
+3
+]
+]
+}
+},
+"1584": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"text_table_chars",
+"tz_file_default",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1584,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1584,
+"Team retrõ",
+"2025-03-20 10:00",
+0,
+60,
+"Çoñferêncë room B",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1584,
+0,
+1262
+],
+[
+1584,
+1,
+3003
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1604": {
+"features": [
+"cross_references",
+"kind_note",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1604,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1604,
+"Call ñötes Ùrsula",
+"Price agreed: €40 per unit, £35 in UK.\nRemember the déjà vu story.\nAllergic to nuts. 東京\nNeeds the signed copy."
+]
+],
+"note_links": [
+[
+1604,
+0,
+2684
+],
+[
+1604,
+1,
+4556
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1646": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1646,
+"person",
+6
+]
+],
+"people": [
+[
+1646,
+"Lars Ibarrà",
+"+46 37 1699 1677",
+"2004-08-08",
+3073
+]
+],
+"person_emails": [
+[
+1646,
+0,
+"lars.49@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1646,
+1
+],
+[
+1646,
+5
+]
+]
+}
+},
+"1659": {
+"features": [
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1659,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+1659,
+"Call bàck Ålesund",
+null,
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1675": {
+"features": [
+"attachment_raw",
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1675,
+"event",
+11
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1675,
+"Iñterview",
+"2025-05-31 03:35",
+120,
+60,
+null,
+"weekly",
+1,
+null,
+"2027-04-22"
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1675,
+0,
+1646
+],
+[
+1675,
+1,
+1776
+],
+[
+1675,
+2,
+577
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1675,
+0,
+"map.gif",
+"image/gif",
+345,
+"b2e9343608cac8d5db868c6caed6f877658b30367be86491d1fc2f5037e9d100"
+]
+],
+"deleted": [],
+"history": [
+[
+1675,
+3
+],
+[
+1675,
+7
+]
+]
+}
+},
+"1707": {
+"features": [
+"attachment_raw",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1707,
+"person",
+4
+]
+],
+"people": [
+[
+1707,
+"Aureliè Fîscher",
+"+46 40 1187 3234",
+null,
+null
+]
+],
+"person_emails": [
+[
+1707,
+0,
+"aurelie.96@example.com"
+],
+[
+1707,
+1,
+"aurelie.20@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+1707,
+0,
+"agenda.pdf",
+"application/pdf",
+44,
+"7c98dfb8273183be11efc78f98f6019da4515294bf80a25f917e24b9cc50d420"
+]
+],
+"deleted": [],
+"history": [
+[
+1707,
+3
+]
+]
+}
+},
+"1712": {
+"features": [
+"attachment_blob",
+"attachment_blob_unavailable",
+"attachment_raw",
+"cross_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1712,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1712,
+"Gïft list",
+"Met at the çönference.\nFollöw up next week.\nCafé meeting went well."
+]
+],
+"note_links": [
+[
+1712,
+0,
+471
+]
+],
+"attachments": [
+[
+1712,
+0,
+"notes.txt",
+"text/plain",
+265,
+"23a7395c4609782c835db7797cee04ac954a22639d2c9824db81aff26dc5f8b8"
+],
+[
+1712,
+1,
+"map.gif",
+"image/gif",
+null,
+null
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"1735": {
+"features": [
+"cross_references",
+"kind_note"
+],
+"rows": {
+"records": [
+[
+1735,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1735,
+"Ideas",
+null
+]
+],
+"note_links": [
+[
+1735,
+0,
+2299
+],
+[
+1735,
+1,
+3315
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1771": {
+"features": [
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+1771,
+"event",
+10
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1771,
+"Budgët sync",
+"2025-08-03 08:05",
+330,
+45,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1771,
+1
+],
+[
+1771,
+4
+],
+[
+1771,
+7
+]
+]
+}
+},
+"1776": {
+"features": [
+"checksum_skipped_file",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+1776,
+"person",
+4
+]
+],
+"people": [
+[
+1776,
+"Jonas Dupont",
+"+49 60 5819 1868",
+"1947-05-12",
+null
+]
+],
+"person_emails": [
+[
+1776,
+0,
+"jonas.20@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1776,
+2
+]
+]
+}
+},
+"1806": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1806,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+1806,
+"Atelîer GmbH",
+null,
+"Hâuptstraße 8\n21180 Montréal",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1877": {
+"features": [
+"checksum_skipped_file",
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+1877,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1877,
+"Book club",
+"2026-04-14 07:05",
+-240,
+60,
+"Hôtel de Ville",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1877,
+0,
+4665
+],
+[
+1877,
+1,
+3756
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1877,
+3
+]
+]
+}
+},
+"1954": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+1954,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+1954,
+"Gift list",
+"Price agreed: €40 per unit, £35 in UK.\nPrefërs email over phone."
+]
+],
+"note_links": [
+[
+1954,
+0,
+1150
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"1957": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+1957,
+"event",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+1957,
+"Bòok club",
+"2026-12-30 05:00",
+60,
+45,
+"Biergarten",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+1957,
+0,
+1646
+],
+[
+1957,
+1,
+4662
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+1957,
+3
+],
+[
+1957,
+7
+]
+]
+}
+},
+"2002": {
+"features": [
+"checksum_skipped_file",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2002,
+"person",
+10
+]
+],
+"people": [
+[
+2002,
+"Âñna Olsen",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+2002,
+0,
+"anna.34@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2002,
+2
+],
+[
+2002,
+6
+]
+]
+}
+},
+"2049": {
+"features": [
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+2049,
+"person",
+9
+]
+],
+"people": [
+[
+2049,
+"Dmitri Nunez",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+2049,
+0,
+"dmitri.49@corp.example.net"
+],
+[
+2049,
+1,
+"dmitri.94@mail.example.org"
+],
+[
+2049,
+2,
+"dmitri.32@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2049,
+3
+],
+[
+2049,
+7
+]
+]
+}
+},
+"2091": {
+"features": [
+"kind_org",
+"text_escaped_codepoints",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2091,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+2091,
+"Kaffêe Œuvre GmbH",
+null,
+null,
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2147": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+2147,
+"person",
+2
+]
+],
+"people": [
+[
+2147,
+"Celinè Keller",
+"+1 34 5491 7162",
+"1948-01-15",
+4624
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2190": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2190,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2190,
+"Fix bikê",
+"2025-11-28",
+2,
+0,
+2002
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2239": {
+"features": [
+"kind_recurring",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2239,
+"event",
+4
+]
+],
+"history": [
+[
+2239,
+2
+]
+]
+}
+},
+"2276": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+2276,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2276,
+"Review",
+"2027-01-31 17:35",
+-240,
+60,
+null,
+"yearly",
+1,
+null,
+"2029-01-02"
+]
+],
+"event_exceptions": [
+[
+2276,
+"2029-01-31"
+],
+[
+2276,
+"2031-01-31"
+]
+],
+"event_attendees": [
+[
+2276,
+0,
+666
+],
+[
+2276,
+1,
+1443
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2283": {
+"features": [
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2283,
+"event",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2283,
+"Standup",
+"2024-11-04 22:25",
+-300,
+30,
+"Roòm 4",
+"yearly",
+1,
+null,
+"2026-03-07"
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2283,
+1
+],
+[
+2283,
+3
+]
+]
+}
+},
+"2295": {
+"features": [
+"attachment_raw",
+"cross_references",
+"dates_packed",
+"kind_event",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+2295,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2295,
+"Interview",
+"2026-02-11 19:25",
+330,
+90,
+"HQ lobby",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+2295,
+0,
+987
+],
+[
+2295,
+1,
+554
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+2295,
+0,
+"map.gif",
+"image/gif",
+34,
+"fc5698ffc85dd69d438b163f20b01d151926b138e06576ca86097a85641becfe"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"2299": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2299,
+"org",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+2299,
+"Mobilìte GmbH",
+null,
+"Storgatan 40\n65180 Århus",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2299,
+1
+],
+[
+2299,
+5
+]
+]
+}
+},
+"2361": {
+"features": [
+"kind_person",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+2361,
+"person",
+11
+]
+],
+"people": [
+[
+2361,
+"Greta Torres",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+2361,
+0,
+"greta.3@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2361,
+2
+],
+[
+2361,
+5
+],
+[
+2361,
+8
+]
+]
+}
+},
+"2493": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_file_default",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2493,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2493,
+"Call supplier",
+"2025-06-22 03:40",
+330,
+60,
+"HQ lobby",
+"monthly",
+2,
+null,
+"2026-01-20"
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+2493,
+0,
+577
+],
+[
+2493,
+1,
+516
+],
+[
+2493,
+2,
+2361
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2493,
+1
+]
+]
+}
+},
+"2551": {
+"features": [
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+2551,
+"task",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2551,
+"Call back",
+null,
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2551,
+2
+],
+[
+2551,
+3
+],
+[
+2551,
+5
+]
+]
+}
+},
+"2556": {
+"features": [
+"checksum_skipped_file",
+"kind_person",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2556,
+"person",
+3
+]
+],
+"history": [
+[
+2556,
+2
+]
+]
+}
+},
+"2584": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2584,
+"note",
+9
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2584,
+"Meetíng notes",
+"Remember the déjà vu story. þorp\nMêt at the conference."
+]
+],
+"note_links": [
+[
+2584,
+0,
+3309
+],
+[
+2584,
+1,
+1570
+],
+[
+2584,
+2,
+2831
+]
+],
+"attachments": [
+[
+2584,
+0,
+"avatar.jpg",
+"image/jpeg",
+307,
+"32335a24653a244581d8f025204a29689380fa8e555d9458bc289a78cdc60850"
+]
+],
+"deleted": [],
+"history": [
+[
+2584,
+3
+],
+[
+2584,
+7
+],
+[
+2584,
+8
+]
+]
+}
+},
+"2608": {
+"features": [
+"attachment_rle",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2608,
+"person",
+9
+]
+],
+"people": [
+[
+2608,
+"Ãndre Erdős",
+"+49 88 4349 9724",
+"1979-01-11",
+null
+]
+],
+"person_emails": [
+[
+2608,
+0,
+"andre.38@mail.example.org"
+],
+[
+2608,
+1,
+"andre.56@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+2608,
+0,
+"map.gif",
+"image/gif",
+362,
+"58467a1921bc6967314fe8780d1028c8aae60ce82f6b5fcb0569c1d41d27aebd"
+]
+],
+"deleted": [],
+"history": [
+[
+2608,
+2
+]
+]
+}
+},
+"2615": {
+"features": [
+"cross_references",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2615,
+"person",
+4
+]
+],
+"people": [
+[
+2615,
+"Wanda Ëlise",
+null,
+null,
+2299
+]
+],
+"person_emails": [
+[
+2615,
+0,
+"wanda.71@example.com"
+],
+[
+2615,
+1,
+"wanda.44@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2615,
+2
+]
+]
+}
+},
+"2671": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2671,
+"note",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2671,
+"Remiñdër",
+null
+]
+],
+"note_links": [
+[
+2671,
+0,
+544
+],
+[
+2671,
+1,
+1707
+],
+[
+2671,
+2,
+2946
+]
+],
+"attachments": [
+[
+2671,
+0,
+"agenda.pdf",
+"application/pdf",
+416,
+"a9235091e2ee49b7e7bc592e367c1e6bc037fcd3ce92df101f52e0cf81dcc5fe"
+]
+],
+"deleted": [],
+"history": [
+[
+2671,
+3
+],
+[
+2671,
+6
+]
+]
+}
+},
+"2684": {
+"features": [
+"dates_packed",
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+2684,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2684,
+"Call back",
+"2027-12-31",
+0,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2692": {
+"features": [
+"kind_note",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+2692,
+"note",
+2
+]
+],
+"history": [
+[
+2692,
+1
+]
+]
+}
+},
+"2740": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dates_packed",
+"kind_event",
+"revisions_latest_wins",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2740,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2740,
+"Call supplier",
+"2026-09-23 21:35",
+-210,
+120,
+"HQ lobby",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+2740,
+0,
+3003
+],
+[
+2740,
+1,
+1443
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+2740,
+0,
+"photo.png",
+"image/png",
+166,
+"57de65b9b25a19863e4dc471dbdb3d63a79dfe5b1a671fc29c884be0a4a5a83c"
+]
+],
+"deleted": [],
+"history": [
+[
+2740,
+3
+]
+]
+}
+},
+"2757": {
+"features": [
+"cross_references",
+"free_list_ghost",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2757,
+"task",
+11
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2757,
+"Send iñvoice smørrebrød",
+null,
+2,
+1,
+116
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2757,
+2
+],
+[
+2757,
+6
+],
+[
+2757,
+7
+]
+]
+}
+},
+"2766": {
+"features": [
+"attachment_blob",
+"attachment_blob_unavailable",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+2766,
+"person",
+8
+]
+],
+"people": [
+[
+2766,
+"Joåo Erikseñ",
+"+44 19 9788 4157",
+"2004-05-03",
+null
+]
+],
+"person_emails": [
+[
+2766,
+0,
+"joao.36@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+2766,
+0,
+"photo.png",
+"image/png",
+null,
+null
+]
+],
+"deleted": [],
+"history": [
+[
+2766,
+2
+],
+[
+2766,
+6
+]
+]
+}
+},
+"2806": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+2806,
+"event",
+7
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2806,
+null,
+"2025-03-17 11:00",
+-210,
+60,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+2806,
+0,
+3756
+],
+[
+2806,
+1,
+2049
+],
+[
+2806,
+2,
+1096
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2806,
+3
+]
+]
+}
+},
+"2831": {
+"features": [
+"dates_packed",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+2831,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2831,
+null,
+"2025-12-02 16:15",
+120,
+240,
+"Hôtel de Ville",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2831,
+2
+]
+]
+}
+},
+"2833": {
+"features": [
+"kind_person",
+"text_escaped_codepoints",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2833,
+"person",
+1
+]
+],
+"people": [
+[
+2833,
+"Victor Dvořák",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+2833,
+0,
+"victor.40@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2871": {
+"features": [
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2871,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2871,
+"Clean îñbox",
+null,
+3,
+1,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2871,
+1
+],
+[
+2871,
+3
+]
+]
+}
+},
+"2946": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+2946,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+2946,
+null,
+"Needs the signed copy. Ûrsiñe\nPrefers email over phone. Ïsolde"
+]
+],
+"note_links": [
+[
+2946,
+0,
+365
+]
+],
+"attachments": [
+[
+2946,
+0,
+"map.gif",
+"image/gif",
+318,
+"48c62358d6c0166c9c88429e81c143d1cbd85b86eb708e47978a8ec25acbc084"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"2972": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+2972,
+"task",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+2972,
+"Fix bikë",
+"2025-07-08",
+2,
+1,
+2615
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"2985": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+2985,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+2985,
+"Call súpplíer",
+"2024-10-14 04:25",
+0,
+60,
+"Hôtèl de Ville",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+2985,
+0,
+3315
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+2985,
+2
+]
+]
+}
+},
+"3003": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_person",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3003,
+"person",
+2
+]
+],
+"people": [
+[
+3003,
+"Wañda Dupont",
+"+49 14 0325 6001",
+null,
+3759
+]
+],
+"person_emails": [
+[
+3003,
+0,
+"wanda.43@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3003,
+0,
+"notes.txt",
+"text/plain",
+307,
+"32335a24653a244581d8f025204a29689380fa8e555d9458bc289a78cdc60850"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3031": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3031,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3031,
+"Renew passport Ïsolde",
+"2025-08-26",
+3,
+0,
+974
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3031,
+2
+]
+]
+}
+},
+"3039": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3039,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3039,
+"Budget sync",
+"2024-11-28 00:15",
+60,
+120,
+"Café Central",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3073": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3073,
+"org",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3073,
+"Lôgïstík Ltd",
+"https://www.studio.example",
+"Çalle Mayòr 144\nFloor 12\n04369 Göteborg",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3108": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_note",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3108,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3108,
+null,
+"Allergic tô nuts."
+]
+],
+"note_links": [
+[
+3108,
+0,
+1675
+]
+],
+"attachments": [
+[
+3108,
+0,
+"scan.pdf",
+"application/pdf",
+307,
+"32335a24653a244581d8f025204a29689380fa8e555d9458bc289a78cdc60850"
+],
+[
+3108,
+1,
+"photo.png",
+"image/png",
+318,
+"48c62358d6c0166c9c88429e81c143d1cbd85b86eb708e47978a8ec25acbc084"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3233": {
+"features": [
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3233,
+"task",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3233,
+"Call back",
+"2025-04-24",
+3,
+1,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3233,
+3
+]
+]
+}
+},
+"3240": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+3240,
+"task",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3240,
+"Pay rent",
+"2023-08-15",
+3,
+1,
+1096
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3240,
+3
+],
+[
+3240,
+6
+]
+]
+}
+},
+"3284": {
+"features": [
+"attachment_blob",
+"attachment_rle",
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3284,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3284,
+null,
+"Priçe agreed: €40 per unit, £35 in UK.\nNeeds the signed copý.\nDiscussed the rénewal terms."
+]
+],
+"note_links": [
+[
+3284,
+0,
+3865
+],
+[
+3284,
+1,
+263
+]
+],
+"attachments": [
+[
+3284,
+0,
+"avatar.jpg",
+"image/jpeg",
+381,
+"f504a62c767b4822f3611c457da19706225ccab8e5130976618817052f1287c6"
+],
+[
+3284,
+1,
+"photo.png",
+"image/png",
+408,
+"13dccf9a1f80d90363767a3e6897327ac66b014fafa411cc971d45703e1aa348"
+]
+],
+"deleted": [],
+"history": [
+[
+3284,
+1
+]
+]
+}
+},
+"3304": {
+"features": [
+"attachment_blob",
+"attachment_rle",
+"cross_references",
+"dangling_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3304,
+"note",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3304,
+null,
+"Café meêting went well."
+]
+],
+"note_links": [
+[
+3304,
+0,
+3893
+]
+],
+"attachments": [
+[
+3304,
+0,
+"notes.txt",
+"text/plain",
+250,
+"a1a66c27ce7419dd7f921512fb4fb50e004af7699663bf6bc85ee379f98e618c"
+],
+[
+3304,
+1,
+"scan.pdf",
+"application/pdf",
+203,
+"8504f65f7200de0eaf920ef077cfe45a4efad8d97d5e532f3bffc5d7525967cc"
+]
+],
+"deleted": [],
+"history": [
+[
+3304,
+2
+],
+[
+3304,
+4
+]
+]
+}
+},
+"3309": {
+"features": [
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3309,
+"person",
+7
+]
+],
+"people": [
+[
+3309,
+"Miå Quïroga",
+null,
+null,
+null
+]
+],
+"person_emails": [
+[
+3309,
+0,
+"mia.40@corp.example.net"
+],
+[
+3309,
+1,
+"mia.87@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3309,
+3
+],
+[
+3309,
+5
+]
+]
+}
+},
+"3315": {
+"features": [
+"attachment_blob",
+"dates_packed",
+"kind_person",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3315,
+"person",
+1
+]
+],
+"people": [
+[
+3315,
+"Ülla Dupont",
+null,
+"1941-08-09",
+null
+]
+],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3315,
+0,
+"scan.pdf",
+"application/pdf",
+381,
+"f504a62c767b4822f3611c457da19706225ccab8e5130976618817052f1287c6"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3316": {
+"features": [
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"text_v2_latin1",
+"unknown_fields",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+3316,
+"task",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3316,
+"Fix bike Øresund",
+"2024-04-10",
+3,
+0,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3316,
+1
+]
+]
+}
+},
+"3428": {
+"features": [
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3428,
+"note",
+11
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3428,
+"Ideas",
+"Discussed the rënewal terms.\nOwes us 3 boxes. Ïsolde\nPrefërs email over phone."
+]
+],
+"note_links": [
+[
+3428,
+0,
+2091
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3428,
+3
+],
+[
+3428,
+6
+],
+[
+3428,
+8
+]
+]
+}
+},
+"3460": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3460,
+"event",
+4
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3460,
+"Vîsit to factory",
+"2026-08-15 02:45",
+540,
+60,
+"Room 4",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3460,
+0,
+3893
+],
+[
+3460,
+1,
+554
+],
+[
+3460,
+2,
+180
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3460,
+2
+]
+]
+}
+},
+"3465": {
+"features": [
+"kind_task",
+"task_state_bits"
+],
+"rows": {
+"records": [
+[
+3465,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3465,
+"File taxes",
+null,
+2,
+1,
+null
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3482": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3482,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3482,
+"Bôok club",
+"2025-03-24 19:40",
+-600,
+60,
+"Conferençe room B",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3482,
+0,
+3802
+],
+[
+3482,
+1,
+4484
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3482,
+0,
+"scan.pdf",
+"application/pdf",
+206,
+"6f7021526f17f142d7ef79885ec8d3ccfaf307b9f56170e9f73ec6b1280ac28d"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3524": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_note",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3524,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3524,
+"Ideàs",
+"Discussed the renewal terms.\nAllergic to nuts."
+]
+],
+"note_links": [
+[
+3524,
+0,
+3802
+]
+],
+"attachments": [
+[
+3524,
+0,
+"agenda.pdf",
+"application/pdf",
+416,
+"a9235091e2ee49b7e7bc592e367c1e6bc037fcd3ce92df101f52e0cf81dcc5fe"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3538": {
+"features": [
+"attachment_blob",
+"kind_note",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3538,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3538,
+"Ideas",
+"Follow up next week.\nÅllergic to nuts.\nNeeds the signed copy."
+]
+],
+"note_links": [],
+"attachments": [
+[
+3538,
+0,
+"map.gif",
+"image/gif",
+155,
+"89f25b4315d649614a5fd0b96943c71e5dc7956de494e9e4cf7d72bf853871ae"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3624": {
+"features": [
+"free_list_ghost",
+"kind_note",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3624,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3624,
+"Remiñder",
+"Remember the déjà vu story. þorp\nCafé meeting went well.\nPrice agreed: €40 per unit, £35 in UK."
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3648": {
+"features": [
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+3648,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3648,
+"Call notes",
+null
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3648,
+1
+]
+]
+}
+},
+"3658": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+3658,
+"task",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3658,
+"Câll back",
+"2024-08-04",
+0,
+0,
+78
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3665": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3665,
+"org",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3665,
+"Mobilité Inc",
+null,
+"Mâin Streèt 165\n51933 São Paulo",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3756": {
+"features": [
+"attachment_blob",
+"cross_references",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3756,
+"person",
+4
+]
+],
+"people": [
+[
+3756,
+"Agnes Quiroga",
+"+46 24 4088 9952",
+null,
+2299
+]
+],
+"person_emails": [
+[
+3756,
+0,
+"agnes.64@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3756,
+0,
+"photo.png",
+"image/png",
+381,
+"f504a62c767b4822f3611c457da19706225ccab8e5130976618817052f1287c6"
+]
+],
+"deleted": [],
+"history": [
+[
+3756,
+3
+]
+]
+}
+},
+"3759": {
+"features": [
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3759,
+"org",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3759,
+"Kaffee Ltd",
+"https://www.studio.example",
+"Kungsgatan 27\n40539 Málaga",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3759,
+2
+],
+[
+3759,
+5
+]
+]
+}
+},
+"3774": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+3774,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3774,
+"Review",
+"2026-07-23 03:05",
+330,
+45,
+null,
+"monthly",
+1,
+5,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+3774,
+0,
+180
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3794": {
+"features": [
+"kind_note",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+3794,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3794,
+null,
+"Remember the déjà vu story. Þóra"
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3802": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"multi_value_order"
+],
+"rows": {
+"records": [
+[
+3802,
+"person",
+3
+]
+],
+"people": [
+[
+3802,
+"Lars Torres",
+"+44 21 4504 0669",
+"1965-09-02",
+3665
+]
+],
+"person_emails": [
+[
+3802,
+0,
+"lars.42@corp.example.net"
+],
+[
+3802,
+1,
+"lars.44@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3819": {
+"features": [
+"attachment_rle",
+"dates_packed",
+"kind_event",
+"text_table_chars",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+3819,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+3819,
+"Budgêt sÿnç",
+"2024-10-28 22:05",
+330,
+15,
+null,
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3819,
+0,
+"scan.pdf",
+"application/pdf",
+350,
+"3dfea23bd15898df6c4180825305e70ab34ebe089081d13e0a9ba1f1e33ec00a"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"3832": {
+"features": [
+"cross_references",
+"dangling_references",
+"kind_note"
+],
+"rows": {
+"records": [
+[
+3832,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+3832,
+null,
+"Prefers email over phone."
+]
+],
+"note_links": [
+[
+3832,
+0,
+3309
+],
+[
+3832,
+1,
+1735
+]
+],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"3861": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"revisions_across_files",
+"revisions_latest_wins",
+"task_state_bits",
+"unknown_fields",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+3861,
+"task",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+3861,
+"Update CRM",
+"2023-01-16",
+0,
+0,
+1707
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3861,
+1
+],
+[
+3861,
+4
+]
+]
+}
+},
+"3865": {
+"features": [
+"kind_org",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+3865,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+3865,
+"Kaffee Inc",
+null,
+"Rue de la Paix 117\nFloor 12\n34440 Århus",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+3865,
+2
+]
+]
+}
+},
+"3893": {
+"features": [
+"attachment_rle",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"unknown_fields",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+3893,
+"person",
+6
+]
+],
+"people": [
+[
+3893,
+"Lars Vidal",
+null,
+"1952-06-14",
+null
+]
+],
+"person_emails": [
+[
+3893,
+0,
+"lars.39@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+3893,
+0,
+"avatar.jpg",
+"image/jpeg",
+223,
+"b6e2c0d0d2b53fe61180800cefad990fda0ffc5de283fb4c20bd98d6ec0c56d4"
+]
+],
+"deleted": [],
+"history": [
+[
+3893,
+3
+]
+]
+}
+},
+"4084": {
+"features": [
+"kind_note",
+"resurrected",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4084,
+"note",
+8
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4084,
+null,
+"Met at the conference. Ωmega"
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4084,
+3
+],
+[
+4084,
+4
+]
+]
+}
+},
+"4182": {
+"features": [
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_escaped_codepoints",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4182,
+"note",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4182,
+null,
+"Prefers email over phone.\nFollow up next week. Œùvre"
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4182,
+1
+]
+]
+}
+},
+"4204": {
+"features": [
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4204,
+"person",
+4
+]
+],
+"people": [
+[
+4204,
+"Joao Vidâl",
+null,
+"1940-03-26",
+null
+]
+],
+"person_emails": [
+[
+4204,
+0,
+"joao.99@mail.example.org"
+],
+[
+4204,
+1,
+"joao.27@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4204,
+3
+]
+]
+}
+},
+"4230": {
+"features": [
+"kind_person",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+4230,
+"person",
+5
+]
+],
+"history": [
+[
+4230,
+2
+]
+]
+}
+},
+"4296": {
+"features": [
+"kind_person",
+"tombstone"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [
+[
+4296,
+"person",
+7
+]
+],
+"history": [
+[
+4296,
+3
+]
+]
+}
+},
+"4347": {
+"features": [
+"kind_note",
+"text_multiline",
+"text_v2_latin1",
+"v2_file"
+],
+"rows": {
+"records": [
+[
+4347,
+"note",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4347,
+"Rëminder",
+"Discusséd the renewal terms.\nRemember the déjà vu story. Søren"
+]
+],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4377": {
+"features": [
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_file_default",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4377,
+"event",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4377,
+"Teåm retro",
+"2024-12-29 16:35",
+0,
+45,
+"Biergarten",
+"yearly",
+1,
+8,
+null
+]
+],
+"event_exceptions": [
+[
+4377,
+"2027-12-29"
+],
+[
+4377,
+"2030-12-29"
+]
+],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4377,
+2
+]
+]
+}
+},
+"4384": {
+"features": [
+"cross_references",
+"dates_packed",
+"free_list_ghost",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4384,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4384,
+"Ståndup",
+"2025-10-21 07:40",
+-240,
+600,
+"Café Central",
+"yearly",
+1,
+10,
+null
+]
+],
+"event_exceptions": [
+[
+4384,
+"2027-10-21"
+]
+],
+"event_attendees": [
+[
+4384,
+0,
+2361
+],
+[
+4384,
+1,
+4665
+],
+[
+4384,
+2,
+974
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4384,
+1
+]
+]
+}
+},
+"4386": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4386,
+"person",
+5
+]
+],
+"people": [
+[
+4386,
+"Renee Ýmir",
+null,
+"1971-03-09",
+1806
+]
+],
+"person_emails": [
+[
+4386,
+0,
+"renee.36@corp.example.net"
+],
+[
+4386,
+1,
+"renee.17@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4386,
+3
+],
+[
+4386,
+4
+]
+]
+}
+},
+"4402": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_task",
+"task_state_bits",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4402,
+"task",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [
+[
+4402,
+"Buy gift Ãngela",
+"2026-01-18",
+2,
+0,
+2766
+]
+],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4472": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4472,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4472,
+"Dentist",
+"2026-08-16 11:45",
+-300,
+90,
+"Café Central",
+"weekly",
+1,
+null,
+"2028-04-14"
+]
+],
+"event_exceptions": [
+[
+4472,
+"2026-09-27"
+]
+],
+"event_attendees": [
+[
+4472,
+0,
+2002
+],
+[
+4472,
+1,
+516
+],
+[
+4472,
+2,
+3315
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4472,
+3
+]
+]
+}
+},
+"4484": {
+"features": [
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4484,
+"person",
+7
+]
+],
+"people": [
+[
+4484,
+"Ägnes Côsta",
+"+49 39 1132 0291",
+null,
+null
+]
+],
+"person_emails": [
+[
+4484,
+0,
+"agnes.84@mail.example.org"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4484,
+3
+]
+]
+}
+},
+"4494": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_exceptions",
+"recurrence_rule",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+4494,
+"event",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4494,
+"Bùdget synç",
+"2025-04-27 13:50",
+-600,
+30,
+null,
+"monthly",
+2,
+11,
+null
+]
+],
+"event_exceptions": [
+[
+4494,
+"2025-10-27"
+],
+[
+4494,
+"2025-12-27"
+],
+[
+4494,
+"2026-04-27"
+]
+],
+"event_attendees": [
+[
+4494,
+0,
+2361
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+4494,
+0,
+"notes.txt",
+"text/plain",
+221,
+"8b403163e539740006ce64659c1a9671f06257ae4518f43387e6795084bfcd3b"
+]
+],
+"deleted": [],
+"history": [
+[
+4494,
+2
+]
+]
+}
+},
+"4505": {
+"features": [
+"cross_references",
+"dates_packed",
+"kind_recurring",
+"recurrence_rule",
+"tz_file_default"
+],
+"rows": {
+"records": [
+[
+4505,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4505,
+"Yoga",
+"2025-10-26 17:50",
+-240,
+30,
+"Biergarten",
+"monthly",
+1,
+null,
+"2027-12-31"
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4505,
+0,
+908
+],
+[
+4505,
+1,
+577
+],
+[
+4505,
+2,
+2608
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4509": {
+"features": [
+"cross_references",
+"kind_org",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4509,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+4509,
+"Nordlïcht SARL",
+"https://www.garten.example",
+null,
+4624
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4509,
+2
+]
+]
+}
+},
+"4525": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"text_table_chars",
+"tz_explicit",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4525,
+"event",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4525,
+"Quärterlÿ planñïng",
+"2026-10-11 12:05",
+330,
+60,
+"Building 7",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4525,
+0,
+2147
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4556": {
+"features": [
+"kind_org",
+"revisions_latest_wins",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4556,
+"org",
+2
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+4556,
+"Acme AB",
+"https://www.kaffee.example",
+"Kungsgatan 12\nFloor 18\n32016 Genève",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4556,
+1
+]
+]
+}
+},
+"4624": {
+"features": [
+"kind_org",
+"text_multiline",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4624,
+"org",
+3
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [
+[
+4624,
+"Ñordlíçht Inc",
+"https://www.konsult.example",
+"Rue de la Paix 132\n35865 Oslo",
+null
+]
+],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4662": {
+"features": [
+"cross_references",
+"dangling_references",
+"dates_packed",
+"kind_person",
+"multi_value_order",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars"
+],
+"rows": {
+"records": [
+[
+4662,
+"person",
+8
+]
+],
+"people": [
+[
+4662,
+"Iñes Andersen",
+"+46 61 6364 8205",
+"1991-01-12",
+null
+]
+],
+"person_emails": [
+[
+4662,
+0,
+"ines.12@mail.example.org"
+],
+[
+4662,
+1,
+"ines.72@mail.example.org"
+],
+[
+4662,
+2,
+"ines.2@corp.example.net"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4662,
+2
+],
+[
+4662,
+6
+]
+]
+}
+},
+"4665": {
+"features": [
+"attachment_blob",
+"attachment_raw",
+"dates_packed",
+"kind_person",
+"revisions_across_files",
+"revisions_latest_wins"
+],
+"rows": {
+"records": [
+[
+4665,
+"person",
+7
+]
+],
+"people": [
+[
+4665,
+"Celine Quiroga",
+"+46 95 5495 6010",
+"1969-04-01",
+null
+]
+],
+"person_emails": [
+[
+4665,
+0,
+"celine.80@example.com"
+]
+],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+4665,
+0,
+"photo.png",
+"image/png",
+318,
+"48c62358d6c0166c9c88429e81c143d1cbd85b86eb708e47978a8ec25acbc084"
+],
+[
+4665,
+1,
+"photo.png",
+"image/png",
+395,
+"b4c99ae8adde6c1bab145e7cfa3b50b8938f602bc19ec37d3b9e08a6e98923cc"
+]
+],
+"deleted": [],
+"history": [
+[
+4665,
+1
+],
+[
+4665,
+4
+]
+]
+}
+},
+"4716": {
+"features": [
+"attachment_raw",
+"cross_references",
+"dangling_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"tz_explicit"
+],
+"rows": {
+"records": [
+[
+4716,
+"event",
+5
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4716,
+"Yoga",
+"2026-06-14 10:55",
+600,
+60,
+"Conference roõm B",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4716,
+0,
+1262
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [
+[
+4716,
+0,
+"map.gif",
+"image/gif",
+338,
+"252a6e5a2d506a8a178bf3f7b09c85859b348120e6f8a2283d3cc9d213f6ae06"
+]
+],
+"deleted": [],
+"history": [
+[
+4716,
+2
+]
+]
+}
+},
+"4859": {
+"features": [
+"attachment_rle",
+"cross_references",
+"dangling_references",
+"kind_note",
+"text_multiline",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4859,
+"note",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4859,
+"Reminder",
+"Needs the signed cöpy.\nOwes us 3 boxes."
+]
+],
+"note_links": [
+[
+4859,
+0,
+4859
+]
+],
+"attachments": [
+[
+4859,
+0,
+"map.gif",
+"image/gif",
+414,
+"13ab275c52dba925d37790bee2c6bd01dc8f48eee4cb21ed3134f09d861493b9"
+]
+],
+"deleted": [],
+"history": []
+}
+},
+"4960": {
+"features": [
+"cross_references",
+"dates_packed",
+"duration_default",
+"kind_event",
+"text_table_chars",
+"tz_file_default",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4960,
+"event",
+1
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [
+[
+4960,
+"Ständup",
+"2025-04-10 11:50",
+330,
+60,
+"Café Central",
+null,
+null,
+null,
+null
+]
+],
+"event_exceptions": [],
+"event_attendees": [
+[
+4960,
+0,
+2147
+],
+[
+4960,
+1,
+987
+],
+[
+4960,
+2,
+2002
+]
+],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"4997": {
+"features": [
+"cross_references",
+"kind_note",
+"revisions_across_files",
+"revisions_latest_wins",
+"text_table_chars",
+"unknown_fields"
+],
+"rows": {
+"records": [
+[
+4997,
+"note",
+6
+]
+],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [
+[
+4997,
+"Meeting nôtës",
+"Âllergic to nuts."
+]
+],
+"note_links": [
+[
+4997,
+0,
+2684
+],
+[
+4997,
+1,
+1806
+],
+[
+4997,
+2,
+2147
+]
+],
+"attachments": [],
+"deleted": [],
+"history": [
+[
+4997,
+3
+]
+]
+}
+},
+"5266": {
+"features": [
+"checksum_skipped_file",
+"kind_person"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+},
+"5547": {
+"features": [
+"checksum_skipped_file",
+"kind_org"
+],
+"rows": {
+"records": [],
+"people": [],
+"person_emails": [],
+"orgs": [],
+"events": [],
+"event_exceptions": [],
+"event_attendees": [],
+"tasks": [],
+"notes": [],
+"note_links": [],
+"attachments": [],
+"deleted": [],
+"history": []
+}
+}
+},
+"agenda": [
+{
+"from": "2020-01-01",
+"to": "2030-12-31",
+"lines": [
+"2024-10-14 04:25 +00:00  #2985 Call súpplíer (60 min)",
+"2024-10-28 22:05 +05:30  #3819 Budgêt sÿnç (15 min)",
+"2024-11-04 22:25 -05:00  #2283 Standup (30 min)",
+"2024-11-28 00:15 +01:00  #3039 Budget sync (120 min)",
+"2024-12-29 16:35 +00:00  #4377 Teåm retro (45 min)",
+"2025-01-29 22:30 +00:00  #920 Interview (30 min)",
+"2025-03-17 11:00 -03:30  #2806 (untitled) (60 min)",
+"2025-03-20 10:00 +00:00  #1584 Team retrõ (60 min)",
+"2025-03-24 19:40 -10:00  #3482 Bôok club (60 min)",
+"2025-03-29 18:40 +02:00  #1257 Kíçkõff Ûrsine (120 min)",
+"2025-04-10 11:50 +05:30  #4960 Ständup (60 min)",
+"2025-04-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2025-05-31 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-07 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-09 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-12 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-14 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-15 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-18 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-21 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-21 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-22 03:40 +05:30  #2493 Call supplier (60 min)",
+"2025-06-23 06:15 +01:00  #776 Quarterlÿ planning (90 min)",
+"2025-06-24 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-27 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2025-06-28 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-30 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-07-03 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-07-05 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-07-06 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-07-09 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-07-12 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-07-12 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-07-15 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-07-19 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-07-26 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-08-02 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-08-03 08:05 +05:30  #1771 Budgët sync (45 min)",
+"2025-08-09 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-08-16 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-08-22 03:40 +05:30  #2493 Call supplier (60 min)",
+"2025-08-23 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-08-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2025-08-30 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-09-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-09-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-09-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-09-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-10-04 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-10-11 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-10-18 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-10-21 07:40 -04:00  #4384 Ståndup (600 min)",
+"2025-10-22 03:40 +05:30  #2493 Call supplier (60 min)",
+"2025-10-25 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-10-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2025-11-01 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-11-04 22:25 -05:00  #2283 Standup (30 min)",
+"2025-11-08 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-11-15 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-11-22 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-11-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2025-11-29 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-12-02 16:15 +02:00  #2831 (untitled) (240 min)",
+"2025-12-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-12-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-12-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-12-22 03:40 +05:30  #2493 Call supplier (60 min)",
+"2025-12-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2025-12-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-12-29 16:35 +00:00  #4377 Teåm retro (45 min)",
+"2025-12-30 07:20 +00:00  #1214 Board meeting (60 min)",
+"2026-01-03 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-10 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-17 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-24 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-01-31 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-02-07 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-02-11 19:25 +05:30  #2295 Interview (90 min)",
+"2026-02-14 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-02-21 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-02-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-02-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-02-28 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-03-07 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-03-14 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-03-21 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-03-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-03-28 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-04-04 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-04-11 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-04-14 07:05 -04:00  #1877 Book club (60 min)",
+"2026-04-18 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-04-25 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-04-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-05-02 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-05-09 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-05-16 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-05-23 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-05-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-05-30 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-06-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-06-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-06-14 10:55 +10:00  #4716 Yoga (60 min)",
+"2026-06-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-06-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-06-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-06-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-07-04 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-11 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-18 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-07-25 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-25 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-26 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-07-27 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-28 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-30 05:25 +05:30  #284 (untitled) (30 min)",
+"2026-07-30 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-31 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-01 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-01 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-02 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-03 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-04 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-07 19:50 +01:00  #195 Standup (30 min)",
+"2026-08-08 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-15 02:45 +09:00  #3460 Vîsit to factory (60 min)",
+"2026-08-15 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-16 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-08-22 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-22 20:05 +10:00  #630 Teåm retrò (90 min)",
+"2026-08-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-08-23 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-08-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-08-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-08-29 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-30 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-05 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-12 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-19 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-09-23 21:35 -03:30  #2740 Call supplier (120 min)",
+"2026-09-26 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-10-03 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-04 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-10 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-11 12:05 +05:30  #4525 Quärterlÿ planñïng (60 min)",
+"2026-10-11 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-17 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-18 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-21 07:40 -04:00  #4384 Ståndup (600 min)",
+"2026-10-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-10-24 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-25 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-10-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-10-31 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-01 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-07 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-08 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-14 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-15 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-21 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-22 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-11-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-11-28 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-29 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-05 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-05 19:30 -05:00  #54 Teãm retro (120 min)",
+"2026-12-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-12 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-19 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2026-12-26 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-12-27 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-12-28 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2026-12-29 16:35 +00:00  #4377 Teåm retro (45 min)",
+"2026-12-30 05:00 +01:00  #1957 Bòok club (45 min)",
+"2027-01-02 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-03 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-09 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-10 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-11 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-01-16 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-17 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-01-23 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-24 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-25 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-01-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-01-30 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-31 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-31 17:35 -04:00  #2276 Review (60 min)",
+"2027-02-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-08 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-02-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-02-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-22 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-02-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-02-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-28 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-03-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-03-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-28 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-03 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-04-04 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-05 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-04-10 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-04-11 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-17 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-04-18 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-19 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-04-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-04-25 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-05-02 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-03 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-05-09 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-16 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-17 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-05-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-05-23 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-05-30 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-31 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-06-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-06-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-06-14 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-06-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-06-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-06-27 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-04 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-11 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-18 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-07-25 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-08-01 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-08 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-15 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-08-22 20:05 +10:00  #630 Teåm retrò (90 min)",
+"2027-08-22 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-08-29 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-05 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-12 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-19 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-09-26 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-10-03 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-10 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-17 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-10-24 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-10-31 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-11-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-11-28 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-05 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-12 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-19 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-12-26 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2028-01-02 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-01-09 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-01-16 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-01-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-01-23 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-01-30 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-01-31 17:35 -04:00  #2276 Review (60 min)",
+"2028-02-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-02-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-02-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-02-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-02-27 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-03-05 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-03-12 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-03-19 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-03-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-03-26 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-03-29 18:40 +02:00  #1257 Kíçkõff Ûrsine (120 min)",
+"2028-04-02 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-04-09 11:45 -05:00  #4472 Dentist (90 min)",
+"2028-04-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-05-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-06-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-07-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-08-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-09-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-10-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2028-10-21 07:40 -04:00  #4384 Ståndup (600 min)",
+"2028-12-29 16:35 +00:00  #4377 Teåm retro (45 min)",
+"2029-10-21 07:40 -04:00  #4384 Ståndup (600 min)",
+"2029-12-29 16:35 +00:00  #4377 Teåm retro (45 min)",
+"2030-10-21 07:40 -04:00  #4384 Ståndup (600 min)"
+]
+},
+{
+"from": "2025-03-01",
+"to": "2025-06-30",
+"lines": [
+"2025-03-17 11:00 -03:30  #2806 (untitled) (60 min)",
+"2025-03-20 10:00 +00:00  #1584 Team retrõ (60 min)",
+"2025-03-24 19:40 -10:00  #3482 Bôok club (60 min)",
+"2025-03-29 18:40 +02:00  #1257 Kíçkõff Ûrsine (120 min)",
+"2025-04-10 11:50 +05:30  #4960 Ständup (60 min)",
+"2025-04-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2025-05-31 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-07 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-09 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-12 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-14 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-15 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-18 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-21 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-21 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-22 03:40 +05:30  #2493 Call supplier (60 min)",
+"2025-06-23 06:15 +01:00  #776 Quarterlÿ planning (90 min)",
+"2025-06-24 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-27 12:20 +00:00  #995 (untitled) (60 min)",
+"2025-06-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2025-06-28 03:35 +02:00  #1675 Iñterview (60 min)",
+"2025-06-30 12:20 +00:00  #995 (untitled) (60 min)"
+]
+},
+{
+"from": "2026-01-01",
+"to": "2026-01-31",
+"lines": [
+"2026-01-03 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-10 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-17 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-24 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-01-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-01-31 03:35 +02:00  #1675 Iñterview (60 min)"
+]
+},
+{
+"from": "2027-01-01",
+"to": "2027-12-31",
+"lines": [
+"2027-01-02 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-03 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-09 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-10 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-11 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-01-16 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-17 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-01-23 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-24 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-25 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-01-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-01-30 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-31 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-31 17:35 -04:00  #2276 Review (60 min)",
+"2027-02-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-08 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-02-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-02-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-22 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-02-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-02-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-28 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-03-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-03-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-03-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-03-28 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-03 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-04-04 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-05 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-04-10 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-04-11 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-17 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-04-18 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-19 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-04-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-04-25 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-04-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-05-02 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-03 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-05-09 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-16 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-17 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-05-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-05-23 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-05-30 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-05-31 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-06-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-06-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-06-14 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-06-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-06-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-06-27 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-04 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-11 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-18 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-07-25 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-07-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-08-01 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-08 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-15 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-08-22 20:05 +10:00  #630 Teåm retrò (90 min)",
+"2027-08-22 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-08-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-08-29 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-05 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-12 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-19 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-09-26 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-09-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-10-03 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-10 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-17 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-10-24 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-10-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-10-31 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-11-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-11-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-11-28 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-05 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-12 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-19 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-12-26 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-12-26 17:50 -04:00  #4505 Yoga (30 min)"
+]
+},
+{
+"from": "2026-07-01",
+"to": "2027-02-28",
+"lines": [
+"2026-07-04 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-11 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-18 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-07-25 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-07-25 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-26 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-07-27 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-28 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-30 05:25 +05:30  #284 (untitled) (30 min)",
+"2026-07-30 11:45 -04:00  #1570 Standup (60 min)",
+"2026-07-31 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-01 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-01 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-02 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-03 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-04 11:45 -04:00  #1570 Standup (60 min)",
+"2026-08-07 19:50 +01:00  #195 Standup (30 min)",
+"2026-08-08 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-15 02:45 +09:00  #3460 Vîsit to factory (60 min)",
+"2026-08-15 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-16 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-08-22 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-22 20:05 +10:00  #630 Teåm retrò (90 min)",
+"2026-08-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-08-23 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-08-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-08-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-08-29 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-08-30 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-05 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-12 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-19 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-09-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-09-23 21:35 -03:30  #2740 Call supplier (120 min)",
+"2026-09-26 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-09-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-10-03 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-04 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-10 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-11 12:05 +05:30  #4525 Quärterlÿ planñïng (60 min)",
+"2026-10-11 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-17 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-18 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-21 07:40 -04:00  #4384 Ståndup (600 min)",
+"2026-10-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-10-24 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-10-25 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-10-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-10-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-10-31 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-01 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-07 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-08 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-14 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-15 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-21 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-22 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-11-23 03:05 +05:30  #3774 Review (45 min)",
+"2026-11-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-11-28 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-11-29 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-05 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-05 19:30 -05:00  #54 Teãm retro (120 min)",
+"2026-12-06 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-12 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-13 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-19 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-20 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2026-12-26 03:35 +02:00  #1675 Iñterview (60 min)",
+"2026-12-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2026-12-27 11:45 -05:00  #4472 Dentist (90 min)",
+"2026-12-27 13:50 -10:00  #4494 Bùdget synç (30 min)",
+"2026-12-28 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2026-12-29 16:35 +00:00  #4377 Teåm retro (45 min)",
+"2026-12-30 05:00 +01:00  #1957 Bòok club (45 min)",
+"2027-01-02 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-03 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-09 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-10 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-11 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-01-16 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-17 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-01-23 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-24 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-25 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-01-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-01-30 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-01-31 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-01-31 17:35 -04:00  #2276 Review (60 min)",
+"2027-02-06 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-07 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-08 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-02-13 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-14 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-20 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-20 14:05 -04:00  #1320 Budget sÿñç Dvořák (60 min)",
+"2027-02-21 11:45 -05:00  #4472 Dentist (90 min)",
+"2027-02-22 11:10 +05:30  #1465 Review Ëlise (15 min)",
+"2027-02-26 17:50 -04:00  #4505 Yoga (30 min)",
+"2027-02-27 03:35 +02:00  #1675 Iñterview (60 min)",
+"2027-02-28 11:45 -05:00  #4472 Dentist (90 min)"
+]
+}
+]
+}

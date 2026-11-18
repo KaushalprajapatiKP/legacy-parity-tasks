@@ -1,0 +1,40 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT   2
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ Hy07     JUNC     32.150      0.00   122.742    90.592     886.9
+ Hy08     JUNC     41.370      2.40   121.627    80.257     785.7
+ J01      JUNC     35.540      4.89   120.817    85.277     834.9
+ J2       JUNC     31.290      5.10   120.869    89.579     877.0
+ J3       JUNC     36.820      0.00   121.317    84.497     827.2
+ J4       JUNC     24.890      0.00   121.621    96.731     947.0
+ T1       RESV    128.850    -15.23   128.850     0.000       0.0
+ j05      JUNC     31.130      0.00   127.785    96.655     946.2
+ n06      JUNC     26.660      2.84   127.724   101.064     989.4
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  Hy08     Hy07        -12.39    -0.394     1.114   0.02695  OPEN    
+ P2       PIPE  J4       J3            9.99     0.204     0.304   0.03079  OPEN    
+ P3       PIPE  J2       J3           -9.99    -0.318     0.447   0.01991  OPEN    
+ P4       PIPE  J01      J2           -4.89    -0.100     0.052   0.02708  OPEN    
+ P5       PIPE  n06      j05         -15.23    -0.310     0.060   0.02578  OPEN    
+ P6       PIPE  n06      Hy07         12.39     0.701     4.983   0.03418  OPEN    
+ P7       PIPE  J4       Hy08         -9.99    -0.079     0.007   0.02345  OPEN    
+ P8       PIPE  T1       j05          15.23     0.485     1.065   0.01935  OPEN    
+ 
+ TOTAL DEMAND :     15.23 L/S
+ TOTAL SUPPLY :     15.23 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

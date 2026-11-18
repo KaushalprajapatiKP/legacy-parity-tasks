@@ -1,0 +1,44 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Fittings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,  11 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ B9       JUNC     30.300      0.00   111.149    80.849     791.5
+ C5       JUNC     14.880      0.00   111.033    96.153     941.3
+ C7       JUNC     30.040      0.00   118.833    88.793     869.3
+ K8       JUNC     20.590      0.00   111.183    90.593     886.9
+ M6       JUNC     27.380      0.00   111.046    83.666     819.1
+ RES1     RESV    119.450    -17.26   119.450     0.000       0.0
+ X1       JUNC     21.630      3.95   118.617    96.987     949.5
+ X4       JUNC     23.860      4.04   118.619    94.759     927.7
+ Y2       JUNC     22.090      1.31   111.027    88.937     870.7
+ Y3       JUNC     14.090      7.96   111.025    96.935     949.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  K8       C5            2.24     0.285     0.150   0.02636  OPEN    
+ P2       PIPE  C7       K8            9.27     1.180     7.650   0.02201  OPEN    
+ P3       PIPE  C7       X4            7.99     0.254     0.214   0.03250  OPEN    
+ P4       PIPE  Y3       M6           -2.85    -0.058     0.021   0.03009  OPEN    
+ P5       PIPE  M6       B9           -7.03    -0.143     0.103   0.02776  OPEN    
+ P6       PIPE  K8       B9            7.03     0.100     0.033   0.02439  OPEN    
+ P7       PIPE  X1       X4           -3.95    -0.031     0.001   0.03035  OPEN    
+ P8       PIPE  M6       C5            4.18     0.059     0.013   0.02662  OPEN    
+ P9       PIPE  Y2       Y3            5.11     0.041     0.001   0.03202  OPEN    
+ P10      PIPE  Y2       C5           -6.42    -0.051     0.006   0.02574  OPEN    
+ P11      PIPE  RES1     C7           17.26     0.352     0.617   0.02991  OPEN    
+ 
+ TOTAL DEMAND :     17.26 L/S
+ TOTAL SUPPLY :     17.26 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

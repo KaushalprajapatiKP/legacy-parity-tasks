@@ -1,0 +1,57 @@
+HYDRO 2.3 RELEASE NOTES
+=======================
+
+These notes summarise what changed between 1.8 and 2.3. The 2.x line was
+developed over several years and the intermediate releases were never
+documented separately. For anything not listed here, the behaviour of the
+production build is authoritative.
+
+New and changed input
+---------------------
+* Keywords may be written in any case. A "!" starts a comment that runs
+  to the end of the card.
+* Identifiers are significant to 8 characters.
+* Cards may appear in any order; a link may name nodes defined later.
+* UNITS SI | US selects the unit system for the whole deck:
+
+                        SI                    US
+    flow, demand        litres per second     US gallons per minute
+    length, elevation   metres                feet
+    diameter            millimetres           inches
+    roughness (DW)      millimetres           thousandths of a foot
+    pressure            m and kPa             ft and psi
+
+* JUNCTION id elevation [demand [pattern]]
+* PUMP id from to head [qmax]
+  With qmax the pump follows a head curve that falls from "head" at zero
+  flow to zero at qmax (qmax in flow units). Without it the head is
+  constant, as before.
+* VALVE id from to diameter k [OPEN | CLOSED]
+  A fitting with a loss coefficient k. A closed valve carries no flow.
+* PATTERN id m1 [m2 ...]
+  Demand multipliers, one per time step, reused cyclically. Further
+  PATTERN cards with the same id extend the list.
+* OPTION FRICTION DW | HW
+  Darcy-Weisbach (default) or Hazen-Williams. With HW the roughness
+  field of a PIPE card is the Hazen-Williams C factor.
+* OPTION STEPS n and OPTION HSTEP hours run a sequence of time steps,
+  applying the demand patterns.
+* The Hardy Cross method has been retired.
+
+Calculation
+-----------
+* The friction factor calculation was revised for all flow regimes.
+* Minor-loss coefficients on PIPE cards are now applied.
+* The convergence test and the iteration limit were revised. A run that
+  does not converge still produces its report.
+* Junctions with no open path to a fixed-head node are reported and left
+  out of the solution instead of stopping the run.
+* Physical constants were brought into line with current practice.
+
+Diagnostics and report
+----------------------
+* Errors and warnings carry numbers. Input checking continues after an
+  error so that one run lists all problems in a deck.
+* The process exit status tells whether the run succeeded.
+* The report was redesigned: run summary, node table (including
+  reservoirs) and link table, totals, and hydraulic warnings.

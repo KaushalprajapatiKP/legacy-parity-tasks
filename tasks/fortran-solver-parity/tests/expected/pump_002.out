@@ -1,0 +1,39 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     24.120      2.50    87.456    63.336     620.1
+ N12      JUNC     14.550      0.00    87.422    72.872     713.4
+ N21      JUNC     13.130      2.23    87.421    74.291     727.3
+ N22      JUNC     14.780      0.00    87.419    72.639     711.1
+ N31      JUNC     22.840      3.05    87.398    64.558     632.0
+ N32      JUNC     29.150      7.99    87.215    58.065     568.5
+ S1       RESV     -2.170    -12.29    -2.170     0.000       0.0
+ SRC1     RESV     87.420     -3.48    87.420     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N21      N31           3.05     0.062     0.023   0.02797  OPEN    
+ P2       PIPE  N22      N12          -4.05    -0.032     0.003   0.03125  OPEN    
+ P3       PIPE  N11      N21           5.74     0.081     0.035   0.03165  OPEN    
+ P4       PIPE  N21      N22           0.46     0.015     0.002   0.03625  OPEN    
+ P5       PIPE  N22      N32           7.99     0.163     0.204   0.03128  OPEN    
+ P6       PIPE  N11      N12           4.05     0.083     0.034   0.02563  OPEN    
+ P7       PIPE  SRC1     N22           3.48     0.028     0.001   0.03017  OPEN    
+ PU1      PUMP  S1       N11          12.29              89.626            ON      
+ 
+ TOTAL DEMAND :     15.77 L/S
+ TOTAL SUPPLY :     15.77 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

@@ -1,0 +1,130 @@
+id,kind,label,email,phone,date,location,status
+52,recurring,Yoga,,,2025-02-20,,
+96,org,?telier Oy,,,,,
+106,task,B?ok flights,,,2024-07-18,,open
+124,task,Send inv?ice,,,2026-07-10,,open
+128,person,Anna Muller,anna.43@mail.example.org,,,,
+162,event,Quarterly planning,,,2026-12-29,,
+217,note,Rem?nd?r,,,,,
+298,note,Meet?ng notes,,,,,
+302,org,?telier GmbH,,,,,
+317,recurring,Vis?t to factor?,,,2025-12-20,,
+347,event,Stand?p,,,2025-02-04,,
+376,event,Call supplier,,,2024-11-01,,
+447,org,Nordl?cht sm?rrebr?d,,,,,
+471,note,C?ll notes ?mega,,,,,
+505,note,Gift list,,,,,
+597,person,Olga Fischer,olga.64@corp.example.net,,2005-05-29,,
+663,recurring,St?ndup,,,2025-05-02,Biergarten,
+679,task,Order toner,,,,,done
+709,person,Joao Petit,joao.91@mail.example.org,,1962-04-06,,
+717,task,Fix bik?,,,,,open
+819,person,Wand? ?unez,wanda.67@example.com,,,,
+830,event,Team retro,,,2026-01-14,,
+910,event,Team retro,,,2024-12-24,,
+1023,person,Pablo Schmidt,pablo.7@mail.example.org,,2006-12-22,,
+1045,task,Write report,,,2027-07-29,,open
+1052,person,Zoe ?lsen,zoe.73@example.com,,1945-01-26,,
+1056,event,Standup,,,2024-09-22,HQ lobby,
+1096,task,B?ok flights ??l,,,2026-01-08,,done
+1115,event,Team retro,,,2025-03-01,,
+1285,org,Atelier AB,,,,,
+1295,recurring,?oga,,,2025-09-14,Caf? Central,
+1384,note,Call notes,,,,,
+1409,recurring,Kickoff,,,2026-02-24,,
+1416,person,Jonas Lopez,jonas.15@mail.example.org,+44 75 0917 6194,,,
+1449,note,,,,,,
+1452,event,Standup,,,2026-04-12,Build?ng 7,
+1517,task,Call back,,,2026-12-09,,open
+1572,task,Cle?n ??box,,,2026-07-21,,open
+1575,task,Order toner,,,,,open
+1595,event,B?ok cl?b,,,2025-06-19,R?om 4,
+1596,person,Carla Weber,carla.30@mail.example.org,,,,
+1623,person,Elena Lefevre,elena.58@corp.example.net,+49 27 0433 4255,,,
+1624,org,Verl?g ??igo AS,,,,,
+1652,person,Agnes ?akovo,agnes.91@mail.example.org,,,,
+1653,recurring,,,,2026-11-15,,
+1702,org,S?ci?te GmbH,,,,,
+1745,task,Send invoice,,,2027-06-01,,open
+1808,recurring,Visit t? factory,,,2026-11-24,,
+1842,person,Pablo Muller,pablo.7@example.com,+49 60 9320 1882,,,
+1919,task,Re?ew passport,,,,,open
+1946,org,At?l?er Inc,,,,,
+1948,person,Tomas Vidal,tomas.62@example.com,+1 17 3192 0628,1945-11-16,,
+1972,org,V?rlag ?akovo Inc,,,,,
+1986,note,,,,,,
+1996,task,Pa? rent,,,2023-12-08,,open
+2037,note,,,,,,
+2082,note,Call notes,,,,,
+2084,note,?all notes,,,,,
+2136,task,B?y gift,,,2024-04-01,,open
+2220,org,Nordl?cht ??rsh?fn G,,,,,
+2393,task,Book flights,,,,,open
+2477,note,,,,,,
+2525,note,Gift list,,,,,
+2545,note,Gift list Dvo??k,,,,,
+2565,person,Pablo Torres,pablo.11@corp.example.net,+33 19 0776 7941,,,
+2615,note,?deas,,,,,
+2658,person,Hug? Quiroga,hugo.83@example.com,+1 39 2743 1097,,,
+2756,org,St?d?o S.L.,,,,,
+2828,org,Bureau Inc,,,,,
+2836,person,Pablo Garcia,,+44 78 1737 7481,1999-05-12,,
+2843,person,Olga Moreau,olga.85@example.com,+49 93 0173 0945,,,
+2859,person,Dmitr? Yilm?z,dmitri.84@mail.example.org,,1998-06-06,,
+2863,person,R?ne? Dupo?t,,+91 51 4537 5753,,,
+2864,person,Anna S?ren,anna.25@mail.example.org,+44 48 5115 1849,1959-03-25,,
+2873,event,B?dget s?n?,,,2025-06-07,,
+2932,note,??ll notes,,,,,
+3008,person,Karin Andersen,karin.94@mail.example.org,+1 25 7137 6740,1999-06-10,,
+3043,note,Reminder ??rsh?fn,,,,,
+3074,person,Farid Jensen,farid.81@example.com,+44 64 7824 2374,1977-02-05,,
+3113,event,Review,,,2025-07-12,H?tel de V?lle,
+3144,note,,,,,,
+3146,person,Yusuf Muller,yusuf.15@mail.example.org,+46 50 6883 1455,1955-05-13,,
+3195,task,B?ok flights,,,2026-06-04,,open
+3208,org,Acme ?sir GmbH,,,,,
+3221,person,Hugo Beck?r,,+49 95 2977 1970,,,
+3296,note,,,,,,
+3377,event,Book club,,,2026-05-19,,
+3424,event,Interview,,,2027-01-29,Room 4,
+3502,event,Book club,,,2024-11-07,Conference r?om B,
+3570,person,Greta Dupont,greta.60@mail.example.org,+46 87 0897 3609,,,
+3603,recurring,Interview,,,2026-02-15,H?tel de Ville,
+3640,event,Book club,,,2025-05-22,,
+3662,task,Ren?w passport,,,2025-05-31,,open
+3719,org,Atelier AB,,,,,
+3769,person,Olga Zeller,olga.27@mail.example.org,+49 81 5007 0058,1968-12-11,,
+3809,recurring,,,,2027-01-08,Building 7,
+3817,task,Send i?voice,,,,,open
+3824,event,Dentist,,,2027-01-10,Building 7,
+3830,person,?eline W?ber,,+44 88 6833 3622,1981-02-25,,
+3849,note,?all notes,,,,,
+3857,org,M?bil?t? S.L.,,,,,
+3864,note,,,,,,
+3901,event,Visit to factory ?rs,,,2024-11-02,Ro?m 4,
+3995,note,?deas,,,,,
+4033,task,Fix b?ke,,,2023-01-13,,open
+4050,event,Quarterly pl?nning,,,2025-01-30,Bu?ld?ng 7,
+4066,person,Pablo Ibarra,pablo.14@mail.example.org,,,,
+4092,task,Call back,,,2026-05-17,,done
+4093,task,Renew passport,,,,,open
+4095,recurring,Kickoff,,,2024-11-03,HQ l?bby,
+4132,event,R?view,,,2025-01-19,Room 4,
+4147,recurring,St?ndup Erd?s,,,2026-02-21,,
+4169,person,Andre Ibarra,,+44 56 3809 5779,,,
+4270,task,File taxes,,,2025-06-01,,open
+4280,event,Quarterly planning,,,2025-10-22,Biergart?n,
+4285,recurring,Quarterly planning,,,2025-01-31,HQ lobby,
+4426,person,Noel Moreau,,+46 19 8472 0483,1953-02-16,,
+4538,person,Aurelie ?,aurelie.43@corp.example.net,+46 42 1387 6185,1961-08-26,,
+4553,task,Clean inbox,,,,,done
+4564,note,Ide?s,,,,,
+4585,org,Atelier SARL,,,,,
+4623,recurring,Call suppl?er,,,2024-02-29,,
+4632,task,Bo?k fl?ghts,,,2026-05-21,,open
+4671,org,Acme Ltd,,,,,
+4693,event,L?nch with client,,,2025-05-29,,
+4811,task,??ll back,,,,,open
+4871,note,Ideas,,,,,
+4945,event,Lunch w?th cli?nt,,,2025-11-26,Biergarten,
+4950,org,Konsult ?lesund Oy,,,,,

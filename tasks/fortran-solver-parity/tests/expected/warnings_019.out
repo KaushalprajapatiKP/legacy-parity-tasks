@@ -1,0 +1,48 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     93.560      5.42   109.553    15.993     156.6
+ J2       JUNC    111.770      3.26   109.972    -1.798     -17.6
+ J3       JUNC     79.040      0.00   106.083    27.043     264.8
+ J4       JUNC    129.190      0.00   109.550   -19.640    -192.3
+ J5       JUNC     87.340      0.00   106.224    18.884     184.9
+ J6       JUNC     67.870      2.01   106.083    38.213     374.1
+ J7       JUNC     89.700      0.92   109.550    19.850     194.3
+ J8       JUNC    126.210      0.00   106.069   -20.141    -197.2
+ J9       JUNC    118.140      3.63   106.069   -12.071    -118.2
+ RES1     RESV    111.850    -15.24   111.850     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J5       J6            5.64     0.180     0.140   0.02399  OPEN    
+ P2       PIPE  J8       J9           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J2       J1            6.34     0.359     0.420   0.02593  OPEN    
+ P4       PIPE  J6       J9            3.63     0.051     0.015   0.02831  OPEN    
+ P5       PIPE  J6       J3            0.00     0.000     0.000     UNDEF  OPEN    
+ P6       PIPE  J5       J2           -5.64    -0.718     3.749   0.01966  OPEN    
+ P7       PIPE  J4       J7            0.92     0.013     0.001   0.04109  OPEN    
+ P8       PIPE  J1       J4            0.92     0.019     0.003   0.03885  OPEN    
+ P9       PIPE  RES1     J2           15.24     0.862     1.878   0.01701  OPEN    
+ 
+ TOTAL DEMAND :     15.24 L/S
+ TOTAL SUPPLY :     15.24 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J2'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J8'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J9'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+
+ RUN COMPLETED WITH   6 WARNING(S)

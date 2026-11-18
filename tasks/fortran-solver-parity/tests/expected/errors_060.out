@@ -1,0 +1,5 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ *** ERROR E103 LINE   9: UNDEFINED NODE 'R1'
+ *** ERROR E302: NO FIXED-HEAD NODE
+ *** RUN ABORTED:   2 INPUT ERROR(S)

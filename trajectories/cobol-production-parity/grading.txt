@@ -1,0 +1,20 @@
+reward: 1
+
+copies of the production binary removed elsewhere: 0
+....
+category        pass total |    rc STATEMENTS  REJECTS  SUMMARY
+basic             40    40 |    40         40       40       40
+tiers             40    40 |    40         40       40       40
+rounding          40    40 |    40         40       40       40
+proration         40    40 |    40         40       40       40
+discounts         40    40 |    40         40       40       40
+acct_rejects      40    40 |    40         40       40       40
+act_rejects       40    40 |    40         40       40       40
+dates             40    40 |    40         40       40       40
+signs             40    40 |    40         40       40       40
+ordering          40    40 |    40         40       40       40
+charges           40    40 |    40         40       40       40
+mixed             40    40 |    40         40       40       40
+ALL              480   480 |   480        480      480      480
+.
+5 passed in 14.25s

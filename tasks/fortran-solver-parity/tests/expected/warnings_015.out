@@ -1,0 +1,45 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,  10 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ C8       JUNC     49.720      4.77    86.873    37.153     363.7
+ DE14     JUNC      3.000      0.00    86.489    83.489     817.4
+ K3       JUNC     45.640      0.00    86.873    41.233     403.7
+ K5       JUNC     31.070      0.00    86.489    55.419     542.6
+ M1       JUNC     39.090      0.79    86.489    47.399     464.0
+ M7       JUNC     31.540      0.00    86.873    55.333     541.7
+ RES1     RESV     86.880    -10.50    86.880     0.000       0.0
+ X4       JUNC     46.240      1.43    86.801    40.561     397.1
+ Y2       JUNC     43.330      0.00    86.489    43.159     422.5
+ Z6       JUNC     37.990      3.51    86.489    48.499     474.8
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  K3       M7            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  Y2       M1            0.78     0.011     0.000   0.04004  OPEN    
+ P3       PIPE  Z6       K5            0.01     0.001     0.000   0.56963  OPEN    
+ P4       PIPE  Z6       Y2            0.78     0.011     0.000   0.03765  OPEN    
+ P5       PIPE  C8       X4            1.43     0.081     0.072   0.02951  OPEN    
+ P6       PIPE  M7       C8           -4.30    -0.034     0.000   0.02851  OPEN    
+ P7       PIPE  Z6       M7           -4.30    -0.243     0.383   0.02341  OPEN    
+ P8       PIPE  K5       M1            0.01     0.001     0.000   0.56963  OPEN    
+ P9       PIPE  RES1     C8           10.50     0.084     0.007   0.02629  OPEN    
+ PD14     PIPE  M1       DE14          0.00     0.000     0.000     UNDEF  OPEN    
+ 
+ TOTAL DEMAND :     10.50 L/S
+ TOTAL SUPPLY :     10.50 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'PD14'
+
+ RUN COMPLETED WITH   2 WARNING(S)

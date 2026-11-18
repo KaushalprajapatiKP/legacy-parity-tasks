@@ -1,0 +1,59 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Daily cycle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   5 NODES,   1 RESERVOIRS,   4 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ STEPS    :  2 AT  3.00 H
+ 
+ TIME STEP  1 OF  2  AT  0:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     38.050      4.19    94.945    56.895     557.0
+ N12      JUNC     38.170      0.00    97.575    59.405     581.6
+ N21      JUNC     33.710      3.87    94.949    61.239     599.5
+ N22      JUNC     48.910      2.04    97.575    48.665     476.4
+ T1       RESV     97.770    -10.10    97.770     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N21           8.05     0.456     2.626   0.02898  OPEN    
+ P2       PIPE  N12      N22           0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  N11      N21          -4.19    -0.033     0.004   0.02867  OPEN    
+ P4       PIPE  T1       N22          10.10     0.206     0.195   0.02670  OPEN    
+ 
+ TOTAL DEMAND :     10.10 L/S
+ TOTAL SUPPLY :     10.10 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ 
+ TIME STEP  2 OF  2  AT  3:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     38.050      1.44    97.401    59.351     581.0
+ N12      JUNC     38.170      0.00    97.743    59.573     583.2
+ N21      JUNC     33.710      1.33    97.402    63.692     623.5
+ N22      JUNC     48.910      0.70    97.743    48.833     478.1
+ T1       RESV     97.770     -3.48    97.770     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N21           2.77     0.157     0.342   0.03178  OPEN    
+ P2       PIPE  N12      N22           0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  N11      N21          -1.44    -0.011     0.001   0.03886  OPEN    
+ P4       PIPE  T1       N22           3.48     0.071     0.027   0.03071  OPEN    
+ 
+ TOTAL DEMAND :      3.48 L/S
+ TOTAL SUPPLY :      3.48 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+
+ RUN COMPLETED WITH   2 WARNING(S)

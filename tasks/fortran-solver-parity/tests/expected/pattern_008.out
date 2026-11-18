@@ -1,0 +1,91 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Daily cycle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   3 NODES,   1 RESERVOIRS,   2 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ STEPS    :  4 AT  3.00 H
+ 
+ TIME STEP  1 OF  4  AT  0:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     38.510      0.75    85.340    46.830     458.5
+ N12      JUNC     39.770      0.00    85.340    45.570     446.1
+ T1       RESV     85.350     -0.75    85.350     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N11           0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  T1       N11           0.75     0.042     0.010   0.04339  OPEN    
+ 
+ TOTAL DEMAND :      0.75 L/S
+ TOTAL SUPPLY :      0.75 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ 
+ TIME STEP  2 OF  4  AT  3:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     38.510      1.99    85.290    46.780     458.0
+ N12      JUNC     39.770      0.00    85.290    45.520     445.6
+ T1       RESV     85.350     -1.99    85.350     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N11           0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  T1       N11           1.99     0.112     0.060   0.03790  OPEN    
+ 
+ TOTAL DEMAND :      1.99 L/S
+ TOTAL SUPPLY :      1.99 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ 
+ TIME STEP  3 OF  4  AT  6:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     38.510      0.75    85.340    46.830     458.5
+ N12      JUNC     39.770      0.00    85.340    45.570     446.1
+ T1       RESV     85.350     -0.75    85.350     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N11          -0.00    -0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  T1       N11           0.75     0.042     0.010   0.04339  OPEN    
+ 
+ TOTAL DEMAND :      0.75 L/S
+ TOTAL SUPPLY :      0.75 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ 
+ TIME STEP  4 OF  4  AT  9:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     38.510      1.99    85.290    46.780     458.0
+ N12      JUNC     39.770      0.00    85.290    45.520     445.6
+ T1       RESV     85.350     -1.99    85.350     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N11           0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  T1       N11           1.99     0.112     0.060   0.03790  OPEN    
+ 
+ TOTAL DEMAND :      1.99 L/S
+ TOTAL SUPPLY :      1.99 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+
+ RUN COMPLETED WITH   4 WARNING(S)

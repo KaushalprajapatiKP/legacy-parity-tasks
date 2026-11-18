@@ -1,0 +1,41 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     87.650     80.55   333.806   246.156    106.71
+ J2       JUNC     17.720     31.81   333.877   316.157    137.05
+ J3       JUNC     81.460      0.00   333.880   252.420    109.42
+ J4       JUNC     24.030     10.08   335.673   311.643    135.10
+ J5       JUNC     85.310     67.60   335.175   249.865    108.32
+ J6       JUNC     44.710      0.00   335.175   290.465    125.92
+ SRC1     RESV    346.300  -1063.44   346.300     0.000      0.00
+ WELL     RESV      0.000    873.40     0.000     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J5       J2          110.59     0.706     1.298            OPEN    
+ P2       PIPE  J4       J1          871.52     1.391     1.867            OPEN    
+ P3       PIPE  J2       J3           -3.65    -0.023     0.004            OPEN    
+ P4       PIPE  J2       J1           82.43     0.234     0.070            OPEN    
+ P5       PIPE  J4       J5          181.84     0.743     0.499            OPEN    
+ P6       PIPE  J3       J6           -3.65    -0.372     1.294            OPEN    
+ P7       PIPE  J5       J6            3.65     0.006     0.000            OPEN    
+ P8       PIPE  SRC1     J4         1063.44     6.788    10.627            OPEN    
+ PU9      PUMP  WELL     J1         -873.40             333.806            ON      
+ 
+ TOTAL DEMAND :    190.04 GPM
+ TOTAL SUPPLY :    190.04 GPM
+ *** WARNING W210: PUMP 'PU9' REVERSE FLOW
+
+ RUN COMPLETED WITH   1 WARNING(S)

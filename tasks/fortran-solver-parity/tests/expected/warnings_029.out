@@ -1,0 +1,42 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ *** WARNING W206 LINE   2: MAXIT LIMITED TO 200
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-09, MAXIT 200
+ 
+ CONVERGED IN   9 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     13.210      1.00    76.502    63.292     619.6
+ N12      JUNC     11.480      0.00    76.502    65.022     636.6
+ N13      JUNC     -4.300      0.00    59.664    63.964     626.2
+ N14      JUNC     -6.550      2.91    59.658    66.208     648.2
+ N21      JUNC     -3.510      1.20    76.677    80.187     785.0
+ N22      JUNC      5.830      4.81    76.518    70.688     692.0
+ N23      JUNC     15.550      4.08    59.671    44.121     431.9
+ N24      JUNC     10.210      1.90    59.254    49.044     480.1
+ R1       RESV     76.780    -15.90    76.780     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N21      N22          14.70     0.299     0.159   0.01997  OPEN    
+ P2       PIPE  N13      N14           4.37     0.035     0.006   0.02839  OPEN    
+ P3       PIPE  N12      N11           1.00     0.014     0.000   0.04082  OPEN    
+ P4       PIPE  N23      N24           0.44     0.222     0.417   0.05295  OPEN    
+ P5       PIPE  N24      N14          -1.46    -0.186     0.404   0.02851  OPEN    
+ P6       PIPE  N22      N23           8.89     1.132    16.847   0.01804  OPEN    
+ P7       PIPE  N23      N13           4.37     0.062     0.007   0.02639  OPEN    
+ P8       PIPE  N12      N22          -1.00    -0.057     0.016   0.03243  OPEN    
+ P9       PIPE  R1       N21          15.90     0.324     0.103   0.01889  OPEN    
+ 
+ TOTAL DEMAND :     15.90 L/S
+ TOTAL SUPPLY :     15.90 L/S
+
+ RUN COMPLETED WITH   1 WARNING(S)

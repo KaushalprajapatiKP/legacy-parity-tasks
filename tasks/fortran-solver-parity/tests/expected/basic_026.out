@@ -1,0 +1,62 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : District main
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  17 NODES,   1 RESERVOIRS,  22 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN  10 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     28.110      3.52   104.481    76.371     747.7
+ J10      JUNC     32.170      7.20   105.221    73.051     715.2
+ J11      JUNC     34.310      0.00   103.971    69.661     682.0
+ J12      JUNC     39.970      0.00   103.956    63.986     626.4
+ J13      JUNC     25.060      0.86   104.312    79.252     775.9
+ J14      JUNC     26.870      0.00   103.841    76.971     753.5
+ J15      JUNC     31.120      7.84   103.564    72.444     709.2
+ J16      JUNC     26.990      5.96   103.627    76.637     750.3
+ J2       JUNC     28.240      6.66   104.373    76.133     745.3
+ J3       JUNC     25.580      0.00   104.299    78.719     770.7
+ J4       JUNC     28.500      6.03   103.984    75.484     739.0
+ J5       JUNC     44.830      0.00   104.498    59.668     584.2
+ J6       JUNC     44.250      5.34   104.502    60.252     589.9
+ J7       JUNC     23.980      4.60   103.970    79.990     783.1
+ J8       JUNC     28.240      0.84   103.972    75.732     741.4
+ J9       JUNC     31.830      4.71   104.345    72.515     709.9
+ T1       RESV    106.790    -53.56   106.790     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J10      J11           5.26     0.669     1.250   0.01994  OPEN    
+ P2       PIPE  J10      J6           34.33     0.486     0.719   0.01658  OPEN    
+ P3       PIPE  J1       J5           -4.13    -0.058     0.017   0.02708  OPEN    
+ P4       PIPE  J9       J10          -4.31    -0.244     0.876   0.03035  OPEN    
+ P5       PIPE  J16      J12         -11.11    -0.226     0.329   0.02181  OPEN    
+ P6       PIPE  J5       J6           -5.61    -0.079     0.003   0.02561  OPEN    
+ P7       PIPE  J4       J8           11.29     0.230     0.012   0.02097  OPEN    
+ P8       PIPE  J15      J14          -2.69    -0.152     0.278   0.03686  OPEN    
+ P9       PIPE  J9       J5           -1.48    -0.189     0.153   0.02623  OPEN    
+ P10      PIPE  J13      J9           -1.08    -0.138     0.033   0.03658  OPEN    
+ P11      PIPE  J6       J2           23.38     0.186     0.129   0.02182  OPEN    
+ P12      PIPE  J14      J13          -0.22    -0.114     0.470   0.03897  OPEN    
+ P13      PIPE  J14      J10          -2.47    -0.314     1.380   0.02593  OPEN    
+ P14      PIPE  J11      J12           1.99     0.041     0.015   0.03156  OPEN    
+ P15      PIPE  J8       J7            1.33     0.042     0.002   0.03249  OPEN    
+ P16      PIPE  J15      J16          -5.15    -0.105     0.064   0.02525  OPEN    
+ P17      PIPE  J2       J1           -0.61    -0.078     0.108   0.03700  OPEN    
+ P18      PIPE  J12      J8           -9.12    -0.129     0.015   0.03020  OPEN    
+ P19      PIPE  J3       J2          -17.32    -0.138     0.074   0.02042  OPEN    
+ P20      PIPE  J11      J7            3.27     0.026     0.002   0.03178  OPEN    
+ P21      PIPE  J3       J4           17.32     0.245     0.316   0.02262  OPEN    
+ P22      PIPE  T1       J10          53.56     0.758     1.569   0.02048  OPEN    
+ 
+ TOTAL DEMAND :     53.56 L/S
+ TOTAL SUPPLY :     53.56 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

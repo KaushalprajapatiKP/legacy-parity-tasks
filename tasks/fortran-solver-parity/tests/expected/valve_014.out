@@ -1,0 +1,48 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Valves
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  12 NODES,   1 RESERVOIRS,  13 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     28.980      0.00    83.424    54.444     533.0
+ J2       JUNC     27.940      1.34    83.411    55.471     543.1
+ J3       JUNC     31.260      5.70    83.410    52.150     510.6
+ J4       JUNC     17.470      6.41    84.504    67.034     656.3
+ J5       JUNC     21.110      1.40    83.412    62.302     609.9
+ J6       JUNC     27.610      4.29    83.477    55.867     546.9
+ J7       JUNC     23.140      7.88    85.112    61.972     606.7
+ J8       JUNC     38.950      7.03    85.096    46.146     451.8
+ J9       JUNC     37.340      0.00    84.782    47.442     464.5
+ T1       RESV     86.980    -37.84    86.980     0.000       0.0
+ VJ13     JUNC     23.100      0.81    84.402    61.302     600.1
+ VK13     JUNC      5.000      2.98    84.012    79.012     773.5
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J2       J1           -2.11    -0.043     0.012   0.03660  OPEN    
+ P2       PIPE  J8       J7          -21.44    -0.303     0.016   0.01913  OPEN    
+ P3       PIPE  J6       J5            2.16     0.122     0.065   0.03004  OPEN    
+ P4       PIPE  J2       J3            1.53     0.022     0.001   0.03551  OPEN    
+ P5       PIPE  J9       J8          -14.41    -0.459     0.314   0.02065  OPEN    
+ P6       PIPE  J6       J3            4.17     0.236     0.066   0.03045  OPEN    
+ P7       PIPE  J1       J4           -2.11    -0.268     1.080   0.02999  OPEN    
+ P8       PIPE  J4       J7           -8.52    -0.271     0.608   0.02478  OPEN    
+ P9       PIPE  J6       J9          -10.62    -0.601     1.305   0.02479  OPEN    
+ P10      PIPE  J5       J2            0.76     0.011     0.001   0.03750  OPEN    
+ P11      PIPE  T1       J7           37.84     0.771     1.868   0.01846  OPEN    
+ V13      VALVE J9       VJ13          3.79     1.930     0.380            OPEN    
+ PX13     PIPE  VJ13     VK13          2.98     0.379     0.390   0.02516  OPEN    
+ 
+ TOTAL DEMAND :     37.84 L/S
+ TOTAL SUPPLY :     37.84 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

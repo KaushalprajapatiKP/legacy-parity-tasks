@@ -1,0 +1,43 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : HW network
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :  10 NODES,   2 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   4 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     30.510      3.09   111.716    81.206     795.0
+ N12      JUNC     35.010      3.12   109.205    74.195     726.4
+ N13      JUNC     49.380      5.48   108.799    59.419     581.7
+ N14      JUNC     47.020      6.87   108.793    61.773     604.8
+ N21      JUNC     49.210      5.87   111.835    62.625     613.1
+ N22      JUNC     42.040      0.00   109.509    67.469     660.5
+ N23      JUNC     46.620      0.00   108.799    62.179     608.7
+ N24      JUNC     37.410      2.99   110.169    72.759     712.3
+ RES1     RESV    110.380     -8.26   110.380     0.000       0.0
+ SRC2     RESV    114.180    -19.16   114.180     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N13      N12          -7.08    -0.225     0.407            OPEN    
+ P2       PIPE  N21      N22          10.20     0.577     2.326            OPEN    
+ P3       PIPE  N22      N12          10.20     0.208     0.304            OPEN    
+ P4       PIPE  N21      N11           3.09     0.098     0.118            OPEN    
+ P5       PIPE  N13      N23           0.00     0.000     0.000            OPEN    
+ P6       PIPE  N24      N14           5.27     0.298     1.376            OPEN    
+ P7       PIPE  N13      N14           1.60     0.033     0.005            OPEN    
+ P8       PIPE  RES1     N24           8.26     0.117     0.211            OPEN    
+ P9       PIPE  SRC2     N21          19.16     0.610     2.345            OPEN    
+ 
+ TOTAL DEMAND :     27.42 L/S
+ TOTAL SUPPLY :     27.42 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+
+ RUN COMPLETED WITH   1 WARNING(S)

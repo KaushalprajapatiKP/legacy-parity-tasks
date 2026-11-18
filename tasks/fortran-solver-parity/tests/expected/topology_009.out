@@ -1,0 +1,41 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Topology
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ *** WARNING W204: NODE 'Z8' IS ISOLATED
+ *** WARNING W204: NODE 'ZZ8' IS ISOLATED
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      0.930      0.00    70.698    69.768     683.0
+ J2       JUNC     -0.250      0.00    71.168    71.418     699.2
+ J3       JUNC      2.110      5.46    70.653    68.543     671.0
+ J4       JUNC      3.160      5.56    70.598    67.438     660.2
+ T1       RESV     71.890    -66.20    71.890     0.000       0.0
+ T2       RESV     57.790     55.18    57.790     0.000       0.0
+ Z8       JUNC      5.000      4.00    ISOLATED
+ ZZ8      JUNC      4.000      1.00    ISOLATED
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J2       J1            6.52     0.369     0.470   0.02034  OPEN    
+ P2       PIPE  J4       J2           -4.50    -0.255     0.571   0.02231  OPEN    
+ P3       PIPE  J3       J4            1.06     0.060     0.055   0.03191  OPEN    
+ P4       PIPE  J3       J1           -6.52    -0.133     0.045   0.02406  OPEN    
+ P5       PIPE  T1       J2           66.20     0.527     0.722   0.01646  OPEN    
+ P6       PIPE  T2       J2          -55.18    -1.756    13.378   0.01457  OPEN    
+ VC8      VALVE J1       Z8            0.00     0.000     0.000            CLOSED  
+ PZ8      PIPE  Z8       ZZ8           0.00     0.000     0.000     UNDEF  ISOLATED
+ 
+ TOTAL DEMAND :     11.02 L/S
+ TOTAL SUPPLY :     11.02 L/S
+
+ RUN COMPLETED WITH   2 WARNING(S)

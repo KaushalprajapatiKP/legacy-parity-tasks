@@ -1,0 +1,39 @@
+version = "1.0"
+
+[task]
+name = "kaushal-prajapati/fortran-solver-parity"
+
+[metadata]
+author_name = "Kaushal Prajapati"
+author_email = "kaushalprajapati5296@gmail.com"
+category = "software-engineering"
+tags = ["fortran", "legacy-code", "reverse-engineering", "black-box", "numerical", "hydraulics"]
+difficulty = "hard"
+difficulty_explanation = """
+The 1.8 source does not build with gfortran 12 (four compile errors that appear in layers, plus an \
+implicitly typed DOUBLE PRECISION function that silently returns garbage once it compiles). After \
+that, about thirty undocumented behaviour changes separate 1.8 from production 2.3: friction law \
+and constants, convergence test and iteration limits, zero-flow handling, unit conversions, new \
+components, time steps with warm starts, numbered error and warning texts, ordering of messages, \
+report layout and exit statuses. The release notes only say which areas changed. Every detail must \
+be found by probing the stripped executable, and the hidden suite is all-or-nothing across 342 decks."""
+solution_explanation = """
+The reference solution replaces /app/src with the HYDRO 2.3 source (the same source the production \
+executable was built from in a separate Docker stage)."""
+verification_explanation = """
+The verifier deletes /app/prod and any copy of the executable, rejects process-spawning or C-interop \
+constructs in the source, builds a copy of /app/src with 'gfortran -O2 -o hydro *.f', runs 342 hidden \
+decks (13 categories) and compares stdout and exit status with recordings from production 2.3: exact \
+text and line lengths, decimal numbers within one unit of the last printed digit. Reward 1 only if all \
+decks match; a per-category table is printed."""
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 2048

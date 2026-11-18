@@ -1,0 +1,41 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Valves
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     24.590      0.00   120.203    95.613     936.1
+ J2       JUNC     44.150      1.79   120.000    75.850     742.6
+ J3       JUNC     40.060      2.40   120.535    80.475     787.8
+ J4       JUNC     44.290      2.94   120.699    76.409     748.0
+ J5       JUNC     26.490      0.00   120.537    94.047     920.7
+ J6       JUNC     39.750      6.17   120.539    80.789     790.9
+ SRC1     RESV    121.270    -19.14   121.270     0.000       0.0
+ VJ6      JUNC     15.800      4.38   119.986   104.186    1020.0
+ VK6      JUNC      5.000      1.46   119.861   114.861    1124.5
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J4       J3            9.81     0.555     0.164   0.02021  OPEN    
+ P2       PIPE  J5       J6           -0.22    -0.012     0.001   0.03427  OPEN    
+ P3       PIPE  J2       J1           -7.63    -0.155     0.203   0.03139  OPEN    
+ P4       PIPE  J6       J4           -6.39    -0.203     0.160   0.02264  OPEN    
+ P5       PIPE  J3       J5           -0.22    -0.012     0.003   0.03427  OPEN    
+ P6       PIPE  J1       J3           -7.63    -0.243     0.331   0.02511  OPEN    
+ P7       PIPE  SRC1     J4           19.14     0.390     0.571   0.01799  OPEN    
+ V6       VALVE J2       VJ6           5.84     0.186     0.014            OPEN    
+ PX6      PIPE  VJ6      VK6           1.46     0.186     0.125   0.02853  OPEN    
+ 
+ TOTAL DEMAND :     19.14 L/S
+ TOTAL SUPPLY :     19.14 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

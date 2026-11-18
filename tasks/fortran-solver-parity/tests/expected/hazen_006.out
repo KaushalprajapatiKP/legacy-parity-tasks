@@ -1,0 +1,32 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : HW network
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   5 NODES,   1 RESERVOIRS,   4 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ C4       JUNC     35.660      6.51   108.627    72.967     714.3
+ M2       JUNC     31.220      5.82   108.424    77.204     755.8
+ R1       RESV    108.790    -14.10   108.790     0.000       0.0
+ Y3       JUNC     35.550      0.00   108.624    73.074     715.4
+ Z1       JUNC     28.870      1.77   108.382    79.512     778.4
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  Z1       M2           -1.77    -0.056     0.042            OPEN    
+ P2       PIPE  Y3       C4           -7.59    -0.060     0.003            OPEN    
+ P3       PIPE  M2       Y3           -7.59    -0.155     0.201            OPEN    
+ P4       PIPE  R1       C4           14.10     0.199     0.163            OPEN    
+ 
+ TOTAL DEMAND :     14.10 L/S
+ TOTAL SUPPLY :     14.10 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

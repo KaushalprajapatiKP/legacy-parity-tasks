@@ -1,0 +1,42 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   9 NODES,   1 RESERVOIRS,  10 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     66.430      0.00   317.310   250.880    108.76
+ J2       JUNC     50.220     23.05   317.253   267.033    115.76
+ J3       JUNC     31.940    124.29   317.712   285.772    123.88
+ J4       JUNC     29.690    122.14   317.254   287.564    124.66
+ J5       JUNC     -1.780    119.51   317.746   319.526    138.51
+ J6       JUNC     68.530      0.00   317.261   248.731    107.82
+ J7       JUNC     20.120      0.00   311.457   291.337    126.29
+ J8       JUNC     -2.760     54.53   311.448   314.208    136.21
+ R1       RESV    318.940   -443.52   318.940     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J2       J1          -19.21    -0.123     0.057            OPEN    
+ P2       PIPE  J7       J8           20.70     0.059     0.009            OPEN    
+ P3       PIPE  J4       J2            3.84     0.024     0.001            OPEN    
+ P4       PIPE  J5       J3          143.50     0.586     0.033            OPEN    
+ P5       PIPE  J5       J6          159.81     0.453     0.485            OPEN    
+ P6       PIPE  J3       J1           19.21     0.218     0.402            OPEN    
+ P7       PIPE  J5       J7           20.70     0.940     6.288            OPEN    
+ P8       PIPE  J4       J6         -125.98    -0.201     0.006            OPEN    
+ P9       PIPE  J6       J8           33.83     0.864     5.813            OPEN    
+ P10      PIPE  R1       J5          443.52     0.708     1.194            OPEN    
+ 
+ TOTAL DEMAND :    443.52 GPM
+ TOTAL SUPPLY :    443.52 GPM
+
+ RUN COMPLETED WITH   0 WARNING(S)

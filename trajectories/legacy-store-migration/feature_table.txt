@@ -1,0 +1,37 @@
+stores graded so far: ['h1', 'h2', 'h3', 'h4']
+feature                           passed   total
+agenda                                20      20
+attachment_blob                       50      50
+attachment_blob_unavailable            9       9
+attachment_raw                        41      41
+attachment_rle                        36      36
+checksum_skipped_file                 43      43
+cross_references                     330     330
+dangling_references                   78      78
+dates_packed                         332     332
+duration_default                      55      55
+free_list_ghost                       33      33
+kind_event                            98      98
+kind_note                            101     101
+kind_org                              62      62
+kind_person                          165     165
+kind_recurring                        78      78
+kind_task                            104     104
+multi_value_order                     56      56
+recurrence_exceptions                 36      36
+recurrence_rule                       68      68
+resurrected                           22      22
+revisions_across_files               284     284
+revisions_latest_wins                353     353
+schema                                 4       4
+task_state_bits                      100     100
+text_escaped_codepoints               39      39
+text_multiline                        99      99
+text_table_chars                     329     329
+text_v2_latin1                        26      26
+tombstone                             38      38
+tz_explicit                          107     107
+tz_file_default                       55      55
+unknown_fields                       149     149
+v2_file                               39      39
+ALL CASES                            640     640

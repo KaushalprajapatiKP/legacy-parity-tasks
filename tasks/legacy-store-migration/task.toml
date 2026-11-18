@@ -1,0 +1,37 @@
+schema_version = "1.4"
+artifacts = []
+
+[task]
+name = "kaushal-prajapati/legacy-store-migration"
+
+[metadata]
+author_name = "Kaushal Prajapati"
+author_email = "kaushalprajapati5296@gmail.com"
+category = "data-migration"
+tags = ["reverse-engineering", "binary-format", "sqlite", "migration", "python"]
+difficulty = "hard"
+difficulty_explanation = "The legacy store format is undocumented and the only truth is a stripped binary that is deleted before grading. About 25 independent format and semantics rules (varints, zigzag, packed datetimes, per-file date bases and default time zones, a custom text encoding with a 64-entry table and escapes, a Latin-1 older file version, unknown-field skipping, task bit fields, inline, run-length and deduplicated attachments, revisions across files, tombstones and resurrection, a free list hiding stale and junk cells, CRC32-checked files) must each be discovered by probing the binary and hex-reading the sample store. Grading is all-or-nothing over about 640 record and agenda cases in four hidden stores."
+solution_explanation = "solution/migrate.py is a clean Python reader of the .obk format: verify CRC32 trailer, parse v2/v3 headers, honour the free-extent table, decode cells and tagged fields, pick the highest revision per id across files, resolve references against live records, decode attachments (raw, RLE, blob pool), and write the newbook schema rows."
+verification_explanation = "tests/test_migration.py deletes oldbook and any copy of it, runs /app/migrate.py under an audit hook that refuses process creation on four hidden stores, and compares every table row per record id with rows recorded from oldbook show/list/history output at authoring time, plus import_issues and five agenda windows rendered by a grader-owned copy of newbook's agenda. A per-feature pass table is written to /logs/verifier/feature_table.txt. Reward 1 only if every case in every store passes."
+
+[verifier]
+timeout_sec = 1800.0
+environment_mode = "shared"
+collect = []
+
+[verifier.env]
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 900.0
+os = "linux"
+cpus = 2
+memory_mb = 2048
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

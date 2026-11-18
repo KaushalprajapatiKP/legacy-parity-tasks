@@ -1,0 +1,55 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,  11 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ Hy03     JUNC      0.330      0.00  -281.349  -281.679   -2757.6
+ Hy09     JUNC      5.650      0.00  -284.113  -289.763   -2836.8
+ J06      JUNC     -3.500      6.61  -284.115  -280.615   -2747.2
+ J2       JUNC    -11.850      6.64  -281.349  -269.499   -2638.4
+ J7       JUNC      2.230      0.00  -284.093  -286.323   -2803.1
+ S8       RESV      1.230    -15.71     1.230     0.000       0.0
+ j04      JUNC    -12.630      1.09  -284.089  -271.459   -2657.6
+ j05      JUNC     -7.330      0.00  -284.110  -276.780   -2709.7
+ j08      JUNC      5.780      0.00  -284.102  -289.882   -2837.9
+ n01      JUNC    -15.610      1.37  -281.335  -265.725   -2601.4
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  j05      j04          -0.28    -0.036     0.021   0.04331  OPEN    
+ P2       PIPE  j04      n01          -4.42    -0.563     2.754   0.02029  OPEN    
+ P3       PIPE  j04      J7            3.04     0.024     0.003   0.03235  OPEN    
+ P4       PIPE  Hy09     J06           3.04     0.062     0.002   0.02968  OPEN    
+ P5       PIPE  j05      J06           3.57     0.028     0.005   0.03015  OPEN    
+ P6       PIPE  Hy09     j08          -3.04    -0.043     0.011   0.03195  OPEN    
+ P7       PIPE  j08      J7           -3.04    -0.043     0.010   0.02923  OPEN    
+ P8       PIPE  J2       Hy03          0.00     0.000     0.000     UNDEF  OPEN    
+ P9       PIPE  n01      J2            9.92     0.079     0.014   0.02386  OPEN    
+ P10      PIPE  j05      J2           -3.28    -0.418     2.762   0.02334  OPEN    
+ PU1      PUMP  S8       n01          15.71             282.565            ON      
+ 
+ TOTAL DEMAND :     15.71 L/S
+ TOTAL SUPPLY :     15.71 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy03'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Hy09'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J06'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J2'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J7'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'j04'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'j05'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'j08'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'n01'
+ *** WARNING W203: ZERO FLOW IN LINK 'P8'
+ *** WARNING W207: PUMP 'PU1' FLOW EXCEEDS QMAX
+
+ RUN COMPLETED WITH  11 WARNING(S)

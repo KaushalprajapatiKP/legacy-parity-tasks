@@ -1,0 +1,40 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC    110.430      0.00   335.520   225.090     97.58
+ N12      JUNC    116.920     75.13   329.618   212.698     92.20
+ N13      JUNC    122.150     36.33   325.072   202.922     87.97
+ N21      JUNC     87.300     62.65   336.487   249.187    108.02
+ N22      JUNC     82.760      0.00   329.932   247.172    107.15
+ N23      JUNC     59.120      0.00   325.459   266.339    115.46
+ SRC1     RESV    380.020   -743.51   380.020     0.000      0.00
+ WELL     RESV      0.000    569.40     0.000     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N23          36.33     0.928     4.473            OPEN    
+ P2       PIPE  N12      N11         -32.81    -0.838     5.902            OPEN    
+ P3       PIPE  N22      N21         -78.65    -2.008     6.555            OPEN    
+ P4       PIPE  N13      N23         -36.33    -0.412     0.386            OPEN    
+ P5       PIPE  N12      N22         -42.32    -0.270     0.313            OPEN    
+ P6       PIPE  N21      N11         602.21     0.961     0.967            OPEN    
+ P7       PIPE  SRC1     N21         743.51     4.746    43.533            OPEN    
+ PU9      PUMP  WELL     N11        -569.40             335.520            ON      
+ 
+ TOTAL DEMAND :    174.11 GPM
+ TOTAL SUPPLY :    174.11 GPM
+ *** WARNING W210: PUMP 'PU9' REVERSE FLOW
+
+ RUN COMPLETED WITH   1 WARNING(S)

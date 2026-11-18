@@ -1,0 +1,62 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  17 NODES,   1 RESERVOIRS,  22 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ B2       JUNC     37.980     34.98   161.535   123.555     53.56
+ B6       JUNC     43.300     93.22   161.583   118.283     51.28
+ B7       JUNC     27.490      0.00   160.734   133.244     57.76
+ C13      JUNC    -10.760     68.89   174.638   185.398     80.37
+ K9       JUNC     51.910      0.00   171.862   119.952     52.00
+ M1       JUNC     59.660     96.07   161.515   101.855     44.15
+ M3       JUNC     55.360    126.27   159.949   104.589     45.34
+ T1       RESV    190.740   -672.75   190.740     0.000      0.00
+ X10      JUNC     32.620      0.00   161.941   129.321     56.06
+ X16      JUNC     60.190     17.78   160.252   100.062     43.38
+ Y14      JUNC      7.000     16.82   174.380   167.380     72.56
+ Y5       JUNC     26.640      0.00   161.567   134.927     58.49
+ Y8       JUNC     17.880     75.33   160.036   142.156     61.62
+ Z11      JUNC     43.630     17.86   161.274   117.644     51.00
+ Z12      JUNC      9.930      0.00   161.052   151.122     65.51
+ Z15      JUNC    -10.880    125.53   160.240   171.120     74.18
+ Z4       JUNC     12.580      0.00   159.982   147.402     63.90
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  X10      B6          201.87     0.825     0.358   0.01969  OPEN    
+ P2       PIPE  Y5       B6          -41.03    -0.116     0.016   0.03033  OPEN    
+ P3       PIPE  Z15      Z11         -36.39    -0.929     1.034   0.03923  OPEN    
+ P4       PIPE  B7       M3           99.14     1.125     0.784   0.02081  OPEN    
+ P5       PIPE  C13      K9          283.08     1.156     2.776   0.02911  OPEN    
+ P6       PIPE  Y14      X10         303.96     7.760    12.439   0.02056  OPEN    
+ P7       PIPE  B6       B7           29.63     0.757     0.849   0.02506  OPEN    
+ P8       PIPE  Z4       M3           27.13     0.111     0.032   0.03393  OPEN    
+ P9       PIPE  Y5       K9          -52.03    -1.328    10.295   0.02851  OPEN    
+ P10      PIPE  M1       B2           -3.01    -0.077     0.020   0.03452  OPEN    
+ P11      PIPE  Z11      Z12         106.92     0.437     0.221   0.02752  OPEN    
+ P12      PIPE  K9       X10         231.05     2.622     9.921   0.01755  OPEN    
+ P13      PIPE  M1       Y5          -93.06    -0.594     0.052   0.02821  OPEN    
+ P14      PIPE  B7       Y8          102.46     0.654     0.697   0.02564  OPEN    
+ P15      PIPE  Z11      B7          171.97     0.702     0.540   0.02112  OPEN    
+ P16      PIPE  Z12      X16         106.92     0.682     0.800   0.02779  OPEN    
+ P17      PIPE  X16      Z15          89.14     0.364     0.012   0.02426  OPEN    
+ P18      PIPE  Z11      X10        -333.14    -1.361     0.667   0.02891  OPEN    
+ P19      PIPE  B6       B2           37.99     0.155     0.048   0.03265  OPEN    
+ P20      PIPE  Y8       Z4           27.13     0.173     0.055   0.03258  OPEN    
+ P21      PIPE  Y14      C13        -320.78    -0.512     0.258   0.02021  OPEN    
+ P22      PIPE  T1       C13         672.75     7.634    16.102   0.01869  OPEN    
+ 
+ TOTAL DEMAND :    672.75 GPM
+ TOTAL SUPPLY :    672.75 GPM
+
+ RUN COMPLETED WITH   0 WARNING(S)

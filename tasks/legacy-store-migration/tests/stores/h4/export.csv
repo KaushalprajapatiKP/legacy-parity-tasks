@@ -1,0 +1,141 @@
+id,kind,label,email,phone,date,location,status
+51,org,Garten AS,,,,,
+63,org,Bureau SARL,,,,,
+67,person,Olga Lefevre,olga.95@mail.example.org,+33 21 1817 2677,1996-11-11,,
+92,event,Review,,,2025-01-01,Caf? Central,
+119,org,Societe ??igo Oy,,,,,
+143,event,D??tist,,,2026-09-21,H?tel de Ville,
+243,task,Send invoice,,,2025-11-08,,open
+283,event,Call supplier,,,2025-03-20,Bierg?rten,
+289,person,Sven Keller,,+33 28 7929 3224,1959-11-05,,
+297,recurring,Review,,,2026-06-29,Biergarten,
+346,person,J?nas Petit,jonas.31@example.com,+44 38 0393 5011,1992-02-06,,
+351,recurring,Call suppli?r,,,2026-05-01,,
+355,note,Me?ting ?otes,,,,,
+373,person,Yus?f Gar?i?,,+33 58 8678 2468,,,
+376,person,Farid Becker,farid.49@example.com,,,,
+430,task,Buy g?ft,,,2025-12-18,,open
+559,recurring,Yoga,,,2026-04-23,,
+607,person,Noel Ibarra,,,1984-11-13,,
+670,task,Write report,,,2023-01-26,,open
+702,recurring,Dentist,,,2025-11-26,O?line,
+743,event,Book ?lub,,,2026-10-30,HQ lobby,
+744,note,M?et?ng notes,,,,,
+772,recurring,Board meeting,,,2025-04-12,Online,
+786,task,Fix bike,,,2024-03-06,,open
+793,person,N?el Moreau,noel.31@mail.example.org,,1979-10-14,,
+846,person,Greta Keller,greta.39@corp.example.net,+49 76 3474 7240,1988-03-06,,
+885,person,Elena Jense?,,+44 71 1713 7875,,,
+890,recurring,Rev?ew ?mir,,,2025-04-29,H?tel de V?lle,
+898,task,Book flights,,,,,open
+904,event,Board meeting,,,2024-12-09,Building 7,
+932,recurring,Board meet?ng,,,2024-02-29,,
+976,person,Yusuf Rossi,yusuf.66@corp.example.net,+46 21 6718 4005,1996-12-06,,
+992,org,Atelier Oy,,,,,
+1031,task,?lean inbox,,,,,done
+1085,task,File taxes,,,2026-04-23,,done
+1111,note,Id?as ?i?ek,,,,,
+1136,event,Revi?w,,,2025-02-03,Caf? C?ntral,
+1158,event,Visit to factory,,,2026-10-04,Caf? Central,
+1162,note,,,,,,
+1170,person,Ines Moreau,ines.47@corp.example.net,,1963-12-27,,
+1230,note,Call notes,,,,,
+1329,event,Dentist,,,2026-07-06,Room 4,
+1340,person,Rosa Fischer,rosa.58@mail.example.org,+44 98 9992 9653,,,
+1468,event,Review ?uvre,,,2026-08-30,Building 7,
+1505,task,Renew passport,,,2025-12-30,,open
+1529,recurring,?oga,,,2024-02-29,,
+1541,person,Mi? Dupont,,+44 78 5398 2542,,,
+1562,note,Reminder,,,,,
+1614,task,Fil? taxes ?rsine,,,,,open
+1615,person,Renee Ulri?h,renee.90@mail.example.org,,1956-08-13,,
+1626,recurring,Standup,,,2025-04-12,H?tel de Ville,
+1643,event,Dentist,,,2026-09-18,Caf? Centr?l,
+1706,note,,,,,,
+1716,person,Andre Lefevre,andre.80@corp.example.net,+46 43 8110 0527,1970-03-02,,
+1736,recurring,B?ard meeting,,,2026-10-03,Caf? Central,
+1958,person,Greta Vidal,greta.50@corp.example.net,+49 17 6570 0973,1987-04-06,,
+1964,person,Jonas Zeller,jonas.88@corp.example.net,+44 34 5098 0791,1999-04-09,,
+2046,recurring,L?nch with client,,,2026-01-09,H?tel de Ville,
+2060,task,Update CRM,,,2025-10-18,,done
+2063,event,Standup ??????,,,2026-07-13,Onlin?,
+2075,event,Lu?ch with client,,,2026-05-26,H?tel de Ville,
+2080,event,Quart?rly pl?nning,,,2025-08-01,?onf?rence room B,
+2117,person,Nils Schmidt,nils.48@mail.example.org,,1942-08-26,,
+2150,event,K?ckoff,,,2026-03-17,Biergarten,
+2188,task,Buy gift,,,2027-05-29,,done
+2227,note,,,,,,
+2231,event,Kickoff ??rsh?fn,,,2026-10-11,HQ l?bby,
+2271,person,Ines D?pont,ines.90@corp.example.net,+1 50 0605 1780,1988-11-26,,
+2302,note,M?eting notes,,,,,
+2316,event,Quarterl? planning,,,2025-03-04,,
+2425,task,P?y rent,,,2024-03-07,,open
+2427,note,,,,,,
+2476,person,Lars Vidal,lars.59@corp.example.net,,1966-03-30,,
+2520,note,Meeting ?otes,,,,,
+2625,task,Update CRM,,,2027-01-05,,open
+2744,note,Gift list ?,,,,,
+2783,note,,,,,,
+2856,recurring,Kickoff ?,,,2027-02-18,,
+2873,note,,,,,,
+2903,person,Rosa ?nders?n,rosa.34@example.com,+49 13 1757 3674,1992-07-11,,
+2972,recurring,Lunch with client,,,2024-09-09,,
+2984,person,Ull? ?akovo,ulla.57@mail.example.org,+1 37 6762 9246,1944-09-20,,
+3015,person,Ulla And?rsen,ulla.68@example.com,,1965-07-01,,
+3169,event,Kickoff,,,2025-05-31,,
+3188,org,G?rten GmbH,,,,,
+3344,event,Quarterl? planning,,,2025-04-28,,
+3346,note,Meeting not?s,,,,,
+3361,org,N?rdlicht GmbH,,,,,
+3398,task,Call back,,,2023-09-27,,done
+3429,note,Call not?s,,,,,
+3463,event,Dent?st,,,2026-11-22,H?tel de Ville,
+3472,task,B??k fl?ghts,,,,,open
+3483,org,Kaffe? S?ren Ltd,,,,,
+3515,person,?ils ?rikse?,nils.46@mail.example.org,+49 56 8086 1735,1985-08-25,,
+3518,note,Meet?ng notes,,,,,
+3530,task,Order t?ner,,,2026-08-19,,open
+3568,person,Farid Quir?g?,,+1 94 9427 4512,1997-03-24,,
+3580,recurring,Dentist,,,2024-10-08,Room 4,
+3581,org,Mobilite Inc,,,,,
+3610,event,B?ok cl?b,,,2025-09-26,H?tel de V?lle,
+3658,org,?ordlicht ?rsine S.L,,,,,
+3746,event,Book club ?,,,2024-10-15,Room 4,
+3808,person,Hugo ?unez,hugo.91@example.com,,1995-09-06,,
+3820,person,Ines Nunez,ines.90@example.com,,2003-03-22,,
+3836,task,Ren?w passport,,,,,open
+3850,recurring,Y?ga,,,2026-09-07,Building 7,
+3860,task,File taxes,,,2023-02-01,,open
+3910,task,Call back ?rsula,,,2027-05-02,,open
+3954,person,W?nda Erikse?,wanda.69@example.com,+46 23 6725 6727,1990-04-30,,
+3955,person,Andre Vidal,andre.13@mail.example.org,+1 70 1154 8190,,,
+4018,recurring,Team retro,,,2025-06-26,,
+4112,task,Renew passport,,,2026-09-30,,open
+4146,person,Renee Quiroga,,,,,
+4147,note,Ideas,,,,,
+4156,task,Book flights,,,2027-05-28,,open
+4199,org,V?rlag AS,,,,,
+4216,task,Book flights ??????,,,2023-12-11,,open
+4282,person,Lars Weber,lars.70@mail.example.org,+44 35 9127 9196,1958-09-13,,
+4283,person,Tomas Moreau,tomas.73@mail.example.org,+44 73 0277 4864,,,
+4300,note,,,,,,
+4304,recurring,K?ckoff,,,2025-02-26,Bierg?rten,
+4321,note,G?ft list ??,,,,,
+4333,note,,,,,,
+4359,person,Noel Ols??,noel.13@mail.example.org,+1 85 7517 0245,,,
+4473,event,Yog?,,,2026-06-19,,
+4483,event,Bo?k club,,,2027-01-28,Buildi?g 7,
+4518,task,Update CRM,,,2025-07-23,,open
+4519,recurring,Qu?rterly pl?nn?ng ?,,,2026-08-29,Bi?rgarten,
+4557,event,Kickoff ?schia,,,2026-08-17,,
+4630,org,Mobil?te SARL,,,,,
+4659,task,Update ?RM,,,,,done
+4676,task,?all back,,,2024-05-10,,open
+4720,task,File taxes,,,2026-10-19,,done
+4771,person,Olga ?sir,olga.74@example.com,+33 55 5654 5414,1995-08-18,,
+4792,person,Jonas ?,jonas.82@corp.example.net,+91 16 2469 2588,,,
+4798,recurring,Quarterly plan?ing,,,2025-01-30,H?tel d? Ville,
+4801,note,Remi?der,,,,,
+4841,note,C?ll notes,,,,,
+4854,note,Reminder,,,,,
+4934,task,Pay rent,,,2025-12-21,,done

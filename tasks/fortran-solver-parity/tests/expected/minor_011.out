@@ -1,0 +1,43 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Fittings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,  10 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     44.210      1.07   106.592    62.382     610.7
+ N12      JUNC     45.500      4.28   106.602    61.102     598.2
+ N13      JUNC     28.820      3.49   109.868    81.048     793.5
+ N14      JUNC     51.910      6.11   141.642    89.732     878.5
+ N21      JUNC     40.300      0.00   106.592    66.292     649.0
+ N22      JUNC     51.300      4.31   106.592    55.292     541.3
+ N23      JUNC     39.620      0.00   106.608    66.988     655.8
+ N24      JUNC     42.460      0.00   141.642    99.182     971.0
+ RES1     RESV    141.650    -19.26   141.650     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N13          -5.89    -0.750     3.266   0.02123  OPEN    
+ P2       PIPE  N13      N14         -13.15    -1.674    31.774   0.02143  OPEN    
+ P3       PIPE  N23      N13          -3.77    -0.480     3.260   0.02278  OPEN    
+ P4       PIPE  N23      N22           3.77     0.053     0.016   0.02805  OPEN    
+ P5       PIPE  N21      N22          -0.22    -0.003     0.000   0.06930  OPEN    
+ P6       PIPE  N22      N12          -0.76    -0.043     0.010   0.03948  OPEN    
+ P7       PIPE  N11      N12          -0.85    -0.027     0.010   0.03693  OPEN    
+ P8       PIPE  N21      N11           0.22     0.003     0.000   0.06930  OPEN    
+ P9       PIPE  N14      N24           0.00     0.000     0.000     UNDEF  OPEN    
+ P10      PIPE  RES1     N14          19.26     0.153     0.008   0.01986  OPEN    
+ 
+ TOTAL DEMAND :     19.26 L/S
+ TOTAL SUPPLY :     19.26 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P9'
+
+ RUN COMPLETED WITH   1 WARNING(S)

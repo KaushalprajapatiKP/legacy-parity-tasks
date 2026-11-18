@@ -1,0 +1,41 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : HW network
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   7 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     21.570      5.00   102.964    81.394     796.8
+ N12      JUNC     18.840      0.00   102.964    84.124     823.6
+ N21      JUNC     40.530      2.11   103.075    62.545     612.3
+ N22      JUNC     37.050      0.00   103.519    66.469     650.7
+ N31      JUNC     24.930      0.00   103.075    78.145     765.0
+ N32      JUNC     22.290      0.00   103.519    81.229     795.2
+ R1       RESV    111.200    -19.92   111.200     0.000       0.0
+ R2       RESV    103.060     12.81   103.060     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N21      N31           0.00     0.000     0.000            OPEN    
+ P2       PIPE  N12      N11           0.00     0.000     0.000            OPEN    
+ P3       PIPE  N32      N22          -0.00    -0.000     0.000            OPEN    
+ P4       PIPE  N11      N21          -5.00    -0.102     0.111            OPEN    
+ P5       PIPE  N21      N22         -19.92    -0.406     0.443            OPEN    
+ P6       PIPE  R1       N22          19.92     0.634     7.681            OPEN    
+ P7       PIPE  R2       N21         -12.81    -0.102     0.015            OPEN    
+ 
+ TOTAL DEMAND :      7.11 L/S
+ TOTAL SUPPLY :      7.11 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+
+ RUN COMPLETED WITH   3 WARNING(S)

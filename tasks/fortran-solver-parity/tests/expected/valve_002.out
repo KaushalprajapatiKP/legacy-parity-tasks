@@ -1,0 +1,40 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Valves
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ Hy04     JUNC     -0.860      5.62    83.259    84.119     823.5
+ Hy05     JUNC     -2.300      0.00    83.353    85.653     838.5
+ J1       JUNC     -0.780      0.00    83.592    84.372     826.0
+ J3       JUNC      2.370      2.77    83.394    81.024     793.2
+ J6       JUNC     14.850      3.37    82.009    67.159     657.5
+ RES1     RESV     92.270    -18.93    92.270     0.000       0.0
+ VJ1      JUNC     27.100      1.10    81.990    54.890     537.4
+ VK1      JUNC      5.000      1.57    81.713    76.713     751.0
+ n02      JUNC      1.850      4.50    91.302    89.452     875.7
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  Hy05     J3           -6.04    -0.123     0.040   0.02443  OPEN    
+ P2       PIPE  Hy05     J6            6.04     0.342     1.344   0.03504  OPEN    
+ P3       PIPE  n02      J1           14.43     0.817     7.711   0.02819  OPEN    
+ P4       PIPE  J3       J1          -14.43    -0.204     0.198   0.02126  OPEN    
+ P5       PIPE  J3       Hy04          5.62     0.318     0.135   0.02125  OPEN    
+ P6       PIPE  RES1     n02          18.93     0.603     0.968   0.01724  OPEN    
+ V1       VALVE J6       VJ1           2.67     1.360     0.019            OPEN    
+ PX1      PIPE  VJ1      VK1           1.57     0.200     0.278   0.02812  OPEN    
+ 
+ TOTAL DEMAND :     18.93 L/S
+ TOTAL SUPPLY :     18.93 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

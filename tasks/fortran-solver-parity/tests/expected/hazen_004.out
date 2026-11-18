@@ -1,0 +1,41 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : HW network
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     31.090      0.00    82.495    51.405     503.3
+ J2       JUNC     33.390      2.16    82.504    49.114     480.8
+ J3       JUNC     35.300      0.00    87.751    52.451     513.5
+ J4       JUNC     37.930      4.44    87.877    49.947     489.0
+ J5       JUNC     27.740      1.23    82.477    54.737     535.9
+ J6       JUNC     31.040      5.87    82.478    51.438     503.6
+ J7       JUNC     25.170      6.80    82.460    57.290     560.9
+ J8       JUNC     24.630      7.55    87.771    63.141     618.2
+ R1       RESV     88.040    -28.05    88.040     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J5       J6           -0.55    -0.011     0.001            OPEN    
+ P2       PIPE  J6       J2          -13.22    -0.105     0.026            OPEN    
+ P3       PIPE  J3       J2           16.06     0.909     5.247            OPEN    
+ P4       PIPE  J4       J3           16.06     0.227     0.126            OPEN    
+ P5       PIPE  J1       J2           -0.68    -0.038     0.008            OPEN    
+ P6       PIPE  J7       J6           -6.80    -0.096     0.018            OPEN    
+ P7       PIPE  J5       J1           -0.68    -0.038     0.019            OPEN    
+ P8       PIPE  J4       J8            7.55     0.154     0.106            OPEN    
+ P9       PIPE  R1       J4           28.05     0.397     0.163            OPEN    
+ 
+ TOTAL DEMAND :     28.05 L/S
+ TOTAL SUPPLY :     28.05 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

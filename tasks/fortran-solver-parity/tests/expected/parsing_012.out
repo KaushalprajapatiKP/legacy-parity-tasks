@@ -1,0 +1,42 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Mixed Case
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   7 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     15.010      0.00    99.460    84.450     826.8
+ N12      JUNC     22.650      0.54    99.460    76.810     752.0
+ N21      JUNC     32.450      0.00    99.460    67.010     656.0
+ N22      JUNC     31.890      0.00    99.460    67.570     661.5
+ N31      JUNC     32.060      0.00    99.460    67.400     659.8
+ N32      JUNC     16.890      0.00    99.460    82.570     808.4
+ RES1     RESV     99.460     -0.54    99.460     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N32           0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  N32      N31           0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  N12      N22          -0.54    -0.008     0.000   0.03325  OPEN    
+ P4       PIPE  N21      N22          -0.00    -0.000     0.000     UNDEF  OPEN    
+ P5       PIPE  N12      N11           0.00     0.000     0.000     UNDEF  OPEN    
+ P6       PIPE  N31      N21          -0.00    -0.000     0.000     UNDEF  OPEN    
+ P7       PIPE  RES1     N22           0.54     0.004     0.000   0.03723  OPEN    
+ 
+ TOTAL DEMAND :      0.54 L/S
+ TOTAL SUPPLY :      0.54 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P4'
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+ *** WARNING W203: ZERO FLOW IN LINK 'P6'
+
+ RUN COMPLETED WITH   5 WARNING(S)

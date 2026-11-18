@@ -1,0 +1,38 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   5 NODES,   1 RESERVOIRS,   5 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC    -29.540      1.96  -254.941  -225.401   -2206.7
+ N12      JUNC    -28.260      1.93  -255.130  -226.870   -2221.1
+ N21      JUNC    -31.700      0.00  -254.964  -223.264   -2185.8
+ N22      JUNC    -24.460      4.95  -254.965  -230.505   -2256.6
+ S3       RESV      4.660     -8.84     4.660     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N11          -0.84    -0.107     0.189   0.03794  OPEN    
+ P2       PIPE  N21      N22           6.04     0.048     0.001   0.02667  OPEN    
+ P3       PIPE  N12      N22          -1.09    -0.139     0.164   0.03304  OPEN    
+ P4       PIPE  N21      N11          -6.04    -0.085     0.023   0.03147  OPEN    
+ PU1      PUMP  S3       N11           8.84             259.601            ON      
+ 
+ TOTAL DEMAND :      8.84 L/S
+ TOTAL SUPPLY :      8.84 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N11'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N12'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N21'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N22'
+ *** WARNING W207: PUMP 'PU1' FLOW EXCEEDS QMAX
+
+ RUN COMPLETED WITH   5 WARNING(S)

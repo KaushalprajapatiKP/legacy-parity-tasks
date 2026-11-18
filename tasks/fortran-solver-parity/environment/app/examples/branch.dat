@@ -1,0 +1,10 @@
+* A simple branched main fed from one reservoir
+TITLE Branched main
+RESERVOIR TANK 85.0
+JUNCTION A 40.0 4.5
+JUNCTION B 38.0 3.0
+JUNCTION C 42.5 2.0
+PIPE P1 TANK A 1200 200 0.05
+PIPE P2 A B 600 150 0.05
+PIPE P3 A C 450 100 0.05
+END

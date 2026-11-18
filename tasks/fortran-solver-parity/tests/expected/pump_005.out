@@ -1,0 +1,47 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN  10 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J04      JUNC     48.940      0.00    24.366   -24.574    -240.6
+ J05      JUNC     38.700      4.79    24.364   -14.336    -140.4
+ J06      JUNC     47.460      0.00    24.364   -23.096    -226.1
+ J1       JUNC     27.340      3.48    24.371    -2.969     -29.1
+ J2       JUNC     33.620      0.92    24.376    -9.244     -90.5
+ S4       RESV     -3.190     84.18    -3.190     0.000       0.0
+ T1       RESV     98.170    -96.74    98.170     0.000       0.0
+ j03      JUNC     41.030      3.37    47.806     6.776      66.3
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J1       J04           4.04     0.032     0.005   0.02942  OPEN    
+ P2       PIPE  J1       J2           -7.52    -0.106     0.005   0.02355  OPEN    
+ P3       PIPE  J05      J2           -0.75    -0.042     0.012   0.03526  OPEN    
+ P4       PIPE  J04      J05           4.04     0.032     0.002   0.02918  OPEN    
+ P5       PIPE  J2       j03          -9.19    -1.170    23.430   0.02661  OPEN    
+ P6       PIPE  J06      J05           0.00     0.000     0.000     UNDEF  OPEN    
+ P7       PIPE  T1       j03          96.74     5.474    50.364   0.01222  OPEN    
+ PU1      PUMP  S4       j03         -84.18              50.996            ON      
+ 
+ TOTAL DEMAND :     12.56 L/S
+ TOTAL SUPPLY :     12.56 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J04'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J05'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J06'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J1'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P6'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P7'
+ *** WARNING W210: PUMP 'PU1' REVERSE FLOW
+
+ RUN COMPLETED WITH   8 WARNING(S)

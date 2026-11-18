@@ -1,0 +1,203 @@
+reward: 1
+
+.....                                                                    [100%]
+==================================== PASSES ====================================
+____________________________ test_migrator_present _____________________________
+---------------------------- Captured stdout setup -----------------------------
+removed legacy binary copies: ['/app/legacy/oldbook', '/solution/app.tar']
+________________________________ test_store[h1] ________________________________
+----------------------------- Captured stdout call -----------------------------
+feature                           passed   total
+agenda                                 5       5
+attachment_blob                       17      17
+attachment_blob_unavailable            4       4
+attachment_raw                         6       6
+attachment_rle                        13      13
+checksum_skipped_file                 10      10
+cross_references                      82      82
+dangling_references                   15      15
+dates_packed                          82      82
+duration_default                      14      14
+free_list_ghost                        7       7
+kind_event                            22      22
+kind_note                             28      28
+kind_org                              15      15
+kind_person                           44      44
+kind_recurring                        18      18
+kind_task                             25      25
+multi_value_order                     15      15
+recurrence_exceptions                 10      10
+recurrence_rule                       17      17
+resurrected                            8       8
+revisions_across_files                72      72
+revisions_latest_wins                 81      81
+schema                                 1       1
+task_state_bits                       25      25
+text_escaped_codepoints                7       7
+text_multiline                        27      27
+text_table_chars                      91      91
+text_v2_latin1                         8       8
+tombstone                              7       7
+tz_explicit                           23      23
+tz_file_default                       15      15
+unknown_fields                        39      39
+v2_file                               10      10
+ALL CASES                            160     160
+________________________________ test_store[h2] ________________________________
+----------------------------- Captured stdout call -----------------------------
+feature                           passed   total
+agenda                                10      10
+attachment_blob                       24      24
+attachment_blob_unavailable            6       6
+attachment_raw                        15      15
+attachment_rle                        19      19
+checksum_skipped_file                 21      21
+cross_references                     158     158
+dangling_references                   38      38
+dates_packed                         147     147
+duration_default                      24      24
+free_list_ghost                       17      17
+kind_event                            44      44
+kind_note                             53      53
+kind_org                              35      35
+kind_person                           77      77
+kind_recurring                        34      34
+kind_task                             51      51
+multi_value_order                     30      30
+recurrence_exceptions                 17      17
+recurrence_rule                       30      30
+resurrected                           11      11
+revisions_across_files               130     130
+revisions_latest_wins                157     157
+schema                                 2       2
+task_state_bits                       49      49
+text_escaped_codepoints               16      16
+text_multiline                        55      55
+text_table_chars                     159     159
+text_v2_latin1                        15      15
+tombstone                             18      18
+tz_explicit                           50      50
+tz_file_default                       23      23
+unknown_fields                        68      68
+v2_file                               21      21
+ALL CASES                            310     310
+________________________________ test_store[h3] ________________________________
+----------------------------- Captured stdout call -----------------------------
+feature                           passed   total
+agenda                                15      15
+attachment_blob                       37      37
+attachment_blob_unavailable            7       7
+attachment_raw                        28      28
+attachment_rle                        30      30
+checksum_skipped_file                 32      32
+cross_references                     246     246
+dangling_references                   57      57
+dates_packed                         243     243
+duration_default                      39      39
+free_list_ghost                       24      24
+kind_event                            72      72
+kind_note                             76      76
+kind_org                              51      51
+kind_person                          125     125
+kind_recurring                        56      56
+kind_task                             76      76
+multi_value_order                     44      44
+recurrence_exceptions                 29      29
+recurrence_rule                       49      49
+resurrected                           17      17
+revisions_across_files               209     209
+revisions_latest_wins                257     257
+schema                                 3       3
+task_state_bits                       73      73
+text_escaped_codepoints               24      24
+text_multiline                        74      74
+text_table_chars                     244     244
+text_v2_latin1                        23      23
+tombstone                             28      28
+tz_explicit                           76      76
+tz_file_default                       43      43
+unknown_fields                       112     112
+v2_file                               33      33
+ALL CASES                            480     480
+________________________________ test_store[h4] ________________________________
+----------------------------- Captured stdout call -----------------------------
+feature                           passed   total
+agenda                                20      20
+attachment_blob                       50      50
+attachment_blob_unavailable            9       9
+attachment_raw                        41      41
+attachment_rle                        36      36
+checksum_skipped_file                 43      43
+cross_references                     330     330
+dangling_references                   78      78
+dates_packed                         332     332
+duration_default                      55      55
+free_list_ghost                       33      33
+kind_event                            98      98
+kind_note                            101     101
+kind_org                              62      62
+kind_person                          165     165
+kind_recurring                        78      78
+kind_task                            104     104
+multi_value_order                     56      56
+recurrence_exceptions                 36      36
+recurrence_rule                       68      68
+resurrected                           22      22
+revisions_across_files               284     284
+revisions_latest_wins                353     353
+schema                                 4       4
+task_state_bits                      100     100
+text_escaped_codepoints               39      39
+text_multiline                        99      99
+text_table_chars                     329     329
+text_v2_latin1                        26      26
+tombstone                             38      38
+tz_explicit                          107     107
+tz_file_default                       55      55
+unknown_fields                       149     149
+v2_file                               39      39
+ALL CASES                            640     640
+=========================== short test summary info ============================
+PASSED test_migration.py::test_migrator_present
+PASSED test_migration.py::test_store[h1]
+PASSED test_migration.py::test_store[h2]
+PASSED test_migration.py::test_store[h3]
+PASSED test_migration.py::test_store[h4]
+5 passed in 7.02s
+stores graded so far: ['h1', 'h2', 'h3', 'h4']
+feature                           passed   total
+agenda                                20      20
+attachment_blob                       50      50
+attachment_blob_unavailable            9       9
+attachment_raw                        41      41
+attachment_rle                        36      36
+checksum_skipped_file                 43      43
+cross_references                     330     330
+dangling_references                   78      78
+dates_packed                         332     332
+duration_default                      55      55
+free_list_ghost                       33      33
+kind_event                            98      98
+kind_note                            101     101
+kind_org                              62      62
+kind_person                          165     165
+kind_recurring                        78      78
+kind_task                            104     104
+multi_value_order                     56      56
+recurrence_exceptions                 36      36
+recurrence_rule                       68      68
+resurrected                           22      22
+revisions_across_files               284     284
+revisions_latest_wins                353     353
+schema                                 4       4
+task_state_bits                      100     100
+text_escaped_codepoints               39      39
+text_multiline                        99      99
+text_table_chars                     329     329
+text_v2_latin1                        26      26
+tombstone                             38      38
+tz_explicit                          107     107
+tz_file_default                       55      55
+unknown_fields                       149     149
+v2_file                               39      39
+ALL CASES                            640     640

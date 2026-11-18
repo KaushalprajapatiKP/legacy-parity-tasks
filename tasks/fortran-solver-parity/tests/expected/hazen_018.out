@@ -1,0 +1,63 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : HW network
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :  18 NODES,   2 RESERVOIRS,  21 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC      6.140      0.00    84.544    78.404     767.6
+ N12      JUNC      2.090      2.51    91.106    89.016     871.5
+ N13      JUNC      9.610      0.00    85.965    76.355     747.5
+ N14      JUNC      8.130      6.93    85.697    77.567     759.4
+ N21      JUNC      6.770      2.49    83.724    76.954     753.4
+ N22      JUNC      3.200      0.62    85.127    81.927     802.1
+ N23      JUNC      2.200      0.00    83.193    80.993     792.9
+ N24      JUNC     17.700      0.00    85.697    67.997     665.7
+ N31      JUNC     20.370      5.23    83.696    63.326     620.0
+ N32      JUNC     21.730      1.72    83.869    62.139     608.3
+ N33      JUNC     12.680      3.38    83.090    70.410     689.3
+ N34      JUNC     19.370      2.27    83.069    63.699     623.6
+ N41      JUNC      8.400      5.63    83.521    75.121     735.4
+ N42      JUNC     14.510      6.83    83.078    68.568     671.3
+ N43      JUNC      1.230      7.37    83.052    81.822     801.0
+ N44      JUNC      6.840      3.27    82.937    76.097     745.0
+ RES1     RESV     68.840     62.92    68.840     0.000       0.0
+ T2       RESV     93.000   -111.17    93.000     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N13      N14           6.93     0.141     0.268            OPEN    
+ P2       PIPE  N34      N33          -2.94    -0.060     0.021            OPEN    
+ P3       PIPE  N13      N23          10.56     0.598     2.772            OPEN    
+ P4       PIPE  N42      N43           3.26     0.046     0.026            OPEN    
+ P5       PIPE  N13      N12         -17.49    -0.990     5.141            OPEN    
+ P6       PIPE  N11      N12         -20.51    -1.161     6.562            OPEN    
+ P7       PIPE  N23      N33          13.03     0.104     0.103            OPEN    
+ P8       PIPE  N14      N24           0.00     0.000     0.000            OPEN    
+ P9       PIPE  N41      N31         -15.72    -0.222     0.175            OPEN    
+ P10      PIPE  N21      N31          18.02     0.143     0.028            OPEN    
+ P11      PIPE  N43      N44           2.60     0.147     0.115            OPEN    
+ P12      PIPE  N22      N23           2.46     0.557     1.934            OPEN    
+ P13      PIPE  N43      N33          -6.71    -0.053     0.038            OPEN    
+ P14      PIPE  N32      N31           2.93     0.093     0.173            OPEN    
+ P15      PIPE  N34      N44           0.67     0.085     0.131            OPEN    
+ P16      PIPE  N21      N11         -20.51    -0.653     0.820            OPEN    
+ P17      PIPE  N22      N12         -70.65    -1.439     5.979            OPEN    
+ P18      PIPE  N22      N32           4.65     0.263     1.258            OPEN    
+ P19      PIPE  N42      N41         -10.09    -0.321     0.442            OPEN    
+ P20      PIPE  RES1     N22         -62.92    -1.282    16.287            OPEN    
+ P21      PIPE  T2       N12         111.17     0.885     1.894            OPEN    
+ 
+ TOTAL DEMAND :     48.25 L/S
+ TOTAL SUPPLY :     48.25 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P8'
+
+ RUN COMPLETED WITH   1 WARNING(S)

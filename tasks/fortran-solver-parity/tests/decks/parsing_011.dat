@@ -1,0 +1,15 @@
+title lower case keywords
+reservoir SRC1 109.73
+junction M1 38.04 5.95
+junction B2 43.35 6.08
+junction C3 45.66 0
+junction K4 40.32 2.96
+junction A5 46.47 0
+junction Z6 26.16 3.87
+pipe P1 K4 C3 452.1 100 1
+pipe P2 M1 C3 547.1 200 0.5
+pipe P3 Z6 A5 217.2 150 0.1
+pipe P4 A5 C3 1391.5 250 1
+pipe P5 B2 M1 206.3 150 0.1
+pipe P6 SRC1 A5 681.1 300 0.01
+end

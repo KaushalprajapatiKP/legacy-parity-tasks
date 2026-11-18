@@ -1,0 +1,55 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Daily cycle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   4 NODES,   1 RESERVOIRS,   3 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ STEPS    :  2 AT  0.25 H
+ 
+ TIME STEP  1 OF  2  AT  0:00
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A2       JUNC     42.680      0.00   121.482    78.802     771.5
+ B3       JUNC     27.940      0.00   121.482    93.542     915.8
+ SRC1     RESV    121.490     -8.05   121.490     0.000       0.0
+ Y1       JUNC     51.650      8.05   121.425    69.775     683.1
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  B3       A2           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  A2       Y1            8.05     0.114     0.057   0.02268  OPEN    
+ P3       PIPE  SRC1     A2            8.05     0.164     0.008   0.02187  OPEN    
+ 
+ TOTAL DEMAND :      8.05 L/S
+ TOTAL SUPPLY :      8.05 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ 
+ TIME STEP  2 OF  2  AT  0:15
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A2       JUNC     42.680      0.00   121.488    78.808     771.5
+ B3       JUNC     27.940      0.00   121.488    93.548     915.8
+ SRC1     RESV    121.490     -3.37   121.490     0.000       0.0
+ Y1       JUNC     51.650      3.37   121.476    69.826     683.6
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  B3       A2            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  A2       Y1            3.37     0.048     0.012   0.02815  OPEN    
+ P3       PIPE  SRC1     A2            3.37     0.069     0.002   0.02693  OPEN    
+ 
+ TOTAL DEMAND :      3.37 L/S
+ TOTAL SUPPLY :      3.37 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+
+ RUN COMPLETED WITH   2 WARNING(S)

@@ -1,0 +1,44 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Topology
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   2 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ *** WARNING W204: NODE 'Z13' IS ISOLATED
+ *** WARNING W204: NODE 'ZZ13' IS ISOLATED
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ M3       JUNC     26.340      0.00   106.545    80.205     785.2
+ SRC2     RESV    113.500    -65.68   113.500     0.000       0.0
+ T1       RESV    105.990     51.27   105.990     0.000       0.0
+ X5       JUNC     26.590      7.71   106.170    79.580     779.1
+ X6       JUNC     11.750      3.60   106.155    94.405     924.2
+ Y1       JUNC     33.540      0.00   107.007    73.467     719.2
+ Y4       JUNC     34.480      0.00   106.468    71.988     704.8
+ Z13      JUNC      5.000      4.00    ISOLATED
+ Z2       JUNC     30.420      3.10   106.452    76.032     744.4
+ ZZ13     JUNC      4.000      1.00    ISOLATED
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  M3       Y4            3.10     0.099     0.077   0.02881  OPEN    
+ P2       PIPE  M3       Y1          -14.41    -0.459     0.462   0.01823  OPEN    
+ P3       PIPE  Y4       Z2            3.10     0.044     0.015   0.03447  OPEN    
+ P4       PIPE  X5       M3          -11.31    -0.230     0.375   0.02386  OPEN    
+ P5       PIPE  X6       X5           -3.60    -0.051     0.015   0.03368  OPEN    
+ P6       PIPE  T1       Y1          -51.27    -0.725     1.017   0.01533  OPEN    
+ P7       PIPE  SRC2     Y1           65.68     1.338     6.493   0.01416  OPEN    
+ VC13     VALVE Y1       Z13           0.00     0.000     0.000            CLOSED  
+ PZ13     PIPE  Z13      ZZ13          0.00     0.000     0.000     UNDEF  ISOLATED
+ 
+ TOTAL DEMAND :     14.41 L/S
+ TOTAL SUPPLY :     14.41 L/S
+
+ RUN COMPLETED WITH   2 WARNING(S)

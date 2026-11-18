@@ -1,0 +1,30 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ *** WARNING W206 LINE   2: MAXIT LIMITED TO 200
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   3 NODES,   1 RESERVOIRS,   2 LINKS
+ SOLVER   : TOL  1.0E-09, MAXIT 200
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ B2       JUNC     29.200      2.72    62.938    33.738     330.3
+ M1       JUNC     13.030      0.00    62.938    49.908     488.6
+ RES1     RESV     63.270     -2.72    63.270     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  M1       B2           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  RES1     B2            2.72     0.154     0.332   0.02892  OPEN    
+ 
+ TOTAL DEMAND :      2.72 L/S
+ TOTAL SUPPLY :      2.72 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+
+ RUN COMPLETED WITH   2 WARNING(S)

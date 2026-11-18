@@ -1,0 +1,38 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Fittings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   6 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     20.210      0.64   109.328    89.118     872.5
+ N12      JUNC     28.340      0.00   109.209    80.869     791.7
+ N13      JUNC      5.720      0.00   109.209   103.489    1013.2
+ N21      JUNC     15.500      0.00   108.568    93.068     911.1
+ N22      JUNC     15.040      1.28   108.568    93.528     915.6
+ N23      JUNC      7.480      3.84   108.275   100.795     986.8
+ SRC1     RESV    109.390     -5.76   109.390     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N23           3.84     0.489     0.293   0.02093  OPEN    
+ P2       PIPE  N11      N12           5.12     0.290     0.118   0.02168  OPEN    
+ P3       PIPE  N12      N13           0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  N21      N22          -0.00    -0.000     0.000     UNDEF  OPEN    
+ P5       PIPE  N12      N22           5.12     0.652     0.642   0.03209  OPEN    
+ P6       PIPE  SRC1     N11           5.76     0.117     0.062   0.02632  OPEN    
+ 
+ TOTAL DEMAND :      5.76 L/S
+ TOTAL SUPPLY :      5.76 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W203: ZERO FLOW IN LINK 'P4'
+
+ RUN COMPLETED WITH   2 WARNING(S)

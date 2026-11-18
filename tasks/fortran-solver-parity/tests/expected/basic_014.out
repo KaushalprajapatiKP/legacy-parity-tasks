@@ -1,0 +1,61 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : (NONE)
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  17 NODES,   1 RESERVOIRS,  20 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A11      JUNC     24.780      6.30   101.030    76.250     746.5
+ A16      JUNC     22.430      3.53   100.453    78.023     763.8
+ A3       JUNC      3.410      0.00   100.521    97.111     950.7
+ A5       JUNC     12.840      0.00   101.242    88.402     865.5
+ A6       JUNC     23.750      0.00   101.254    77.504     758.8
+ B1       JUNC     17.190      7.58   100.536    83.346     816.0
+ B13      JUNC      4.860      7.72   100.761    95.901     938.9
+ K10      JUNC     18.080      0.00   101.261    83.181     814.3
+ K15      JUNC     24.740      2.95   100.532    75.792     742.0
+ K7       JUNC      4.910      5.81   100.331    95.421     934.2
+ M2       JUNC     23.770      0.00   100.521    76.751     751.4
+ M4       JUNC      8.440      0.52   100.944    92.504     905.6
+ RES1     RESV    105.310    -43.23   105.310     0.000       0.0
+ X12      JUNC     25.220      3.41   101.017    75.797     742.1
+ X8       JUNC     25.130      0.00   100.972    75.842     742.5
+ Y14      JUNC     13.080      2.93   101.055    87.975     861.3
+ Z9       JUNC     10.260      2.48   101.246    90.986     890.8
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  A11      K15           3.59     0.457     0.498   0.02297  OPEN    
+ P2       PIPE  X8       M4            2.61     0.053     0.028   0.03538  OPEN    
+ P3       PIPE  X12      A16           1.18     0.151     0.564   0.03616  OPEN    
+ P4       PIPE  K10      Z9           10.06     0.080     0.015   0.02493  OPEN    
+ P5       PIPE  A5       Z9           -7.58    -0.060     0.004   0.02531  OPEN    
+ P6       PIPE  K7       A3           -2.09    -0.118     0.190   0.02811  OPEN    
+ P7       PIPE  A11      X12           7.20     0.057     0.013   0.02561  OPEN    
+ P8       PIPE  A5       B1            7.58     0.241     0.707   0.03260  OPEN    
+ P9       PIPE  Y14      B13           7.72     0.246     0.294   0.02269  OPEN    
+ P10      PIPE  A11      K7            1.94     0.247     0.699   0.02454  OPEN    
+ P11      PIPE  A6       K10          -1.78    -0.036     0.007   0.03215  OPEN    
+ P12      PIPE  X8       X12          -2.61    -0.083     0.045   0.03191  OPEN    
+ P13      PIPE  Y14      K15           1.71     0.217     0.523   0.02654  OPEN    
+ P14      PIPE  K10      Y14          12.36     0.175     0.206   0.02949  OPEN    
+ P15      PIPE  K7       A6           -1.78    -0.227     0.922   0.04099  OPEN    
+ P16      PIPE  M2       A3            0.00     0.000     0.000     UNDEF  OPEN    
+ P17      PIPE  M4       A3            2.09     0.266     0.423   0.02544  OPEN    
+ P18      PIPE  K10      A11          19.03     0.269     0.231   0.01954  OPEN    
+ P19      PIPE  A16      K15          -2.35    -0.133     0.079   0.02601  OPEN    
+ P20      PIPE  RES1     K10          43.23     0.881     4.049   0.02123  OPEN    
+ 
+ TOTAL DEMAND :     43.23 L/S
+ TOTAL SUPPLY :     43.23 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P16'
+
+ RUN COMPLETED WITH   1 WARNING(S)

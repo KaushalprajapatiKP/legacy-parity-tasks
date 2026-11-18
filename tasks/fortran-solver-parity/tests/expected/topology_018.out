@@ -1,0 +1,40 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Islands
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   8 NODES,   1 RESERVOIRS,   4 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ *** WARNING W204: NODE 'D3' IS ISOLATED
+ *** WARNING W204: NODE 'M2' IS ISOLATED
+ *** WARNING W204: NODE 'Q7' IS ISOLATED
+ *** WARNING W204: NODE 'W4' IS ISOLATED
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ D3       JUNC      1.000      2.87    ISOLATED
+ J02      JUNC     35.130      5.82   123.639    88.509     866.5
+ J03      JUNC     35.280      7.82   123.646    88.366     865.1
+ J1       JUNC     30.410      0.00   123.639    93.229     912.7
+ M2       JUNC     19.000      0.59    ISOLATED
+ Q7       JUNC     19.000      1.62    ISOLATED
+ SRC1     RESV    123.830    -13.64   123.830     0.000       0.0
+ W4       JUNC     10.000      2.10    ISOLATED
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J02      J03          -5.82    -0.082     0.008   0.02496  OPEN    
+ P2       PIPE  J1       J02           0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  SRC1     J03          13.64     0.434     0.184   0.01970  OPEN    
+ PQ2      PIPE  W4       Q7            0.00     0.000     0.000     UNDEF  ISOLATED
+ 
+ TOTAL DEMAND :     13.64 L/S
+ TOTAL SUPPLY :     13.64 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+
+ RUN COMPLETED WITH   5 WARNING(S)

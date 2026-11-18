@@ -1,0 +1,43 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Fittings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     17.850      3.33    44.107    26.257     257.1
+ N12      JUNC     21.360      2.90    44.113    22.753     222.7
+ N13      JUNC     12.370      0.00    44.159    31.789     311.2
+ N14      JUNC     15.770      5.88    41.925    26.155     256.1
+ N21      JUNC      3.340      0.00    44.107    40.767     399.1
+ N22      JUNC      7.510      0.00    44.107    36.597     358.3
+ N23      JUNC      3.180      7.28    43.357    40.177     393.3
+ N24      JUNC     11.820      0.00    43.357    31.537     308.7
+ R1       RESV     52.990    -19.39    52.990     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N11           3.33     0.047     0.006   0.02995  OPEN    
+ P2       PIPE  N24      N23          -0.00    -0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  N23      N13          -7.28    -0.412     0.803   0.02245  OPEN    
+ P4       PIPE  N14      N13          -5.88    -0.749     2.234   0.01907  OPEN    
+ P5       PIPE  N22      N21           0.00     0.000     0.000     UNDEF  OPEN    
+ P6       PIPE  N13      N12           6.23     0.088     0.046   0.02503  OPEN    
+ P7       PIPE  N21      N11           0.00     0.000     0.000     UNDEF  OPEN    
+ P8       PIPE  R1       N13          19.39     1.097     8.831   0.01622  OPEN    
+ 
+ TOTAL DEMAND :     19.39 L/S
+ TOTAL SUPPLY :     19.39 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+ *** WARNING W203: ZERO FLOW IN LINK 'P7'
+
+ RUN COMPLETED WITH   3 WARNING(S)

@@ -1,0 +1,50 @@
+BILLRUN 4.2 RELEASE NOTES (production)
+======================================
+
+Summary of changes since 3.7. This note lists features; it is not a
+specification.
+
+New activity record types
+
+  DS  discount coupon
+    19      1   Kind: P percentage, F fixed amount
+    23-32  10   Value, signed amount format (a percentage is written the
+                same way, for example +000001500 is 15.00 percent)
+
+  SU  service suspension (the activity date is the first suspended day)
+    19-26   8   Last suspended day, YYYYMMDD
+
+Billing
+
+  - Monthly fees are prorated for part-cycle service: accounts opening
+    or closing during the cycle, mid-cycle plan changes and suspensions.
+  - Usage pricing revised: data tiers rebalanced and plan data
+    allowances introduced, voice billed in whole minutes, a premium SMS
+    allowance, cheaper premium voice, basic SMS repriced, roaming
+    rounding changed.
+  - Coupons stack with the loyalty discount. New loyalty tier L3. Total
+    discounts are capped.
+  - Late fees are capped per cycle. Deposits are no longer taxed.
+  - Tax rounding changed.
+
+Validation
+
+  - Calendar-accurate date checks.
+  - New reject codes for duplicate accounts, invalid tax class, records
+    outside the cycle, duplicate activity, inactive accounts, plan
+    change, payment, coupon and suspension errors. Reject messages were
+    reworded. The reject report shows the record's sequence number and
+    source file.
+  - Accounts with no service in the cycle are not billed.
+  - Billing cycles longer than 31 days are refused.
+
+Reports
+
+  - Statements are ordered by region and account id; statement lines are
+    listed in date order; new quantity column; credits are shown with CR.
+  - The run summary has new counts, rejects by code and amount due by
+    region.
+
+Return code
+
+  - 4 when any record was rejected; the control record error code changed.

@@ -1,0 +1,70 @@
+reward: 0
+
+..
+CATEGORY        PASS / TOTAL
+basic             40 /   40
+errors            61 /   62
+hazen             20 /   20
+large             15 /   15
+minor             20 /   20
+parsing           25 /   25
+pattern           25 /   25
+pump              25 /   25
+regime            31 /   31
+topology          20 /   20
+us_units          20 /   20
+valve             20 /   20
+warnings          30 /   30
+ALL              352 /  353
+  errors_062: line 3: expected ' *** ERROR E111 LINE  12: TOO MANY PATTERNS', got ''
+F
+=================================== FAILURES ===================================
+______________________________ test_hidden_decks _______________________________
+
+built = '/tmp/hydro-build-g9x4ybt0/src/hydro'
+
+    def test_hidden_decks(built):
+        with open(os.path.join(HERE, "manifest.json")) as f:
+            manifest = json.load(f)
+        table = {}
+        failures = []
+        for item in manifest:
+            name, cat = item["name"], item["cat"]
+            with open(os.path.join(DECKS, name + ".dat"), "rb") as f:
+                deck = f.read()
+            with open(os.path.join(EXPECTED, name + ".out")) as f:
+                exp_out = f.read()
+            with open(os.path.join(EXPECTED, name + ".rc")) as f:
+                exp_rc = int(f.read().strip())
+            try:
+                r = subprocess.run([built], input=deck, capture_output=True,
+                                   timeout=20, cwd="/tmp", env={"PATH": "/usr/bin:/bin"})
+                out = r.stdout.decode("latin-1")
+                rc = r.returncode
+                diff = compare(exp_out, out)
+                if diff is None and rc != exp_rc:
+                    diff = f"exit status {rc}, expected {exp_rc}"
+            except subprocess.TimeoutExpired:
+                diff = "timeout"
+            ok, tot = table.get(cat, (0, 0))
+            table[cat] = (ok + (diff is None), tot + 1)
+            if diff is not None:
+                failures.append(f"{name}: {diff}")
+        print("\nCATEGORY        PASS / TOTAL")
+        tp = tt = 0
+        for cat in sorted(table):
+            ok, tot = table[cat]
+            tp += ok
+            tt += tot
+            print(f"{cat:<15} {ok:4d} / {tot:4d}")
+        print(f"{'ALL':<15} {tp:4d} / {tt:4d}")
+        for line in failures[:25]:
+            print("  " + line)
+>       assert not failures, f"{len(failures)} of {tt} decks differ"
+E       AssertionError: 1 of 353 decks differ
+E       assert not ["errors_062: line 3: expected ' *** ERROR E111 LINE  12: TOO MANY PATTERNS', got ''"]
+
+test_parity.py:174: AssertionError
+=========================== short test summary info ============================
+FAILED test_parity.py::test_hidden_decks - AssertionError: 1 of 353 decks differ
+1 failed, 2 passed in 3.46s

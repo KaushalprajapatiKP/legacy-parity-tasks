@@ -1,0 +1,48 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : District main
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  11 NODES,   2 RESERVOIRS,  10 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A1       JUNC     16.670      0.00    75.594    58.924     576.9
+ B6       JUNC     32.590      4.50   116.015    83.425     816.7
+ B8       JUNC     25.710      0.00  -270.602  -296.312   -2900.9
+ B9       JUNC     19.710      0.00  -269.665  -289.375   -2833.0
+ K5       JUNC     23.740      0.00   115.816    92.076     901.4
+ R2       RESV     75.600     -1.74    75.600     0.000       0.0
+ SRC1     RESV    116.150    -25.71   116.150     0.000       0.0
+ Y2       JUNC     38.620      4.79    75.593    36.973     362.0
+ Y7       JUNC     16.630      7.69  -270.913  -287.543   -2815.0
+ Z3       JUNC     39.860      6.50    75.548    35.688     349.4
+ Z4       JUNC     16.900      3.97   115.389    98.489     964.2
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  B9       B6           -7.69    -3.916   385.680   0.03138  OPEN    
+ P2       PIPE  Y2       A1           -1.74    -0.014     0.000   0.03684  OPEN    
+ P3       PIPE  Y2       Z3            6.50     0.092     0.045   0.02801  OPEN    
+ P4       PIPE  K5       Z4            3.97     0.225     0.427   0.02475  OPEN    
+ P5       PIPE  B6       K5           13.52     0.191     0.199   0.02560  OPEN    
+ P6       PIPE  B8       B9           -7.69    -0.435     0.937   0.01962  OPEN    
+ P7       PIPE  B8       Y7            7.69     0.245     0.311   0.02508  OPEN    
+ P8       PIPE  Y2       K5           -9.55    -1.215    40.223   0.03862  OPEN    
+ P9       PIPE  SRC1     B6           25.71     0.205     0.135   0.02156  OPEN    
+ P10      PIPE  R2       A1            1.74     0.036     0.006   0.03267  OPEN    
+ 
+ TOTAL DEMAND :     27.45 L/S
+ TOTAL SUPPLY :     27.45 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'B8'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'B9'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Y7'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P1'
+
+ RUN COMPLETED WITH   4 WARNING(S)

@@ -1,0 +1,40 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      6.680      7.33    93.258    86.578     847.6
+ J2       JUNC     23.430      0.00    94.498    71.068     695.8
+ J3       JUNC     10.950      0.00    94.231    83.281     815.3
+ J4       JUNC     22.590      0.00    94.499    71.909     704.0
+ J5       JUNC      7.660      0.00   100.759    93.099     911.4
+ J6       JUNC     21.400      4.36    94.540    73.140     716.0
+ S12      RESV     -3.370    -22.62    -3.370     0.000       0.0
+ T1       RESV     94.220     10.93    94.220     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J4       J6          -12.80    -0.102     0.041   0.02555  OPEN    
+ P2       PIPE  J1       J2           -2.09    -0.267     1.240   0.02434  OPEN    
+ P3       PIPE  J2       J4           -2.09    -0.017     0.002   0.03511  OPEN    
+ P4       PIPE  J4       J3           10.71     0.218     0.269   0.02039  OPEN    
+ P5       PIPE  J3       J5           -5.46    -0.695     6.528   0.02741  OPEN    
+ P6       PIPE  J6       J5          -17.16    -2.185     6.219   0.01541  OPEN    
+ P7       PIPE  J1       J3           -5.24    -0.296     0.973   0.02986  OPEN    
+ P8       PIPE  T1       J3          -10.93    -0.087     0.011   0.02338  OPEN    
+ PU1      PUMP  S12      J5           22.62             104.129            ON      
+ 
+ TOTAL DEMAND :     11.69 L/S
+ TOTAL SUPPLY :     11.69 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

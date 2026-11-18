@@ -1,0 +1,40 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : District main
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   8 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A4       JUNC     26.740      4.09   109.523    82.783     810.4
+ A5       JUNC     34.810      6.40   126.300    91.490     895.7
+ A8       JUNC     33.740      0.00   114.178    80.438     787.5
+ B1       JUNC     40.170      0.00   126.308    86.138     843.3
+ C7       JUNC     27.400      0.00   114.217    86.817     849.9
+ RES1     RESV    127.840    -22.59   127.840     0.000       0.0
+ X3       JUNC     31.720      4.79   113.649    81.929     802.1
+ Y6       JUNC     44.250      2.31   127.372    83.122     813.8
+ Z2       JUNC     27.200      5.00   126.462    99.262     971.8
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  A8       A4            4.09     0.521     4.655   0.03246  OPEN    
+ P2       PIPE  C7       X3            4.79     0.271     0.568   0.02201  OPEN    
+ P3       PIPE  Z2       Y6          -11.40    -0.363     0.910   0.03194  OPEN    
+ P4       PIPE  Y6       C7            8.88     1.131    13.155   0.03144  OPEN    
+ P5       PIPE  A8       C7           -4.09    -0.083     0.039   0.02799  OPEN    
+ P6       PIPE  Z2       B1            6.40     0.204     0.154   0.03294  OPEN    
+ P7       PIPE  A5       B1           -6.40    -0.051     0.008   0.02854  OPEN    
+ P8       PIPE  RES1     Y6           22.59     0.460     0.468   0.01761  OPEN    
+ 
+ TOTAL DEMAND :     22.59 L/S
+ TOTAL SUPPLY :     22.59 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

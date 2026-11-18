@@ -1,0 +1,41 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Topology
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   8 NODES,   2 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     37.170      1.56    81.589    44.419     434.9
+ J2       JUNC     32.740      0.00    81.589    48.849     478.2
+ J3       JUNC     20.060      0.00    83.770    63.710     623.7
+ J4       JUNC     15.500      6.38    81.590    66.090     647.0
+ J5       JUNC     17.710      0.00    83.774    66.064     646.8
+ J6       JUNC     30.000      7.41    81.601    51.601     505.2
+ RES1     RESV     83.830   -148.62    83.830     0.000       0.0
+ RR7      RESV     20.000    133.27    20.000     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J3       J4            5.48     0.698     2.180   0.02320  OPEN    
+ P2       PIPE  J5       J3            6.05     0.048     0.005   0.02884  OPEN    
+ P3       PIPE  J2       J1            0.99     0.014     0.000   0.04182  OPEN    
+ P4       PIPE  J6       J4            1.89     0.039     0.011   0.03197  OPEN    
+ P5       PIPE  J5       J6            9.30     0.526     2.173   0.03446  OPEN    
+ P6       PIPE  J1       J3           -0.57    -0.289     2.181   0.02848  OPEN    
+ P7       PIPE  J4       J2            0.99     0.014     0.001   0.04092  OPEN    
+ P8       PIPE  RES1     J5           15.35     0.217     0.056   0.02296  OPEN    
+ PR7      PIPE  RES1     RR7         133.27     4.242    63.830   0.01739  OPEN    
+ 
+ TOTAL DEMAND :     15.35 L/S
+ TOTAL SUPPLY :     15.35 L/S
+ *** WARNING W202: HIGH VELOCITY IN LINK 'PR7'
+
+ RUN COMPLETED WITH   1 WARNING(S)

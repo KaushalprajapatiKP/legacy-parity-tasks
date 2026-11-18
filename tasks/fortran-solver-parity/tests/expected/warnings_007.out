@@ -1,0 +1,56 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ B4       JUNC     75.360      2.87    57.511   -17.849    -174.7
+ B7       JUNC     60.990      5.80    57.500    -3.490     -34.2
+ C6       JUNC     59.080      0.00    57.752    -1.328     -13.0
+ K2       JUNC     70.340      0.00    57.731   -12.609    -123.4
+ M9       JUNC     60.900      0.00    57.752    -3.148     -30.8
+ SRC1     RESV     59.310    -13.76    59.310     0.000       0.0
+ X3       JUNC     72.690      0.00    57.731   -14.959    -146.4
+ Y1       JUNC     64.070      0.00    57.731    -6.339     -62.1
+ Y5       JUNC     67.690      5.09    57.731    -9.959     -97.5
+ Z8       JUNC     81.630      0.00    57.752   -23.878    -233.8
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  B4       Y5           -8.67    -0.276     0.220   0.02473  OPEN    
+ P2       PIPE  K2       Y5           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  K2       Y1            0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  X3       K2           -0.00    -0.000     0.000     UNDEF  OPEN    
+ P5       PIPE  Z8       M9            0.00     0.000     0.000     UNDEF  OPEN    
+ P6       PIPE  Z8       Y5           13.76     0.195     0.020   0.02927  OPEN    
+ P7       PIPE  M9       C6            0.00     0.000     0.000     UNDEF  OPEN    
+ P8       PIPE  B4       B7            5.80     0.046     0.011   0.02907  OPEN    
+ P9       PIPE  SRC1     Z8           13.76     0.779     1.558   0.02437  OPEN    
+ 
+ TOTAL DEMAND :     13.76 L/S
+ TOTAL SUPPLY :     13.76 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'B4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'B7'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'C6'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'K2'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'M9'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'X3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Y1'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Y5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'Z8'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W203: ZERO FLOW IN LINK 'P4'
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+ *** WARNING W203: ZERO FLOW IN LINK 'P7'
+
+ RUN COMPLETED WITH  14 WARNING(S)

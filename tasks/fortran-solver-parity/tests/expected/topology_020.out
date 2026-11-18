@@ -1,0 +1,38 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Islands
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   3 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ *** WARNING W204: NODE 'D3' IS ISOLATED
+ *** WARNING W204: NODE 'K1' IS ISOLATED
+ *** WARNING W204: NODE 'Q7' IS ISOLATED
+ *** WARNING W204: NODE 'ZED' IS ISOLATED
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ D3       JUNC     17.000      0.89    ISOLATED
+ K1       JUNC      8.000      0.91    ISOLATED
+ K2       JUNC     34.300      0.00    94.857    60.557     592.9
+ M1       JUNC     31.130      4.63    94.857    63.727     623.9
+ Q7       JUNC     14.000      1.06    ISOLATED
+ T1       RESV     95.090     -4.63    95.090     0.000       0.0
+ ZED      JUNC     16.000      1.43    ISOLATED
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  M1       K2            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  T1       M1            4.63     0.147     0.233   0.03374  OPEN    
+ PQ4      PIPE  ZED      Q7            0.00     0.000     0.000     UNDEF  ISOLATED
+ 
+ TOTAL DEMAND :      4.63 L/S
+ TOTAL SUPPLY :      4.63 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+
+ RUN COMPLETED WITH   5 WARNING(S)

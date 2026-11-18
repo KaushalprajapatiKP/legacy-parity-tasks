@@ -1,0 +1,44 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ *** WARNING W206 LINE   2: MAXIT LIMITED TO 200
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-09, MAXIT 200
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     24.900      6.43    44.697    19.797     193.8
+ J2       JUNC     37.650      2.68    84.367    46.717     457.4
+ J3       JUNC     32.260      2.48    39.628     7.368      72.1
+ J4       JUNC     38.510      3.82    44.198     5.688      55.7
+ J5       JUNC     28.780      1.77    97.224    68.444     670.1
+ J6       JUNC     37.540      7.28    93.606    56.066     548.9
+ J7       JUNC     34.670      0.00    44.198     9.528      93.3
+ J8       JUNC     38.410      0.00    94.041    55.631     544.6
+ J9       JUNC     35.310      0.97    93.820    58.510     572.8
+ SRC1     RESV     97.270    -25.43    97.270     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       J3            2.48     1.263    53.978   0.02620  OPEN    
+ P2       PIPE  J8       J9           10.73     0.342     0.221   0.02416  OPEN    
+ P3       PIPE  J9       J6            9.76     0.199     0.214   0.02230  OPEN    
+ P4       PIPE  J4       J1           -3.82    -0.216     0.499   0.03070  OPEN    
+ P5       PIPE  J1       J2          -10.25    -1.305    39.670   0.03857  OPEN    
+ P6       PIPE  J7       J4            0.00     0.000     0.000     UNDEF  OPEN    
+ P7       PIPE  J8       J5          -10.73    -0.607     3.182   0.01993  OPEN    
+ P8       PIPE  J2       J5          -12.93    -1.646    12.857   0.01929  OPEN    
+ P9       PIPE  SRC1     J5           25.43     0.202     0.046   0.01933  OPEN    
+ 
+ TOTAL DEMAND :     25.43 L/S
+ TOTAL SUPPLY :     25.43 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P6'
+
+ RUN COMPLETED WITH   2 WARNING(S)

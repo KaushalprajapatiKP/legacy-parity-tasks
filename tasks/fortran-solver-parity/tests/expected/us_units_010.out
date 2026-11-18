@@ -1,0 +1,28 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :   3 NODES,   1 RESERVOIRS,   2 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     57.910     87.03   263.741   205.831     89.23
+ N12      JUNC     45.150     36.37   286.705   241.555    104.71
+ RES1     RESV    286.730   -123.40   286.730     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N11      N12         -87.03    -2.222    22.964            OPEN    
+ P2       PIPE  RES1     N12         123.40     0.197     0.025            OPEN    
+ 
+ TOTAL DEMAND :    123.40 GPM
+ TOTAL SUPPLY :    123.40 GPM
+
+ RUN COMPLETED WITH   0 WARNING(S)

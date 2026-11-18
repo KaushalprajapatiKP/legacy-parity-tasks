@@ -1,0 +1,47 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Topology
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  11 NODES,   2 RESERVOIRS,  12 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     27.190      3.32    67.432    40.242     394.0
+ N12      JUNC      7.790      7.82    67.493    59.703     584.5
+ N13      JUNC     12.550      4.77    68.109    55.559     543.9
+ N21      JUNC     10.490      1.71    67.434    56.944     557.5
+ N22      JUNC      9.180      0.00    67.489    58.309     570.8
+ N23      JUNC     20.820      7.38    67.815    46.995     460.1
+ N31      JUNC     26.010      5.08    67.411    41.401     405.3
+ N32      JUNC     16.540      0.00    67.508    50.968     499.0
+ N33      JUNC     24.020      6.96    67.668    43.648     427.3
+ RR12     RESV     20.000    137.42    20.000     0.000       0.0
+ SRC1     RESV     87.790   -174.46    87.790     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N13      N23          20.85     0.295     0.294   0.02859  OPEN    
+ P2       PIPE  N12      N11           3.32     0.106     0.061   0.03077  OPEN    
+ P3       PIPE  N22      N12          -0.28    -0.016     0.004   0.03370  OPEN    
+ P4       PIPE  N21      N22          -3.65    -0.074     0.055   0.03380  OPEN    
+ P5       PIPE  N32      N31           3.14     0.178     0.097   0.02407  OPEN    
+ P6       PIPE  N22      N32          -3.36    -0.069     0.019   0.02694  OPEN    
+ P7       PIPE  N33      N32           6.51     0.207     0.160   0.02170  OPEN    
+ P8       PIPE  N31      N21          -1.94    -0.062     0.023   0.03715  OPEN    
+ P9       PIPE  N12      N13         -11.42    -0.646     0.616   0.03426  OPEN    
+ P10      PIPE  N33      N23         -13.47    -0.191     0.147   0.02152  OPEN    
+ P11      PIPE  SRC1     N13          37.04     2.096    19.681   0.03357  OPEN    
+ PR12     PIPE  SRC1     RR12        137.42     4.374    67.790   0.01737  OPEN    
+ 
+ TOTAL DEMAND :     37.04 L/S
+ TOTAL SUPPLY :     37.04 L/S
+ *** WARNING W202: HIGH VELOCITY IN LINK 'PR12'
+
+ RUN COMPLETED WITH   1 WARNING(S)

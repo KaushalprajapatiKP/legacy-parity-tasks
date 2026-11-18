@@ -1,0 +1,30 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Trickle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   4 NODES,   1 RESERVOIRS,   3 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ B3       JUNC     17.690      0.01    81.980    64.290     629.4
+ C1       JUNC     21.940      0.01    81.980    60.040     587.8
+ SRC1     RESV     81.980     -0.03    81.980     0.000       0.0
+ Z2       JUNC     19.500      0.01    81.980    62.480     611.7
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  C1       Z2           -0.01    -0.000     0.000   1.25664  OPEN    
+ P2       PIPE  Z2       B3           -0.02    -0.000     0.000   0.88704  OPEN    
+ P3       PIPE  SRC1     B3            0.03     0.000     0.000   0.69332  OPEN    
+ 
+ TOTAL DEMAND :      0.03 L/S
+ TOTAL SUPPLY :      0.03 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

@@ -1,0 +1,42 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Warnings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,  10 LINKS
+ SOLVER   : TOL  1.0E-02, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC     27.970      0.00   112.786    84.816     830.3
+ J2       JUNC     21.260      0.00   112.786    91.526     896.0
+ J3       JUNC     29.280      7.32   112.764    83.484     817.3
+ J4       JUNC     20.870      7.55   112.408    91.538     896.2
+ J5       JUNC     28.180      1.37   112.787    84.607     828.3
+ J6       JUNC     32.910      0.00   112.788    79.878     782.0
+ J7       JUNC     18.690      0.00   112.790    94.100     921.2
+ J8       JUNC     14.600      7.90   112.799    98.199     961.4
+ T1       RESV    113.150    -24.14   113.150     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J1       J5           -0.32    -0.007     0.000   0.03913  OPEN    
+ P2       PIPE  J6       J7           -2.86    -0.023     0.002   0.03184  OPEN    
+ P3       PIPE  J1       J2            0.32     0.003     0.000   0.06260  OPEN    
+ P4       PIPE  J6       J5            1.69     0.054     0.002   0.03081  OPEN    
+ P5       PIPE  J3       J2           -1.49    -0.047     0.022   0.03146  OPEN    
+ P6       PIPE  J8       J7            8.69     0.069     0.009   0.02563  OPEN    
+ P7       PIPE  J6       J2            1.17     0.037     0.002   0.03559  OPEN    
+ P8       PIPE  J8       J4            7.55     0.240     0.391   0.02277  OPEN    
+ P9       PIPE  J3       J7           -5.83    -0.119     0.026   0.02403  OPEN    
+ P10      PIPE  T1       J8           24.14     0.492     0.351   0.01716  OPEN    
+ 
+ TOTAL DEMAND :     24.14 L/S
+ TOTAL SUPPLY :     24.14 L/S
+
+ RUN COMPLETED WITH   0 WARNING(S)

@@ -1,0 +1,45 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : HAZEN-WILLIAMS
+ NETWORK  :  10 NODES,   2 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC    124.030     94.00   307.710   183.680     79.63
+ J2       JUNC    141.390     87.66   310.765   169.375     73.42
+ J3       JUNC    142.410     45.84   449.464   307.054    133.11
+ J4       JUNC     95.230      0.00   340.511   245.281    106.33
+ J5       JUNC    149.910      0.00   431.846   281.936    122.22
+ J6       JUNC    121.710      0.00   431.846   310.136    134.44
+ J7       JUNC    163.710     66.94   431.636   267.926    116.15
+ J8       JUNC    160.520      0.00   431.636   271.116    117.53
+ R1       RESV    452.400  -1211.13   452.400     0.000      0.00
+ WELL     RESV      0.000    916.69     0.000     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J5       J7           66.94     0.273     0.210            OPEN    
+ P2       PIPE  J3       J5           66.94     1.709    17.618            OPEN    
+ P3       PIPE  J7       J8            0.00     0.000     0.000            OPEN    
+ P4       PIPE  J4       J3        -1098.35    -7.011   108.953            OPEN    
+ P5       PIPE  J5       J6            0.00     0.000     0.000            OPEN    
+ P6       PIPE  J2       J1         1010.69     1.613     3.055            OPEN    
+ P7       PIPE  J2       J4        -1098.35    -4.487    29.746            OPEN    
+ P8       PIPE  R1       J3         1211.13     4.947     2.936            OPEN    
+ PU9      PUMP  WELL     J1         -916.69             307.710            ON      
+ 
+ TOTAL DEMAND :    294.44 GPM
+ TOTAL SUPPLY :    294.44 GPM
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W203: ZERO FLOW IN LINK 'P5'
+ *** WARNING W210: PUMP 'PU9' REVERSE FLOW
+
+ RUN COMPLETED WITH   3 WARNING(S)

@@ -1,0 +1,54 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  10 NODES,   1 RESERVOIRS,  11 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   6 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC    -43.420      0.00  -217.662  -174.242   -1705.8
+ N12      JUNC    -38.090      0.00  -216.751  -178.661   -1749.1
+ N13      JUNC    -47.930      2.52  -216.514  -168.584   -1650.4
+ N21      JUNC    -44.700      6.24  -217.752  -173.052   -1694.2
+ N22      JUNC    -33.290      0.00  -216.896  -183.606   -1797.5
+ N23      JUNC    -41.170      3.68  -215.016  -173.846   -1701.9
+ N31      JUNC    -28.820      1.00  -217.753  -188.933   -1849.7
+ N32      JUNC    -45.840      3.64  -218.169  -172.329   -1687.1
+ N33      JUNC    -28.940      5.45  -219.224  -190.284   -1862.9
+ S23      RESV     -0.160    -22.53    -0.160     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N13      N23         -15.54    -0.495     1.498   0.01795  OPEN    
+ P2       PIPE  N13      N12          13.02     0.414     0.237   0.01985  OPEN    
+ P3       PIPE  N12      N11           2.06     0.262     0.911   0.02674  OPEN    
+ P4       PIPE  N21      N31           1.00     0.014     0.000   0.04000  OPEN    
+ P5       PIPE  N23      N33           3.31     0.422     4.208   0.03287  OPEN    
+ P6       PIPE  N22      N12         -10.96    -0.349     0.146   0.01932  OPEN    
+ P7       PIPE  N21      N22          -5.18    -0.293     0.856   0.02650  OPEN    
+ P8       PIPE  N21      N11          -2.06    -0.116     0.091   0.03030  OPEN    
+ P9       PIPE  N33      N32          -2.14    -0.272     1.055   0.02532  OPEN    
+ P10      PIPE  N22      N32           5.78     0.327     1.273   0.03511  OPEN    
+ PU1      PUMP  S23      N23          22.53             214.856            ON      
+ 
+ TOTAL DEMAND :     22.53 L/S
+ TOTAL SUPPLY :     22.53 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N11'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N12'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N13'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N21'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N22'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N23'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N31'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N32'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N33'
+ *** WARNING W207: PUMP 'PU1' FLOW EXCEEDS QMAX
+
+ RUN COMPLETED WITH  10 WARNING(S)

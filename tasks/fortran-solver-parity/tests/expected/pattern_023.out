@@ -1,0 +1,69 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Daily cycle
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   7 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ STEPS    :  2 AT  0.25 H
+ 
+ TIME STEP  1 OF  2  AT  0:00
+ CONVERGED IN   7 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A4       JUNC     15.960      3.30    86.332    70.372     688.9
+ K2       JUNC      4.340      4.73    86.345    82.005     802.8
+ M3       JUNC      3.250      4.49    87.479    84.229     824.6
+ T1       RESV     87.730    -18.22    87.730     0.000       0.0
+ Y1       JUNC      8.990      5.69    86.335    77.345     757.2
+ Y6       JUNC      1.690      0.00    86.345    84.655     828.8
+ Z5       JUNC     18.250      0.00    86.345    68.095     666.6
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  Z5       Y6            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  K2       Z5            0.18     0.001     0.000   0.11101  OPEN    
+ P3       PIPE  Z5       A4            0.18     0.023     0.013   0.03348  OPEN    
+ P4       PIPE  K2       M3          -13.72    -0.437     1.134   0.01866  OPEN    
+ P5       PIPE  Y1       K2           -8.81    -0.070     0.010   0.02556  OPEN    
+ P6       PIPE  A4       Y1           -3.12    -0.044     0.003   0.03444  OPEN    
+ P7       PIPE  T1       M3           18.22     0.258     0.251   0.02045  OPEN    
+ 
+ TOTAL DEMAND :     18.22 L/S
+ TOTAL SUPPLY :     18.22 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+ 
+ TIME STEP  2 OF  2  AT  0:15
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ A4       JUNC     15.960      7.48    81.521    65.561     641.8
+ K2       JUNC      4.340     10.73    81.579    77.239     756.2
+ M3       JUNC      3.250     10.18    86.576    83.326     815.8
+ T1       RESV     87.730    -41.29    87.730     0.000       0.0
+ Y1       JUNC      8.990     12.90    81.533    72.543     710.2
+ Y6       JUNC      1.690      0.00    81.579    79.889     782.1
+ Z5       JUNC     18.250      0.00    81.579    63.329     620.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  Z5       Y6            0.00     0.000     0.000     UNDEF  OPEN    
+ P2       PIPE  K2       Z5            0.35     0.003     0.000   0.05713  OPEN    
+ P3       PIPE  Z5       A4            0.35     0.045     0.058   0.04034  OPEN    
+ P4       PIPE  K2       M3          -31.11    -0.990     4.997   0.01601  OPEN    
+ P5       PIPE  Y1       K2          -20.03    -0.159     0.046   0.02229  OPEN    
+ P6       PIPE  A4       Y1           -7.13    -0.101     0.012   0.03092  OPEN    
+ P7       PIPE  T1       M3           41.29     0.584     1.154   0.01826  OPEN    
+ 
+ TOTAL DEMAND :     41.29 L/S
+ TOTAL SUPPLY :     41.29 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P1'
+
+ RUN COMPLETED WITH   2 WARNING(S)

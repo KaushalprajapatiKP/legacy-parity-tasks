@@ -1,0 +1,52 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  13 NODES,   1 RESERVOIRS,  15 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   9 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     58.830      0.00   153.123    94.293     40.88
+ N12      JUNC     29.100     17.75   153.055   123.955     53.73
+ N13      JUNC     16.860      0.00   153.093   136.233     59.06
+ N14      JUNC     46.250     49.65   144.076    97.826     42.41
+ N21      JUNC      8.960    116.81   153.123   144.163     62.49
+ N22      JUNC     71.350     12.51   153.098    81.748     35.44
+ N23      JUNC     26.370      0.00   153.094   126.724     54.93
+ N24      JUNC     16.960      0.00   152.394   135.434     58.71
+ N31      JUNC     55.100      0.00   304.558   249.458    108.14
+ N32      JUNC     70.400    111.53   153.058    82.658     35.83
+ N33      JUNC      8.740      0.00   152.829   144.089     62.46
+ N34      JUNC     67.470      0.00   152.398    84.928     36.82
+ SRC1     RESV    319.000   -308.25   319.000     0.000      0.00
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N12      N22         -14.82    -0.168     0.043   0.03571  OPEN    
+ P2       PIPE  N24      N34         -32.55    -0.052     0.004   0.03511  OPEN    
+ P3       PIPE  N12      N13          -2.93    -0.075     0.038   0.03379  OPEN    
+ P4       PIPE  N11      N21           0.00     0.000     0.000     UNDEF  OPEN    
+ P5       PIPE  N21      N22         191.44     0.305     0.024   0.02252  OPEN    
+ P6       PIPE  N34      N33         -32.55    -0.369     0.430   0.02698  OPEN    
+ P7       PIPE  N22      N23          28.79     0.046     0.004   0.03789  OPEN    
+ P8       PIPE  N22      N32         135.32     0.216     0.040   0.02404  OPEN    
+ P9       PIPE  N23      N13           2.93     0.012     0.001   0.06916  OPEN    
+ P10      PIPE  N14      N24         -49.65    -1.268     8.318   0.02864  OPEN    
+ P11      PIPE  N23      N24          17.10     0.437     0.700   0.02945  OPEN    
+ P12      PIPE  N21      N31        -308.25    -7.870   151.435   0.02054  OPEN    
+ P13      PIPE  N33      N32         -23.79    -0.607     0.229   0.03139  OPEN    
+ P14      PIPE  N33      N23          -8.76    -0.224     0.265   0.03438  OPEN    
+ P15      PIPE  SRC1     N31         308.25     3.498    14.442   0.02719  OPEN    
+ 
+ TOTAL DEMAND :    308.25 GPM
+ TOTAL SUPPLY :    308.25 GPM
+ *** WARNING W203: ZERO FLOW IN LINK 'P4'
+
+ RUN COMPLETED WITH   1 WARNING(S)

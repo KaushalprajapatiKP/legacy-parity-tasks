@@ -1,0 +1,42 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : US customary
+ UNITS    : US (FLOW GPM, LENGTH FT, DIAMETER IN)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   9 NODES,   1 RESERVOIRS,   9 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN  12 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       PSI
+ -------- ----- --------- --------- --------- --------- ---------
+ A6       JUNC    102.540     33.22   305.390   202.850     87.94
+ A8       JUNC     68.100     54.88   305.404   237.304    102.87
+ M2       JUNC     49.950      0.00   305.508   255.558    110.78
+ M3       JUNC     76.220      0.00   305.509   229.289     99.40
+ R1       RESV    305.980   -316.92   305.980     0.000      0.00
+ X1       JUNC     52.650     40.21   305.507   252.857    109.61
+ X4       JUNC     60.010    120.43   293.057   233.047    101.03
+ Y7       JUNC     38.070     68.18   305.409   267.339    115.89
+ Z5       JUNC     84.720      0.00   305.390   220.670     95.66
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  M3       X4          120.43     3.075    12.452   0.01814  OPEN    
+ P2       PIPE  A8       Y7          -54.88    -0.156     0.005   0.02806  OPEN    
+ P3       PIPE  A6       Z5            0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  M2       M3          -44.79    -0.071     0.001   0.03549  OPEN    
+ P5       PIPE  X1       M2          -40.21    -0.064     0.000   0.03338  OPEN    
+ P6       PIPE  Y7       M3         -151.70    -0.968     0.100   0.01997  OPEN    
+ P7       PIPE  A6       M2           -4.58    -0.117     0.118   0.04289  OPEN    
+ P8       PIPE  Y7       A6           28.64     0.117     0.019   0.03717  OPEN    
+ P9       PIPE  R1       M3          316.92     2.023     0.471   0.02285  OPEN    
+ 
+ TOTAL DEMAND :    316.92 GPM
+ TOTAL SUPPLY :    316.92 GPM
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+
+ RUN COMPLETED WITH   1 WARNING(S)

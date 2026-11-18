@@ -1,0 +1,39 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Fittings
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   7 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   5 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ N11      JUNC     15.030      5.96   -63.944   -78.974    -773.2
+ N12      JUNC     30.530      5.10   115.118    84.588     828.1
+ N21      JUNC     22.380      6.67   115.146    92.766     908.2
+ N22      JUNC     21.050      0.00   115.287    94.237     922.6
+ N31      JUNC     13.970      0.00   115.190   101.220     990.9
+ N32      JUNC     30.450      0.00   115.191    84.741     829.6
+ SRC1     RESV    120.000    -17.73   120.000     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  N22      N32           1.43     0.081     0.096   0.03001  OPEN    
+ P2       PIPE  N21      N31          -1.43    -0.081     0.044   0.03933  OPEN    
+ P3       PIPE  N21      N11           5.96     3.035   179.090   0.02158  OPEN    
+ P4       PIPE  N22      N21          11.20     0.158     0.141   0.02225  OPEN    
+ P5       PIPE  N32      N31           1.43     0.029     0.001   0.03538  OPEN    
+ P6       PIPE  N22      N12           5.10     0.162     0.169   0.02652  OPEN    
+ P7       PIPE  SRC1     N22          17.73     1.003     4.713   0.03392  OPEN    
+ 
+ TOTAL DEMAND :     17.73 L/S
+ TOTAL SUPPLY :     17.73 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'N11'
+ *** WARNING W202: HIGH VELOCITY IN LINK 'P3'
+
+ RUN COMPLETED WITH   2 WARNING(S)

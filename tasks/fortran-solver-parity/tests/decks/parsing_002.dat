@@ -1,0 +1,12 @@
+Title Mixed Case
+Reservoir T1 112.53
+Junction X1 33.14 1.79
+Junction C2 47.37 4.93
+Junction A3 38.81 0
+Junction A4 47.57 0.83
+Pipe P1 A3 A4 868.7 100 0.26
+Pipe P2 C2 X1 779.5 200 0.05
+Pipe P3 C2 A4 1236 100 0.01
+Pipe P4 X1 A3 1365.8 150 0.26
+Pipe P5 T1 C2 1086.4 150 0.05
+End

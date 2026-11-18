@@ -1,0 +1,52 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : District main
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :  13 NODES,   1 RESERVOIRS,  13 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   8 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC      5.740      0.00    78.968    73.228     716.9
+ J10      JUNC     13.290      4.93    78.854    65.564     641.9
+ J11      JUNC     19.620      2.27    78.699    59.079     578.4
+ J12      JUNC     17.710      0.00    78.703    60.993     597.1
+ J2       JUNC     22.240      0.00    78.907    56.667     554.8
+ J3       JUNC     15.970      1.28    78.893    62.923     616.0
+ J4       JUNC     11.970      0.00    78.968    66.998     655.9
+ J5       JUNC     17.570      0.00    78.907    61.337     600.5
+ J6       JUNC     21.840      0.00    78.894    57.054     558.6
+ J8       JUNC      9.470      1.70    78.983    69.513     680.5
+ SRC1     RESV     79.030    -18.05    79.030     0.000       0.0
+ j07      JUNC     -2.440      0.86    78.968    81.408     797.0
+ n09      JUNC      3.880      7.01    78.894    75.014     734.4
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J6       n09          -0.07    -0.001     0.000   0.18342  OPEN    
+ P2       PIPE  J2       J5            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  j07      J4            0.00     0.000     0.000     UNDEF  OPEN    
+ P4       PIPE  J8       J5            1.21     0.069     0.076   0.03361  OPEN    
+ P5       PIPE  n09      J12           2.27     0.128     0.191   0.02761  OPEN    
+ P6       PIPE  J12      J11           2.27     0.032     0.004   0.03274  OPEN    
+ P7       PIPE  J4       J1            0.00     0.000     0.000     UNDEF  OPEN    
+ P8       PIPE  J8       n09           9.35     0.190     0.089   0.02690  OPEN    
+ P9       PIPE  J8       j07           5.79     0.082     0.015   0.02454  OPEN    
+ P10      PIPE  j07      J10           4.93     0.157     0.114   0.02666  OPEN    
+ P11      PIPE  J6       J3            1.28     0.026     0.001   0.03498  OPEN    
+ P12      PIPE  J5       J6            1.21     0.039     0.013   0.03691  OPEN    
+ P13      PIPE  SRC1     J8           18.05     0.144     0.047   0.02067  OPEN    
+ 
+ TOTAL DEMAND :     18.05 L/S
+ TOTAL SUPPLY :     18.05 L/S
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W203: ZERO FLOW IN LINK 'P3'
+ *** WARNING W203: ZERO FLOW IN LINK 'P7'
+
+ RUN COMPLETED WITH   3 WARNING(S)

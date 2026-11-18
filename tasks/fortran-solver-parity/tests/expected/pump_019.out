@@ -1,0 +1,44 @@
+ HYDRO 2.3 - STEADY-STATE PIPE NETWORK ANALYSIS
+ ----------------------------------------------
+ 
+ TITLE    : Pumped
+ UNITS    : SI (FLOW L/S, LENGTH M, DIAMETER MM)
+ FRICTION : DARCY-WEISBACH
+ NETWORK  :   7 NODES,   1 RESERVOIRS,   6 LINKS
+ SOLVER   : TOL  1.0E-05, MAXIT  50
+ 
+ CONVERGED IN   2 ITERATIONS
+ 
+ NODE RESULTS
+ ID       TYPE       ELEV    DEMAND      HEAD  PRESSURE       KPA
+ -------- ----- --------- --------- --------- --------- ---------
+ J1       JUNC    -26.450      0.00  -310.021  -283.571   -2776.2
+ J2       JUNC     -5.740      5.40  -310.021  -304.281   -2978.9
+ J3       JUNC     -9.910      0.00  -310.116  -300.206   -2939.0
+ J4       JUNC     -3.550      4.12  -257.456  -253.906   -2485.7
+ J5       JUNC     -8.220      6.11  -309.786  -301.566   -2952.3
+ J6       JUNC     -9.790      6.41  -310.145  -300.355   -2940.5
+ S18      RESV     -1.300    -22.04    -1.300     0.000       0.0
+ 
+ LINK RESULTS
+ ID       TYPE  FROM     TO            FLOW  VELOCITY  HEADLOSS  FRICTION  STATUS
+ -------- ----- -------- -------- --------- --------- --------- ---------  --------
+ P1       PIPE  J5       J2           11.81     0.241     0.236   0.02373  OPEN    
+ P2       PIPE  J2       J1            0.00     0.000     0.000     UNDEF  OPEN    
+ P3       PIPE  J6       J3           -6.41    -0.091     0.029   0.02807  OPEN    
+ P4       PIPE  J2       J3            6.41     0.131     0.094   0.02354  OPEN    
+ P5       PIPE  J5       J4          -17.92    -2.282    52.329   0.01606  OPEN    
+ PU1      PUMP  S18      J4           22.04             256.156            ON      
+ 
+ TOTAL DEMAND :     22.04 L/S
+ TOTAL SUPPLY :     22.04 L/S
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J1'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J2'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J3'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J4'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J5'
+ *** WARNING W201: NEGATIVE PRESSURE AT NODE 'J6'
+ *** WARNING W203: ZERO FLOW IN LINK 'P2'
+ *** WARNING W207: PUMP 'PU1' FLOW EXCEEDS QMAX
+
+ RUN COMPLETED WITH   8 WARNING(S)
